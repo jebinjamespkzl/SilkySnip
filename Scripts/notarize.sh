@@ -19,7 +19,8 @@ BUNDLE_ID="com.silkysnip.app"
 KEYCHAIN_PROFILE="SilkySnip-Notarization"  # Store credentials first with: xcrun notarytool store-credentials
 
 # Paths
-PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
+SCRIPT_DIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
+PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 BUILD_DIR="${PROJECT_DIR}/build"
 APP_PATH="${BUILD_DIR}/${APP_NAME}.app"
 DMG_PATH="${BUILD_DIR}/${APP_NAME}.dmg"
@@ -27,10 +28,12 @@ ZIP_PATH="${BUILD_DIR}/${APP_NAME}.zip"
 
 echo "=== SilkySnip Notarization Script ==="
 echo ""
+echo "Script dir: ${SCRIPT_DIR}"
+echo "Project directory: ${PROJECT_DIR}"
 
 # Step 1: Build Release
 echo "📦 Step 1: Building Release..."
-xcodebuild -project "${PROJECT_DIR}/SilkySnip.xcodeproj" \
+xcodebuild -project "${PROJECT_DIR}/SilkySnip/SilkySnip.xcodeproj" \
     -scheme SilkySnip \
     -configuration Release \
     -derivedDataPath "${BUILD_DIR}/DerivedData" \
@@ -60,9 +63,15 @@ echo "✅ ZIP created: ${ZIP_PATH}"
 # Step 4: Submit for notarization
 echo ""
 echo "🚀 Step 4: Submitting for notarization..."
-xcrun notarytool submit "${ZIP_PATH}" \
-    --keychain-profile "${KEYCHAIN_PROFILE}" \
-    --wait
+# Notarize using notarytool. Read credentials from environment:
+# export NOTARY_KEY="/path/to/key.p8"
+# export NOTARY_ISSUER="TEAM-ID"
+if [ -z "$NOTARY_KEY" ] || [ -z "$NOTARY_ISSUER" ]; then
+  echo "NOTARY_KEY or NOTARY_ISSUER not set. Skipping notarize step."
+else
+  xcrun notarytool submit "${ZIP_PATH}" \
+      --key "$NOTARY_KEY" --issuer "$NOTARY_ISSUER" --wait
+fi
 
 echo "✅ Notarization complete"
 
@@ -87,9 +96,12 @@ hdiutil create -volname "${APP_NAME}" \
     "${DMG_PATH}"
 
 # Notarize DMG too
-xcrun notarytool submit "${DMG_PATH}" \
-    --keychain-profile "${KEYCHAIN_PROFILE}" \
-    --wait
+if [ -z "$NOTARY_KEY" ] || [ -z "$NOTARY_ISSUER" ]; then
+  echo "NOTARY_KEY or NOTARY_ISSUER not set. Skipping notarize step."
+else
+  xcrun notarytool submit "${DMG_PATH}" \
+      --key "$NOTARY_KEY" --issuer "$NOTARY_ISSUER" --wait
+fi
 
 xcrun stapler staple "${DMG_PATH}"
 echo "✅ DMG created and notarized: ${DMG_PATH}"
