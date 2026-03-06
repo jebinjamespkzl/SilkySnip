@@ -1,0 +1,526 @@
+/* Generated from localization.json */
+
+"app_name" = "СилкСнип";
+"company_name" = "СилкиЭппл";
+"ok" = "ОК";
+"cancel" = "Отмена";
+"save" = "Сохранить";
+"start" = "Старт";
+"title_setup" = "Настройка СилкСнип";
+"setup_subtitle" = "Настройте свой опыт";
+"section_general" = "Общие";
+"label_language" = "Язык";
+"section_appearance" = "Внешний вид";
+"label_edge_panel" = "Боковая панель";
+"desc_edge_panel" = "Если отключено, будет использоваться плавающая кнопка.";
+"label_position" = "Позиция";
+"position_left" = "Слева";
+"position_right" = "Справа";
+"label_transparency" = "Прозрачность";
+"section_actions" = "Действия";
+"label_trigger_key" = "Клавиша активации";
+"section_storage" = "Хранилище";
+"hint_save_folder" = "Имя папки";
+"label_auto_save" = "Автосохранение";
+"btn_save_start" = "Сохранить и начать";
+"btn_privacy" = "Конфиденциальность";
+"btn_licenses" = "Лицензии";
+"menu.new" = "Новый";
+"menu.save.current" = "Сохранить текущий";
+"menu.save.all" = "Сохранить все";
+"menu.copy.image" = "Копировать";
+"menu.quit" = "Выйти";
+"menu.file" = "Файл";
+"menu.edit" = "Правка";
+"menu.view" = "Вид";
+"menu.window" = "Окно";
+"menu.help" = "Справка";
+"menu.minimize" = "Свернуть";
+"menu.bring.all.front" = "Все на передний план";
+"menu.undo" = "Отменить";
+"menu.redo" = "Повторить";
+"menu.cut" = "Вырезать";
+"menu.copy" = "Копировать";
+"menu.paste" = "Вставить";
+"menu.select.all" = "Выбрать все";
+"tool_pen" = "Перо";
+"tool_highlighter" = "Маркер";
+"tool_eraser" = "Ластик";
+"tool_text" = "Текст";
+"tool_crop" = "Обрезать";
+"tool_move" = "Переместить";
+"menu.zoom" = "Зум";
+"menu.opacity" = "Непрозрачность";
+"menu.filters" = "Фильтры";
+"menu.flip" = "Отразить";
+"menu.lock.display" = "Заблокировать на экране";
+"menu.dock.edge" = "Прикрепить к краю";
+"menu.undock" = "Открепить";
+"menu.ocr" = "Выбрать текст (OCR)";
+"menu.pin" = "Закрепить";
+"menu.lock.screenshot" = "Заблокировать";
+"menu.unlock.screenshot" = "Разблокировать";
+"menu.share" = "Поделиться...";
+"menu.hide" = "Скрыть";
+"menu.close" = "Закрыть";
+"color_black" = "Черный";
+"color_white" = "Белый";
+"color_red" = "Красный";
+"color_blue" = "Синий";
+"color_green" = "Зеленый";
+"color_orange" = "Оранжевый";
+"color_yellow" = "Желтый";
+"color_pink" = "Розовый";
+"color_cyan" = "Голубой";
+"color_lime" = "Лайм";
+"color_purple" = "Фиолетовый";
+"size_thin" = "Тонкий";
+"size_medium" = "Средний";
+"size_thick" = "Толстый";
+"size_small" = "Маленький";
+"size_normal" = "Нормальный";
+"size_large" = "Большой";
+"label_launch_behavior" = "Запуск";
+"label_autosave_location" = "Папка автосохранения";
+"label_autosave_format" = "Формат";
+"label_notifications" = "Уведомления";
+"title_preferences" = "Настройки";
+"checkbox_launch_login" = "Запускать при входе";
+"checkbox_play_sounds" = "Звуки";
+"btn_change" = "Изменить";
+"title_select_location" = "Выбрать папку";
+"label_default_opacity" = "Прозрачность по умолчанию";
+"label_neon_border" = "Неоновая рамка";
+"label_theme" = "Тема";
+"checkbox_neon_glow" = "Включить свечение";
+"theme_cyberpunk" = "Киберпанк";
+"theme_matrix" = "Матрица";
+"theme_solar" = "Солнечный";
+"label_click_behavior" = "Клик";
+"label_loupe_zoom" = "Зум лупы";
+"label_magic_restore" = "Магич. восстановление";
+"checkbox_smart_pinning" = "Умное закрепление";
+"click_single" = "Один клик закрывает";
+"click_double" = "Двойной клик закрывает";
+"title_save_screenshot" = "Сохранить Силки Снип";
+"msg_save_location" = "Выберите место";
+"err_clipboard_image" = "Не удалось создать изображение для буфера обмена";
+"err_create_image" = "Не удалось создать изображение";
+"err_pdf_consumer" = "Не удалось создать потребитель данных PDF";
+"err_pdf_context" = "Не удалось создать контекст PDF";
+"err_save_pdf" = "Не удалось сохранить PDF";
+"err_encode_image" = "Не удалось закодировать изображение";
+"err_save" = "Ошибка сохранения";
+"label_format" = "Формат";
+"title_export_failed" = "Ошибка экспорта";
+"menu.capture.delayed" = "Таймер скриншота";
+"menu.seconds" = "сек";
+"menu.enable.hotkeys" = "Глоб. горячие клавиши";
+"menu.auto.copy" = "Автокопирование";
+"menu.show.dock" = "Показать в Dock";
+"menu.turn.off.ghost" = "Выкл. призрак";
+"menu.scrolling.capture" = "Скроллинг";
+"menu.close.current" = "Закрыть текущий";
+"menu.close.all" = "Закрыть все";
+"menu.ungroup.all" = "Разгруппировать все";
+"menu.group.all" = "Сгруппировать все";
+"menu.hide.all" = "Скрыть все";
+"menu.unhide" = "Показать все";
+"menu.find.silkysnips" = "Найти СилкСнипs";
+"menu.restore.last" = "Вернуть последний";
+"menu.restore.all" = "Вернуть все";
+"menu.clear.cached" = "Очистить кэш";
+"menu.settings" = "Настройки...";
+"menu.about" = "О программе";
+"tool_speech_bubble" = "Выноска";
+"section_tools" = "Инструменты";
+"label_version" = "Версия";
+"label_build" = "Сборка";
+"label_rights_reserved" = "Все права защищены.";
+"btn_rewards" = "Рефералы и награды";
+"btn_check_updates" = "Проверить обновления";
+"permission_screen_title" = "Требуется разрешение на запись экрана";
+"permission_screen_desc" = "СилкСнип требуется доступ к записи экрана. Пожалуйста, предоставьте разрешение в системных настройках.";
+"btn_open_settings" = "Открыть настройки";
+"accessibility_service_description" = "СилкСнип требуется разрешение на специальные возможности для обнаружения нажатия кнопок громкости.";
+"accessibility_service_label" = "Служба ярлыков СилкСнип";
+"crash_dialog_title" = "Аппликейшн Крэш";
+"crash_dialog_message" = "СилкСнип has encountered an unexpected error. Would you like to send a crash report to help us fix it?";
+"crash_dialog_send" = "Отправить отчет";
+"crash_dialog_cancel" = "Закрыть";
+"email_subject_crash" = "СилкСнип Android Crash Report";
+"email_body_crash" = "Пожалуйста, опишите, что произошло перед сбоем:\n\n";
+"notification_running" = "СилкСнип запущен";
+"title_activation" = "Активация СилкСнип";
+"alert_license_revoked" = "Лицензия отозвана";
+"alert_license_revoked_message" = "Ваша лицензия была отозвана сервером (Возврат). Приложение будет закрыто.";
+"alert_crash_message" = "Хотите отправить отчёт о сбое разработчикам? Это поможет нам быстрее исправлять ошибки.";
+"alert_hotkey_conflict" = "Некоторые глобальные горячие клавиши не удалось зарегистрировать. Они могут конфликтовать с другими приложениями.";
+"alert_latest_version" = "СилкСнип обновлён до последней версии.";
+"alert_save_before_quit" = "Хотите сохранить Силки Снип перед выходом?";
+"alert_clear_cache_confirm" = "Это навсегда удалит все кэшированные Силки Снип и Силки Ноут. Это действие нельзя отменить.";
+"alert_activation_failed" = "Ошибка активации";
+"alert_max_devices" = "Вы достигли максимального количества устройств.
+
+Хотите деактивировать самое старое устройство, чтобы продолжить?";
+"alert_device_deactivated" = "Устройство деактивировано";
+"alert_device_deactivated_message" = "Токен старейшего устройства отозван. Новая сессия активна.";
+"alert_capture_failed" = "Ошибка захвата";
+"alert_coming_soon" = "Скоро";
+"alert_rewards_coming" = "Получение наград будет включено в следующем обновлении.";
+"alert_ocr_disabled" = "Извлечение текста отключено политикой вашей организации.";
+"btn_activate_license" = "Активировать лицензию";
+"btn_deactivate_oldest" = "Деактивировать старейшее";
+"btn_get_started" = "Начать";
+"btn_claim_reward" = "Получить награду";
+"btn_send_report" = "Отправить отчёт";
+"btn_save_all" = "Сохранить всё";
+"btn_clear_cache" = "Очистить кэш";
+"btn_continue" = "Продолжить";
+"btn_waiting_permissions" = "Ожидание разрешений...";
+"btn_select_all" = "Выбрать всё";
+"menu.hide.others" = "Скрыть остальные";
+"menu.show.all" = "Показать все";
+"menu.neon.border" = "Неоновая рамка";
+"menu.flip.horizontal" = "Отразить по горизонтали";
+"menu.flip.vertical" = "Отразить по вертикали";
+"feature_persistent_overlays" = "Постоянные оверлеи";
+"feature_persistent_overlays_desc" = "Силки Снип остаются на экране для справки";
+"feature_quick_annotations" = "Быстрые аннотации";
+"feature_quick_annotations_desc" = "Аннотируйте снимки стрелками и текстом";
+"feature_instant_restore" = "Мгновенное восстановление";
+"feature_instant_restore_desc" = "Нажмите ⌃Z (Ctrl+Z), чтобы восстановить закрытые снимки";
+"onboarding_screen_recording" = "Запись экрана";
+"onboarding_permissions_required" = "Требуются разрешения";
+"system_default" = "Системный по умолчанию";
+"error_invalid_response" = "Неверный ответ";
+"error_invalid_signature" = "Неверная подпись";
+"feature_capture_region" = "Захват любой области";
+"feature_capture_region_desc" = "Нажмите ⌃N (Ctrl+N), чтобы захватить любую часть экрана";
+"error_hotkey_conflict" = "Ошибка регистрации горячей клавиши";
+"title_activate_silkysnip" = "Активировать СилкСнип";
+"label_enter_license_key" = "Введите лицензионный ключ";
+"label_loading_price" = "Загрузка цены...";
+"label_standard_pricing" = "Стандартная цена: $29.99 навсегда";
+"btn_start_trial" = "Начать 7-дневную пробную версию";
+"error_please_enter_key" = "Пожалуйста, введите ключ";
+"alert_device_limit_reached" = "Достигнут лимит устройств (2/2)";
+"onboarding_accessibility" = "Универсальный доступ";
+"onboarding_screen_recording_desc" = "Требуется для захвата областей экрана для Силки Снип.";
+"onboarding_accessibility_desc" = "Требуется для глобальных сочетаний клавиш (⌘N, ⌘Z и т.д.).";
+"onboarding_permissions_subtitle" = "СилкСнип требуются следующие разрешения для правильной работы";
+"onboarding_permission_info" = "После предоставления разрешений в Системных настройках вернитесь в это окно. Если статус не обновляется, попробуйте перезапустить приложение.";
+"label_required" = "Обязательно";
+"btn_grant" = "Предоставить";
+"title_referrals_rewards" = "Рефералы и награды";
+"label_refer_earn" = "Приглашай и зарабатывай";
+"label_refer_earn_desc" = "Поделитесь СилкСнип с друзьями, чтобы получить бесплатные Pro функции!";
+"label_lifetime_referrals" = "Всего рефералов:";
+"label_monthly_referrals" = "Рефералов в месяц:";
+"label_confirmed" = "Подтверждено";
+"label_loading_stats" = "Загрузка статистики...";
+"label_invite_friends" = "Пригласите друзей, чтобы разблокировать награды.";
+"label_play_sounds" = "Воспроизводить звуки";
+"toast_max_overlays" = "Максимум 10 активных наложений";
+"toast_restored_count" = "Восстановлено %d Силки Снип";
+"toast_screenshot_saved" = "Силки Снип сохранён";
+"toast_failed_save" = "Не удалось сохранить";
+"toast_copied_clipboard" = "Скопировано в буфер обмена";
+"toast_failed_copy" = "Не удалось скопировать";
+"toast_failed_share" = "Не удалось поделиться";
+"toast_screenshot_hidden" = "Силки Снип скрыт";
+"toast_restored" = "Восстановлено";
+"toast_text_copied" = "Текст скопирован: %s...";
+"toast_no_text_found" = "Текст не найден";
+"toast_ocr_failed" = "Не удалось распознать текст";
+"notification_title_active" = "СилкСнип активен";
+"notification_text_manage" = "Нажмите кнопки для управления Силки Снипи";
+"action_restore_cached" = "Восстановить кэш";
+"action_group" = "Сгруппировать";
+"action_ungroup" = "Разгруппировать";
+"share_screenshot" = "Поделиться Силки Снипом";
+"error_overlay_permission" = "Разрешение на наложение отклонено";
+"error_screen_capture" = "Разрешение на захват экрана отклонено";
+"option_volume_up" = "Громкость +";
+"option_volume_down" = "Громкость -";
+"option_none" = "Нет";
+"title_open_source_licenses" = "Лицензии с открытым исходным кодом";
+"toast_no_logs" = "Логи для отправки не найдены.";
+"toast_no_email_client" = "Почтовый клиент не найден.";
+"action_send_crash_report" = "Отправить отчёт о сбое";
+"channel_screen_capture" = "Захват экрана СилкСнип";
+"crash_dialog_windows_title" = "Отчёт о сбое СилкСнип";
+"crash_dialog_windows_message" = "СилкСнип аварийно завершился во время предыдущего сеанса.
+
+Хотите отправить отчёт об ошибке разработчикам?
+(Это поможет нам быстрее исправить проблемы!)";
+"error_mail_client" = "Не удалось автоматически открыть почтовый клиент. Отправьте логи вручную на contact@silkyapple.com";
+"tray_tooltip" = "СилкСнип - Нажмите Win+Alt+N для нового снимка";
+"menu.unhide.all" = "Показать все";
+"menu.about.silkysnip" = "О СилкСнип";
+"about_text" = "СилкСнип для Windows
+Версия {0}
+
+© 2024-2026 Silky Apple Technologies
+Все права защищены.
+
+Лицензии с открытым исходным кодом:
+- SharpDX (MIT)
+- Hardcodet TaskbarNotification (MIT)
+- .NET Runtime (MIT)";
+"confirm_quit_title" = "Несохранённые Силки Снип";
+"confirm_quit_one" = "У вас есть несохранённый Силки Снип";
+"confirm_quit_many" = "У вас {0} несохранённых Силки Снип";
+"confirm_quit_message" = "Хотите сохранить Силки Снип перед выходом?";
+"clear_cache_title" = "Очистить кэш";
+"clear_cache_message" = "Очистить все кэшированные Силки Снип?";
+"dialog.save.screenshot" = "Сохранить Силки Снип";
+"error_copy_clipboard" = "Не удалось скопировать изображение в буфер обмена";
+"error_create_image" = "Не удалось создать изображение";
+"error_save_failed" = "Не удалось сохранить: {0}";
+"error_export_failed" = "Ошибка экспорта";
+"restart_required_title" = "Требуется перезагрузка";
+"restart_required_message" = "Перезапустите СилкСнип для применения языковых изменений.";
+"translation_warning_title" = "Уведомление о переводе";
+"translation_warning_message" = "Переводы выполнены с помощью автоматических переводчиков и могут содержать ошибки. Если вы обнаружите проблемы с переводом, сообщите нам, чтобы помочь улучшить качество.";
+"report_translation_error" = "Сообщить об ошибке перевода";
+"email_subject_translation" = "СилкСнип Translation Error Report";
+"email_body_translation" = "Здравствуйте,
+
+Я нашёл ошибку в переводе:
+
+Язык: 
+Экран/Место: 
+Текущий текст: 
+Предлагаемое исправление: 
+
+Спасибо!";
+
+/* New Localization Keys (Russian) */
+"format_tiff_high_quality" = "TIFF (Высокое качество)";
+"format_pdf_document" = "PDF (Документ)";
+"label_show_in_menu" = "Показать в меню:";
+"zoom_2x" = "2x";
+"zoom_4x" = "4x";
+"zoom_8x" = "8x";
+
+/* About Window */
+"accessibility_app_icon" = "Иконка СилкСнип";
+"label_copyright_format" = "Авторское право © 2026 %@.";
+"license_text_header" = "СилкСнип использует следующее программное обеспечение с открытым исходным кодом:\n\n";
+"license_text_footer" = "\n\nПолный текст лицензии доступен на нашем сайте.";
+"license_swift" = "• Swift (Apache 2.0)";
+"license_sparkle" = "• Sparkle (MIT)";
+"license_logmanager" = "• LogManager (Пользовательский)";
+
+/* Welcome Window */
+"welcome_subtitle" = "Быстрый захват экрана с постоянными наложениями";
+"legal_footer_format" = "Нажимая «Начать», вы принимаете наше Лицензионное соглашение с конечным пользователем и Политику конфиденциальности. Авторское право © 2026 %@. Все права защищены. Несанкционированное копирование или распространение строго запрещено.";
+
+/* Sticky Notes */
+"color_select_yellow" = "Желтый";
+"color_select_pink" = "Розовый";
+"color_select_cyan" = "Голубой";
+"color_select_green" = "Зеленый";
+"color_select_white" = "Белый";
+"sticky_font_small" = "Маленький";
+"sticky_font_normal" = "Обычный";
+"sticky_font_large" = "Большой";
+"menu.text.format" = "Формат текста";
+"format_bold" = "Жирный";
+"format_underline" = "Подчеркнутый";
+"format_strikethrough" = "Зачеркнутый";
+"menu.font.size" = "Размер шрифта";
+"menu.list.style" = "Стиль списка";
+"list_none" = "Нет";
+"list_bullet" = "Маркер";
+"list_numbered" = "Нумерованный";
+"menu.sticky.color" = "Цвет заметки";
+"menu.close.note" = "Закрыть заметку";
+"accessibility_close" = "Закрыть";
+
+/* Context Menu & Tools */
+"menu.new.sticky" = "Новая заметка";
+"menu.turn.on.ghost" = "Включить режим призрака";
+"zoom_actual_size" = "Реальный размер";
+"zoom_percent_format" = "%d%%";
+"alert_ocr_disabled_title" = "Детали защищены";
+
+/* Text Selection */
+"text_selection_hint" = "Нажмите, чтобы выбрать текст, или перетащите для множественного выбора";
+"btn_open" = "Открыть";
+"btn_clear" = "Очистить";
+"status_no_text" = "Текст не выбран";
+"type_link" = "Ссылка";
+"type_phone" = "Телефон";
+"type_data" = "Данные";
+"status_found_format" = "Найдено: %@";
+"status_regions_selected_format" = "Выбрано регионов: %d";
+"status_regions_found" = "Найдены текстовые области";
+
+/* App Delegate */
+"alert_unsaved_title" = "Несохраненные изменения";
+"alert_unsaved_screenshots_title" = "Несохраненные Силки Снип";
+"alert_unsaved_message" = "У вас есть несохраненные Силки Снип. Что вы хотите сделать?";
+"btn_review" = "Просмотр";
+"btn_discard" = "Удалить";
+"alert_email_not_found_title" = "Почтовый клиент не найден";
+"alert_email_not_found_msg" = "Не удалось открыть почтовый клиент по умолчанию. Пожалуйста, напишите нам вручную на techsupport@silkyapple.com";
+"btn_copy_email" = "Копировать Email";
+"tooltip_dock_icon" = "СилкСнип - Захват экрана";
+"menu.restore.sticky" = "Восстановить Силки Ноут";
+"menu.services" = "Службы";
+"menu.help.title" = "Помощь";
+
+/* Ruler */
+"label_x_axis" = "X:";
+"label_y_axis" = "Y:";
+
+/* Activation */
+"label_standard_pricing_fallback" = "Стандартная цена: $29.99 навсегда";
+
+/* Overlay Window */
+"label_hex" = "HEX:";
+"label_rgb" = "RGB:";
+"label_hsl" = "HSL:";
+"msg_copied" = "Скопировано!";
+"title_color_copied" = "Цвет скопирован";
+
+
+/* Synced missing keys - English fallback */
+"accessibility_appearance" = "Внешний вид";
+"accessibility_general" = "Общие";
+"accessibility_tools" = "Инструменты";
+"alert_unsaved_message_format" = "У вас есть %d несохраненных элементов. Сохранить?";
+"alert_unsaved_title_annotations" = "Несохраненные аннотации";
+"alert_unsaved_title_screenshots" = "Несохраненные Силки Снип";
+"btn_cancel" = "Отмена";
+"btn_change_ellipsis" = "Изменить...";
+"btn_copy" = "Копировать";
+"checkbox_autosave" = "Автосохранение Силки Снип";
+"data_generic" = "Текст";
+"data_link" = "Ссылка";
+"data_phone" = "Телефон";
+"format_jpg_compact" = "JPG (Compact)";
+"format_png_default" = "PNG (По умолчанию)";
+"label_autosave" = "Автосохранение";
+"label_tools_tab" = "Инструменты";
+"menu.flip.reset" = "Сбросить поворот";
+"menu.hide.screenshots" = "Скрыть все";
+"menu.intensity" = "Интенсивность";
+"menu.restore" = "Восстановить";
+"menu.tools" = "Инструменты";
+"menu.unhide.screenshots" = "Показать все";
+"menu.eraser.large" = "Крупный";
+"menu.eraser.medium" = "Средний";
+"menu.eraser.small" = "Мелкий";
+"menu.ghost.mode.off" = "Призрачный режим";
+"menu.ghost.mode.on" = "Призрачный режим";
+"menu.pen.medium" = "Средний";
+"menu.pen.thick" = "Толстый";
+"menu.pen.thin" = "Тонкий";
+"status_click_select" = "Нажмите для выбора";
+"status_regions_found_format" = "%d text regions found";
+"status_selected_count_format" = "%d of %d selected";
+"status_selected_type_format" = "%d %@ selected";
+"title_unsaved_changes" = "Несохраненные изменения";
+
+"label_copied" = "Copied";
+"tab_tools" = "Tools";
+"tooltip_new_capture" = "Силки Снип - Press ⌘N for new capture";
+"menu_services" = "Services";
+"menu_new_sticky_note" = "Новый Силки Ноут";
+"menu_sticky_notes" = "Силки Ноутс";
+"menu_show_all_sticky_notes" = "Показать все Силки Ноутс";
+"menu_close_all_sticky_notes" = "Закрыть все Силки Ноутс";
+"title_app_running" = "Силки Снип is Running";
+"welcome_to_app" = "Welcome to %@";
+"menu_enable_smart_restore" = "Enable Smart Restore";
+"menu_enable_to_allow_pinning" = "Enable to allow pinning";
+"menu_no_running_apps" = "No running apps found";
+"error_no_text_selected" = "No text selected";
+
+
+"menu_unpin_from_all" = "Unpin from All";
+
+
+/* Permissions Tab */
+"tab_permissions" = "Разрешения";
+"perm_screen_recording" = "Запись экрана";
+"perm_accessibility" = "Универсальный доступ";
+"perm_granted" = "Предоставлено";
+"perm_denied" = "Не предоставлено";
+"btn_open_settings" = "Открыть настройки";
+
+
+/* Tooltips */
+"settings.language.tooltip" = "Установить язык интерфейса приложения.";
+"settings.languagePopup.tooltip" = "Выберите предпочитаемый язык.";
+"settings.launch.tooltip" = "Запускать автоматически при входе.";
+"settings.launchCheckbox.tooltip" = "Включите, чтобы не открывать приложение вручную при каждом запуске компьютера.";
+"settings.autoSave.tooltip" = "Автоматически сохранять все снимки без подтверждения.";
+"settings.autoSaveCheckbox.tooltip" = "Если включено, снимки обходят диалог сохранения и сохраняются в выбранную папку.";
+"settings.location.tooltip" = "Папка для сохранения Силки Снип.";
+"settings.pathControl.tooltip" = "Показывает текущий путь папки сохранения.";
+"settings.changeButton.tooltip" = "Нажмите, чтобы выбрать другую папку.";
+"settings.format.tooltip" = "Формат файла для сохраненных снимков.";
+"settings.formatPopup.tooltip" = "PNG для максимального качества или JPEG для меньшего размера файла.";
+"settings.freezeScreen.tooltip" = "Мгновенно замораживает экран при начале съемки.";
+"settings.freezeScreenCheckbox.tooltip" = "Замораживает экран чтобы снимать исчезающие элементы.";
+"settings.notifications.tooltip" = "Воспроизводить звук при успешном снимке.";
+"settings.soundsCheckbox.tooltip" = "Включить или отключить звук затвора.";
+"settings.opacity.tooltip" = "Установить по умолчанию прозрачность Силки Снип.";
+"settings.slider.tooltip" = "Перетащите, чтобы настроить непрозрачность.";
+"settings.neon.tooltip" = "Добавить цветное сияние вокруг Силки Снип.";
+"settings.neonCheckbox.tooltip" = "Цвет будет зависеть от выбранной темы.";
+"settings.theme.tooltip" = "Выбрать визуальную тему приложения.";
+"settings.themePopup.tooltip" = "Изменяет цвет неонового свечения.";
+"settings.click.tooltip" = "Поведение при нажатии на снимок.";
+"settings.clickPopup.tooltip" = "Одинарный клик сразу закрывает снимок. Двойной клик предотвращает случайные закрытия.";
+"settings.magic.tooltip" = "Автоматически скрывать/показывать снимки в зависимости от активного окна.";
+"settings.magicCheckbox.tooltip" = "Привязывает Силки Снип к окнам определенных программ.";
+"settings.advancedTools.tooltip" = "Управлять инструментами меню правой кнопки мыши.";
+"settings.magnifyCheckbox.tooltip" = "Инструмент: Лупа.";
+"settings.grayscaleCheckbox.tooltip" = "Инструмент: Черно-белый фильтр.";
+"settings.rulersCheckbox.tooltip" = "Инструмент: Линейка.";
+"settings.colorPickerCheckbox.tooltip" = "Инструмент: Пипетка цветов.";
+"settings.ghostModeCheckbox.tooltip" = "Инструмент: Режим призрака.";
+
+/* Hardcoded UI Strings added via Script */
+"email_client_not_found" = "Почтовый клиент не найден";
+"email_client_not_found_msg" = "Отправьте журналы вручную по адресу techsupport@silkyapple.com.\n\nЖурналы находятся по адресу:\n~/Библиотека/Поддержка приложений/Силки Снип/audit.log";
+"alert_unsaved_title_screenshot_single" = "У вас есть Силки Снип, который не сохраняется";
+"alert_unsaved_title_screenshot_plural" = "У вас есть %d Силки Снип, которые не сохранены";
+"alert_quit_save_msg" = "Хотите сохранить Силки Снип перед выходом?";
+"alert_clear_cache_title" = "Очистить кэш?";
+"alert_clear_cache_msg" = "Это навсегда удалит все кэшированные Силки Снип и Силки Ноут. Это действие нельзя отменить.";
+"alert_unsaved_annotations_title" = "Несохраненные аннотации";
+"alert_unsaved_annotations_msg" = "Вы добавили аннотации к этому снимку экрана. Сохранить изменения?";
+"alert_unsaved_screenshot_title" = "Несохраненный Силки Снип";
+"alert_unsaved_screenshot_msg" = "Вы добавили аннотации к этому снимку экрана. Сохранить перед закрытием?";
+"alert_license_revoked_title" = "Лицензия отозвана";
+"alert_license_revoked_msg" = "Ваша лицензия была отозвана сервером (возврат/возврат средств). Приложение закроется.";
+"alert_capture_failed_title" = "Захватить не удалось";
+"license_lifetime_format" = "%@: $%@ Срок службы";
+
+/* Tool Names and Settings (Fixed & Localized) */
+"menu.grayscale" = "Оттенки серого";
+"tool_blur" = "Маска";
+"checkbox_freeze_screen" = "Заморозить экран для мгновенного захвата";
+"tool_magnify" = "Увеличить";
+"menu.show.rulers" = "Показать линейки";
+"menu.pick.color" = "Выбрать цвет";
+"menu.annotations" = "Annotations";
+"menu.ghost.mode" = "Режим призрака";
+
+/* Pin to App (Fixed) */
+"menu.pin.to.app" = "Закрепить в приложении";
+"btn_save" = "Сохранить";
+"btn_close_without_saving" = "Закрыть без сохранения";
+"label_capture" = "Скриншот";
+
+"btn_cancel_all" = "Cancel All";
+"checkbox_auto_copy" = "Автоматическое копирование в буфер обмена";
+"checkbox_show_dock" = "Показать в Dock";
+"label_behavior" = "Поведение";
+"tooltip_right_click_disable" = "Левый клик для копирования цветового кода, правый клик для отключения";

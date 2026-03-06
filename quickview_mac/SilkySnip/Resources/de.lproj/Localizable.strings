@@ -1,0 +1,528 @@
+/* Generated from localization.json */
+
+"app_name" = "SilkySnip";
+"company_name" = "SilkyApple";
+"ok" = "OK";
+"cancel" = "Abbrechen";
+"save" = "Speichern";
+"start" = "Starten";
+"title_setup" = "SilkySnip Einrichtung";
+"setup_subtitle" = "Passen Sie Ihr Erlebnis an";
+"section_general" = "Allgemein";
+"label_language" = "Sprache";
+"section_appearance" = "Aussehen";
+"label_edge_panel" = "Seitenleiste verwenden";
+"desc_edge_panel" = "Wenn deaktiviert, wird eine schwebende Schaltfläche verwendet.";
+"label_position" = "Position";
+"position_left" = "Links";
+"position_right" = "Rechts";
+"label_transparency" = "Transparenz";
+"section_actions" = "Aktionen";
+"label_trigger_key" = "Auslösetaste";
+"section_storage" = "Speicher";
+"hint_save_folder" = "Ordnername";
+"label_auto_save" = "Autom. Speichern";
+"btn_save_start" = "Speichern & Starten";
+"btn_privacy" = "Datenschutz";
+"btn_licenses" = "Lizenzen";
+"menu.new" = "Neu";
+"menu.save.current" = "Aktuelles speichern";
+"menu.save.all" = "Alles speichern";
+"menu.copy.image" = "Bild kopieren";
+"menu.quit" = "SilkySnip beenden";
+"menu.file" = "Datei";
+"menu.edit" = "Bearbeiten";
+"menu.view" = "Ansicht";
+"menu.window" = "Fenster";
+"menu.help" = "Hilfe";
+"menu.minimize" = "Minimieren";
+"menu.bring.all.front" = "Alle nach vorne";
+"menu.undo" = "Rückgängig";
+"menu.redo" = "Wiederholen";
+"menu.cut" = "Ausschneiden";
+"menu.copy" = "Kopieren";
+"menu.paste" = "Einfügen";
+"menu.select.all" = "Alles auswählen";
+"tool_pen" = "Stift";
+"tool_highlighter" = "Textmarker";
+"tool_eraser" = "Radiergummi";
+"tool_text" = "Text";
+"tool_crop" = "Zuschneiden";
+"tool_move" = "Verschieben";
+"menu.zoom" = "Zoom";
+"menu.opacity" = "Deckkraft";
+"menu.filters" = "Filter";
+"menu.flip" = "Spiegeln";
+"menu.lock.display" = "Auf Bildschirm sperren";
+"menu.dock.edge" = "Am Rand andocken";
+"menu.undock" = "Abdocken";
+"menu.ocr" = "Text auswählen (OCR)";
+"menu.pin" = "Anheften";
+"menu.lock.screenshot" = "Sperren";
+"menu.unlock.screenshot" = "Entsperren";
+"menu.share" = "Teilen...";
+"menu.hide" = "Ausblenden";
+"menu.close" = "Schließen";
+"color_black" = "Schwarz";
+"color_white" = "Weiß";
+"color_red" = "Rot";
+"color_blue" = "Blau";
+"color_green" = "Grün";
+"color_orange" = "Orange";
+"color_yellow" = "Gelb";
+"color_pink" = "Rosa";
+"color_cyan" = "Cyan";
+"color_lime" = "Limette";
+"color_purple" = "Lila";
+"size_thin" = "Dünn";
+"size_medium" = "Mittel";
+"size_thick" = "Dick";
+"size_small" = "Klein";
+"size_normal" = "Normal";
+"size_large" = "Groß";
+"label_launch_behavior" = "Startverhalten";
+"label_autosave_location" = "Auto-Speicherort";
+"label_autosave_format" = "Format";
+"label_notifications" = "Benachrichtigungen";
+"title_preferences" = "Einstellungen";
+"checkbox_launch_login" = "Beim Start öffnen";
+"checkbox_play_sounds" = "Töne abspielen";
+"btn_change" = "Ändern";
+"title_select_location" = "Ordner wählen";
+"label_default_opacity" = "Standard-Deckkraft";
+"label_neon_border" = "Neon-Rand";
+"label_theme" = "Design";
+"checkbox_neon_glow" = "Neon-Leuchten";
+"theme_cyberpunk" = "Cyberpunk";
+"theme_matrix" = "Matrix";
+"theme_solar" = "Solar";
+"label_click_behavior" = "Klickverhalten";
+"label_loupe_zoom" = "Lupe Zoom";
+"label_magic_restore" = "Magische Wdh.";
+"checkbox_smart_pinning" = "Smart Pinning";
+"click_single" = "Einfachklick schließt";
+"click_double" = "Doppelklick schließt";
+"title_save_screenshot" = "SilkySnip speichern";
+"msg_save_location" = "Speicherort wählen";
+"err_clipboard_image" = "Bild für die Zwischenablage konnte nicht erstellt werden";
+"err_create_image" = "Bild konnte nicht erstellt werden";
+"err_pdf_consumer" = "PDF-Daten-Consumer konnte nicht erstellt werden";
+"err_pdf_context" = "PDF-Kontext konnte nicht erstellt werden";
+"err_save_pdf" = "PDF konnte nicht gespeichert werden";
+"err_encode_image" = "Bild konnte nicht codiert werden";
+"err_save" = "Speichern fehlgeschlagen";
+"label_format" = "Format";
+"title_export_failed" = "Export fehlgeschlagen";
+"menu.capture.delayed" = "Zeitverzögerte Aufnahme";
+"menu.seconds" = "Sekunden";
+"menu.enable.hotkeys" = "Globale Hotkeys";
+"menu.auto.copy" = "Auto-Kopieren";
+"menu.show.dock" = "Im Dock anzeigen";
+"menu.turn.off.ghost" = "Geistermodus aus";
+"menu.scrolling.capture" = "Scrolling-Aufnahme";
+"menu.close.current" = "Aktuelles schließen";
+"menu.close.all" = "Alle schließen";
+"menu.ungroup.all" = "Alle Gruppierungen aufheben";
+"menu.group.all" = "Alle gruppieren";
+"menu.hide.all" = "Alle ausblenden";
+"menu.unhide" = "Alle einblenden";
+"menu.find.silkysnips" = "SilkySnips finden";
+"menu.restore.last" = "Letztes wiederherst.";
+"menu.restore.all" = "Alle wiederherst.";
+"menu.clear.cached" = "Cache leeren";
+"menu.settings" = "Einstellungen...";
+"menu.about" = "Über SilkySnip";
+"tool_speech_bubble" = "Sprechblase";
+"section_tools" = "Werkzeuge";
+"label_version" = "Version";
+"label_build" = "Build";
+"label_rights_reserved" = "Alle Rechte vorbehalten.";
+"btn_rewards" = "Empfehlungen & Belohnungen";
+"btn_check_updates" = "Nach Updates suchen";
+"permission_screen_title" = "Bildschirmaufnahme-Berechtigung erforderlich";
+"permission_screen_desc" = "SilkySnip benötigt Zugriff auf Ihre Bildschirmaufnahme. Bitte erteilen Sie die Berechtigung in den Systemeinstellungen.";
+"btn_open_settings" = "Einstellungen öffnen";
+"accessibility_service_description" = "SilkySnip benötigt die Zugriffsberechtigung, um Lautstärketasten für SilkySnips zu erkennen.";
+"accessibility_service_label" = "SilkySnip-Verknüpfungsdienst";
+"crash_dialog_title" = "Application Crash";
+"crash_dialog_message" = "SilkySnip has encountered an unexpected error. Would you like to send a crash report to help us fix it?";
+"crash_dialog_send" = "Bericht senden";
+"crash_dialog_cancel" = "Schließen";
+"email_subject_crash" = "SilkySnip Android Crash Report";
+"email_body_crash" = "Please describe what happened before the crash:\n\n";
+"notification_running" = "SilkySnip läuft";
+"title_activation" = "SilkySnip Aktivierung";
+"alert_license_revoked" = "Lizenz widerrufen";
+"alert_license_revoked_message" = "Ihre Lizenz wurde vom Server widerrufen (Rückerstattung). Die Anwendung wird jetzt geschlossen.";
+"alert_crash_message" = "Möchten Sie einen Absturzbericht an die Entwickler senden? Das hilft uns, Probleme schneller zu beheben.";
+"alert_hotkey_conflict" = "Einige globale Tastenkombinationen konnten nicht registriert werden. Sie können mit anderen Anwendungen in Konflikt stehen.";
+"alert_latest_version" = "SilkySnip ist aktuell.";
+"alert_save_before_quit" = "Möchten Sie Ihre SilkySnips vor dem Beenden speichern?";
+"alert_clear_cache_confirm" = "Dies wird alle zwischengespeicherten SilkySnips und SilkyNotes dauerhaft löschen. Diese Aktion kann nicht rückgängig gemacht werden.";
+"alert_activation_failed" = "Aktivierung fehlgeschlagen";
+"alert_max_devices" = "Sie haben die maximale Anzahl an Geräten erreicht.
+
+Möchten Sie Ihr ältestes Gerät deaktivieren, um fortzufahren?";
+"alert_device_deactivated" = "Gerät deaktiviert";
+"alert_device_deactivated_message" = "Ältestes Geräte-Token widerrufen. Neue Sitzung aktiv.";
+"alert_capture_failed" = "Aufnahme fehlgeschlagen";
+"alert_coming_soon" = "Demnächst verfügbar";
+"alert_rewards_coming" = "Die Einlösung von Belohnungen wird im nächsten Update aktiviert.";
+"alert_ocr_disabled" = "Die Textextraktion ist durch die Richtlinie Ihrer Organisation deaktiviert.";
+"btn_activate_license" = "Lizenz aktivieren";
+"btn_deactivate_oldest" = "Ältestes deaktivieren";
+"btn_get_started" = "Loslegen";
+"btn_claim_reward" = "Belohnung einlösen";
+"btn_send_report" = "Bericht senden";
+"btn_save_all" = "Alle speichern";
+"btn_clear_cache" = "Cache leeren";
+"btn_continue" = "Weiter";
+"btn_waiting_permissions" = "Warte auf Berechtigungen...";
+"btn_select_all" = "Alle auswählen";
+"menu.hide.others" = "Andere ausblenden";
+"menu.show.all" = "Alle anzeigen";
+"menu.neon.border" = "Neon-Rand";
+"menu.flip.horizontal" = "Horizontal spiegeln";
+"menu.flip.vertical" = "Vertikal spiegeln";
+"feature_persistent_overlays" = "Persistente Overlays";
+"feature_persistent_overlays_desc" = "SilkySnips bleiben als Referenz auf dem Bildschirm";
+"feature_quick_annotations" = "Schnelle Anmerkungen";
+"feature_quick_annotations_desc" = "Annotieren Sie Aufnahmen mit Pfeilen und Text";
+"feature_instant_restore" = "Sofortige Wiederherstellung";
+"feature_instant_restore_desc" = "Drücken Sie ⌃Z (Strg+Z), um geschlossene Aufnahmen wiederherzustellen";
+"onboarding_screen_recording" = "Bildschirmaufnahme";
+"onboarding_permissions_required" = "Berechtigungen erforderlich";
+"system_default" = "Systemstandard";
+"error_invalid_response" = "Ungültige Antwort";
+"error_invalid_signature" = "Ungültige Signatur";
+"feature_capture_region" = "Beliebigen Bereich erfassen";
+"feature_capture_region_desc" = "Drücken Sie ⌃N (Strg+N), um einen beliebigen Teil Ihres Bildschirms zu erfassen";
+"error_hotkey_conflict" = "Tastenkombination konnte nicht registriert werden";
+"title_activate_silkysnip" = "SilkySnip aktivieren";
+"label_enter_license_key" = "Geben Sie Ihren Lizenzschlüssel ein";
+"label_loading_price" = "Preis wird geladen...";
+"label_standard_pricing" = "Standardpreis: $29.99 lebenslang";
+"btn_start_trial" = "7-tägige kostenlose Testversion starten";
+"error_please_enter_key" = "Bitte geben Sie einen Schlüssel ein";
+"alert_device_limit_reached" = "Gerätelimit erreicht (2/2)";
+"onboarding_accessibility" = "Bedienungshilfen";
+"onboarding_screen_recording_desc" = "Erforderlich, um Bildschirmbereiche für SilkySnips zu erfassen.";
+"onboarding_accessibility_desc" = "Erforderlich für globale Tastenkombinationen (⌘N, ⌘Z, usw.).";
+"onboarding_permissions_subtitle" = "SilkySnip benötigt die folgenden Berechtigungen, um ordnungsgemäß zu funktionieren";
+"onboarding_permission_info" = "Kehren Sie nach dem Erteilen der Berechtigungen in den Systemeinstellungen zu diesem Fenster zurück. Wenn sich der Status nicht aktualisiert, starten Sie die App neu.";
+"label_required" = "Erforderlich";
+"btn_grant" = "Gewähren";
+"title_referrals_rewards" = "Empfehlungen & Belohnungen";
+"label_refer_earn" = "Empfehlen & verdienen";
+"label_refer_earn_desc" = "Teilen Sie SilkySnip mit Freunden und verdienen Sie kostenlose Pro-Funktionen!";
+"label_lifetime_referrals" = "Lebenszeitempfehlungen:";
+"label_monthly_referrals" = "Monatliche Empfehlungen:";
+"label_confirmed" = "Bestätigt";
+"label_loading_stats" = "Statistiken werden geladen...";
+"label_invite_friends" = "Laden Sie Freunde ein, um Belohnungen freizuschalten.";
+"label_play_sounds" = "Töne abspielen";
+"toast_max_overlays" = "Maximal 10 aktive Overlays";
+"toast_restored_count" = "%d SilkySnips wiederhergestellt";
+"toast_screenshot_saved" = "SilkySnip gespeichert";
+"toast_failed_save" = "Speichern fehlgeschlagen";
+"toast_copied_clipboard" = "In die Zwischenablage kopiert";
+"toast_failed_copy" = "Kopieren fehlgeschlagen";
+"toast_failed_share" = "Teilen fehlgeschlagen";
+"toast_screenshot_hidden" = "SilkySnip ausgeblendet";
+"toast_restored" = "Wiederhergestellt";
+"toast_text_copied" = "Text kopiert: %s...";
+"toast_no_text_found" = "Kein Text gefunden";
+"toast_ocr_failed" = "Texterkennung fehlgeschlagen";
+"notification_title_active" = "SilkySnip Aktiv";
+"notification_text_manage" = "Tippen Sie auf die Schaltflächen, um SilkySnips zu verwalten";
+"action_restore_cached" = "Cache wiederherstellen";
+"action_group" = "Gruppieren";
+"action_ungroup" = "Gruppierung aufheben";
+"share_screenshot" = "SilkySnip teilen";
+"error_overlay_permission" = "Overlay-Berechtigung verweigert";
+"error_screen_capture" = "Bildschirmaufnahme-Berechtigung verweigert";
+"option_volume_up" = "Lauter";
+"option_volume_down" = "Leiser";
+"option_none" = "Keine";
+"title_open_source_licenses" = "Open-Source-Lizenzen";
+"toast_no_logs" = "Keine Logs zum Senden gefunden.";
+"toast_no_email_client" = "Kein E-Mail-Client gefunden.";
+"action_send_crash_report" = "Absturzbericht senden";
+"channel_screen_capture" = "SilkySnip Bildschirmaufnahme";
+"crash_dialog_windows_title" = "SilkySnip Absturzbericht";
+"crash_dialog_windows_message" = "SilkySnip ist während der vorherigen Sitzung abgestürzt.
+
+Möchten Sie einen Absturzbericht an die Entwickler senden?
+(Dies hilft uns, Probleme schneller zu beheben!)";
+"error_mail_client" = "E-Mail-Client konnte nicht automatisch geöffnet werden. Bitte senden Sie die Logs manuell an contact@silkyapple.com";
+"tray_tooltip" = "SilkySnip - Drücken Sie Win+Alt+N für neue Aufnahme";
+"menu.unhide.all" = "Alle einblenden";
+"menu.about.silkysnip" = "Über SilkySnip";
+"about_text" = "SilkySnip für Windows
+Version {0}
+
+© 2024-2026 Silky Apple Technologies
+Alle Rechte vorbehalten.
+
+Open-Source-Lizenzen:
+- SharpDX (MIT)
+- Hardcodet TaskbarNotification (MIT)
+- .NET Runtime (MIT)";
+"confirm_quit_title" = "Nicht gespeicherte SilkySnips";
+"confirm_quit_one" = "Sie haben einen SilkySnip, der nicht gespeichert ist";
+"confirm_quit_many" = "Sie haben {0} SilkySnips, die nicht gespeichert sind";
+"confirm_quit_message" = "Möchten Sie Ihre SilkySnips vor dem Beenden speichern?";
+"clear_cache_title" = "Cache löschen";
+"clear_cache_message" = "Alle zwischengespeicherten SilkySnips löschen?";
+"dialog.save.screenshot" = "SilkySnip speichern";
+"error_copy_clipboard" = "Bild konnte nicht in die Zwischenablage kopiert werden";
+"error_create_image" = "Bild konnte nicht erstellt werden";
+"error_save_failed" = "Speichern fehlgeschlagen: {0}";
+"error_export_failed" = "Export fehlgeschlagen";
+"restart_required_title" = "Neustart erforderlich";
+"restart_required_message" = "Bitte starten Sie SilkySnip neu, um Sprachänderungen anzuwenden.";
+"translation_warning_title" = "Übersetzungshinweis";
+"translation_warning_message" = "Übersetzungen werden mit automatischen Übersetzern erstellt und können Fehler enthalten. Wenn Sie Übersetzungsprobleme finden, melden Sie diese bitte, um uns bei der Verbesserung zu helfen.";
+"report_translation_error" = "Übersetzungsfehler melden";
+"email_subject_translation" = "SilkySnip Translation Error Report";
+"email_body_translation" = "Hallo,
+
+Ich habe einen Übersetzungsfehler gefunden:
+
+Sprache: 
+Bildschirm/Ort: 
+Aktueller Text: 
+Vorgeschlagene Korrektur: 
+
+Danke!";
+
+/* New Localization Keys (German) */
+"format_tiff_high_quality" = "TIFF (Hohe Qualität)";
+"format_pdf_document" = "PDF (Dokument)";
+"label_show_in_menu" = "Im Menü anzeigen:";
+"zoom_2x" = "2x";
+"zoom_4x" = "4x";
+"zoom_8x" = "8x";
+
+/* About Window */
+"accessibility_app_icon" = "SilkySnip-Symbol";
+"label_copyright_format" = "Copyright © 2026 %@.";
+"license_text_header" = "SilkySnip verwendet die folgende Open-Source-Software:\n\n";
+"license_text_footer" = "\n\nFür den vollständigen Lizenztext besuchen Sie bitte unsere Website.";
+"license_swift" = "• Swift (Apache 2.0)";
+"license_sparkle" = "• Sparkle (MIT)";
+"license_logmanager" = "• LogManager (Benutzerdefiniert)";
+
+/* Welcome Window */
+"welcome_subtitle" = "Schnelle Bildschirmaufnahme mit dauerhaften Überlagerungen";
+"legal_footer_format" = "Durch Klicken auf „Loslegen“ akzeptieren Sie unsere Endbenutzer-Lizenzvereinbarung und Datenschutzrichtlinie. Copyright © 2026 %@. Alle Rechte vorbehalten. Unbefugte Vervielfältigung oder Verbreitung ist strengstens untersagt.";
+
+/* Sticky Notes */
+"color_select_yellow" = "Gelb";
+"color_select_pink" = "Rosa";
+"color_select_cyan" = "Zyan";
+"color_select_green" = "Grün";
+"color_select_white" = "Weiß";
+"sticky_font_small" = "Klein";
+"sticky_font_normal" = "Normal";
+"sticky_font_large" = "Groß";
+"menu.text.format" = "Textformat";
+"format_bold" = "Fett";
+"format_underline" = "Unterstrichen";
+"format_strikethrough" = "Durchgestrichen";
+"menu.font.size" = "Schriftgröße";
+"menu.list.style" = "Listenstil";
+"list_none" = "Keine";
+"list_bullet" = "Aufzählungspunkt";
+"list_numbered" = "Nummeriert";
+"menu.sticky.color" = "SilkyNotefarbe";
+"menu.close.note" = "Notiz schließen";
+"accessibility_close" = "Schließen";
+
+/* Context Menu & Tools */
+"menu.new.sticky" = "Neue Notiz";
+"menu.turn.on.ghost" = "Geistermodus einschalten";
+"zoom_actual_size" = "Tatsächliche Größe";
+"zoom_percent_format" = "%d%%";
+"alert_ocr_disabled_title" = "Details geschützt";
+
+/* Text Selection */
+"text_selection_hint" = "Klicken zum Auswählen von Text oder Ziehen für Mehrfachauswahl";
+"btn_open" = "Öffnen";
+"btn_clear" = "Löschen";
+"status_no_text" = "Kein Text ausgewählt";
+"type_link" = "Link";
+"type_phone" = "Telefon";
+"type_data" = "Daten";
+"status_found_format" = "Gefunden: %@";
+"status_regions_selected_format" = "%d Bereiche ausgewählt";
+"status_regions_found" = "Textbereiche gefunden";
+
+/* App Delegate */
+"alert_unsaved_title" = "Ungespeicherte Änderungen";
+"alert_unsaved_screenshots_title" = "Ungespeicherte SilkySnips";
+"alert_unsaved_message" = "Sie haben ungespeicherte SilkySnips. Was möchten Sie tun?";
+"btn_review" = "Überprüfen";
+"btn_discard" = "Verwerfen";
+"alert_email_not_found_title" = "E-Mail-Client nicht gefunden";
+"alert_email_not_found_msg" = "Der Standard-E-Mail-Client konnte nicht geöffnet werden. Bitte schreiben Sie uns manuell an techsupport@silkyapple.com";
+"btn_copy_email" = "E-Mail kopieren";
+"tooltip_dock_icon" = "SilkySnip - Bildschirmaufnahme";
+"menu.restore.sticky" = "SilkyNote wiederherstellen";
+"menu.services" = "Dienste";
+"menu.help.title" = "Hilfe";
+
+/* Ruler */
+"label_x_axis" = "X:";
+"label_y_axis" = "Y:";
+
+/* Activation */
+"label_standard_pricing_fallback" = "Standardpreis: 29,99 $ auf Lebenszeit";
+
+/* Overlay Window */
+"label_hex" = "HEX:";
+"label_rgb" = "RGB:";
+"label_hsl" = "HSL:";
+"msg_copied" = "Kopiert!";
+"title_color_copied" = "Farbe kopiert";
+
+
+/* Synced missing keys - English fallback */
+"accessibility_appearance" = "Erscheinungsbild";
+"accessibility_general" = "Allgemein";
+"accessibility_tools" = "Werkzeuge";
+"alert_unsaved_message_format" = "Sie haben %d ungespeicherte Elemente. Speichern?";
+"alert_unsaved_title_annotations" = "Ungesicherte Anmerkungen";
+"alert_unsaved_title_screenshots" = "Ungesicherte SilkySnips";
+"btn_cancel" = "Abbrechen";
+"btn_change_ellipsis" = "Ändern...";
+"btn_copy" = "Kopieren";
+"checkbox_autosave" = "Automatisch speichern";
+"data_generic" = "Text";
+"data_link" = "Link";
+"data_phone" = "Telefon";
+"format_jpg_compact" = "JPG (Compact)";
+"format_png_default" = "PNG (Standard)";
+"label_autosave" = "Auto-Speichern";
+"label_tools_tab" = "Werkzeuge";
+"menu.flip.reset" = "Zurücksetzen";
+"menu.hide.screenshots" = "Alle ausblenden";
+"menu.intensity" = "Intensität";
+"menu.restore" = "Wiederherstellen";
+"menu.tools" = "Werkzeuge";
+"menu.unhide.screenshots" = "Alle einblenden";
+"menu.eraser.large" = "Groß";
+"menu.eraser.medium" = "Mittel";
+"menu.eraser.small" = "Klein";
+"menu.ghost.mode.off" = "Geistermodus";
+"menu.ghost.mode.on" = "Geistermodus";
+"menu.pen.medium" = "Mittel";
+"menu.pen.thick" = "Dick";
+"menu.pen.thin" = "Dünn";
+"status_click_select" = "Zum Auswählen klicken";
+"status_regions_found_format" = "%d text regions found";
+"status_selected_count_format" = "%d of %d selected";
+"status_selected_type_format" = "%d %@ selected";
+"title_unsaved_changes" = "Ungesicherte Änderungen";
+
+"label_copied" = "Copied";
+"tab_tools" = "Tools";
+"tooltip_new_capture" = "SilkySnip - Press ⌘N for new capture";
+"menu_services" = "Services";
+"menu_new_sticky_note" = "Neues SilkyNote";
+"menu_sticky_notes" = "SilkyNotes";
+"menu_show_all_sticky_notes" = "Alle SilkyNotes anzeigen";
+"menu_close_all_sticky_notes" = "Alle SilkyNotes schließen";
+"title_app_running" = "SilkySnip is Running";
+"welcome_to_app" = "Welcome to %@";
+"menu_enable_smart_restore" = "Enable Smart Restore";
+"menu_enable_to_allow_pinning" = "Enable to allow pinning";
+"menu_no_running_apps" = "No running apps found";
+"error_no_text_selected" = "No text selected";
+
+
+"menu_unpin_from_all" = "Unpin from All";
+
+
+/* Permissions Tab */
+"tab_permissions" = "Berechtigungen";
+"perm_screen_recording" = "Bildschirmaufnahme";
+"perm_accessibility" = "Bedienungshilfen";
+"perm_granted" = "Erlaubt";
+"perm_denied" = "Abgelehnt";
+"btn_open_settings" = "Einstellungen öffnen";
+
+
+/* Tooltips */
+"settings.language.tooltip" = "Sprache der Benutzeroberfläche festlegen.";
+"settings.languagePopup.tooltip" = "Wählen Sie Ihre bevorzugte Sprache.";
+"settings.launch.tooltip" = "Automatischer Start beim Anmelden.";
+"settings.launchCheckbox.tooltip" = "Aktivieren Sie dies, um die App nicht jedes Mal manuell öffnen zu müssen.";
+"settings.autoSave.tooltip" = "Alle SilkySnips automatisch speichern.";
+"settings.autoSaveCheckbox.tooltip" = "Speichert SilkySnips direkt in Ihrem Ordner, ohne nachzufragen.";
+"settings.location.tooltip" = "Der Ordner für Ihre SilkySnips.";
+"settings.pathControl.tooltip" = "Zeigt den aktuellen Ordnerpfad an.";
+"settings.changeButton.tooltip" = "Klicken, um einen anderen Ordner auszuwählen.";
+"settings.format.tooltip" = "Dateiformat für Ihre SilkySnips.";
+"settings.formatPopup.tooltip" = "Wählen Sie PNG für höchste Qualität oder JPEG für kleine Dateigrößen.";
+"settings.freezeScreen.tooltip" = "Bildschirm beim Start der Aufnahme einfrieren.";
+"settings.freezeScreenCheckbox.tooltip" = "Wenn aktiviert, friert der Bildschirm sofort ein.";
+"settings.notifications.tooltip" = "Ton abspielen, wenn ein SilkySnip gemacht wurde.";
+"settings.soundsCheckbox.tooltip" = "Kamera-Auslösegeräusch aktivieren/deaktivieren.";
+"settings.opacity.tooltip" = "Standardtransparenz neuer SilkySnips festlegen.";
+"settings.slider.tooltip" = "Ziehen, um die Deckkraft anzupassen.";
+"settings.neon.tooltip" = "Leuchtenden Rand hinzufügen.";
+"settings.neonCheckbox.tooltip" = "Fügt einen Neonrand hinzu, die Farbe ist themenabhängig.";
+"settings.theme.tooltip" = "Visuelles Thema wählen.";
+"settings.themePopup.tooltip" = "Ändert die Neonrandfarbe.";
+"settings.click.tooltip" = "Verhalten beim Klicken.";
+"settings.clickPopup.tooltip" = "Einzelklick schließt den SilkySnip. Doppelklick verhindert versehentliches Schließen.";
+"settings.magic.tooltip" = "SilkySnips basierend auf App-Sichtbarkeit ein-/ausblenden.";
+"settings.magicCheckbox.tooltip" = "Nützlich, um SilkySnips nach Apps zu pinnen.";
+"settings.advancedTools.tooltip" = "Einstellungen für das Rechtsklick-Menü.";
+"settings.magnifyCheckbox.tooltip" = "Lupe (Vergrößerung) anzeigen.";
+"settings.grayscaleCheckbox.tooltip" = "Graustufen-Filter anzeigen.";
+"settings.rulersCheckbox.tooltip" = "Lineale anzeigen.";
+"settings.colorPickerCheckbox.tooltip" = "Pipette anzeigen.";
+"settings.ghostModeCheckbox.tooltip" = "Geist-Modus (Klick-durch) anzeigen.";
+
+/* Hardcoded UI Strings added via Script */
+"email_client_not_found" = "E-Mail-Client nicht gefunden";
+"email_client_not_found_msg" = "Bitte senden Sie die Protokolle manuell per E-Mail an techsupport@silkyapple.com.\n\nProtokolle befinden sich unter:\n~/Library/Application Support/SilkySnip/audit.log";
+"alert_unsaved_title_screenshot_single" = "Sie haben einen SilkySnip, der nicht gespeichert wird";
+"alert_unsaved_title_screenshot_plural" = "Sie haben %d SilkySnips, die nicht gespeichert wurden";
+"alert_quit_save_msg" = "Möchten Sie Ihre SilkySnips speichern, bevor Sie den Vorgang beenden?";
+"alert_clear_cache_title" = "Cache löschen?";
+"alert_clear_cache_msg" = "Dies wird alle zwischengespeicherten SilkySnips und SilkyNotes dauerhaft löschen. Diese Aktion kann nicht rückgängig gemacht werden.";
+"alert_unsaved_annotations_title" = "Nicht gespeicherte Anmerkungen";
+"alert_unsaved_annotations_msg" = "Sie haben diesem SilkySnip Anmerkungen hinzugefügt. Änderungen speichern?";
+"alert_unsaved_screenshot_title" = "Nicht gespeicherter SilkySnip";
+"alert_unsaved_screenshot_msg" = "Sie haben diesem SilkySnip Anmerkungen hinzugefügt. Vor dem Schließen speichern?";
+"alert_license_revoked_title" = "Lizenz widerrufen";
+"alert_license_revoked_msg" = "Ihre Lizenz wurde vom Server widerrufen (Rückerstattung/Rückbuchung). Die Anwendung wird nun geschlossen.";
+"alert_capture_failed_title" = "Erfassung fehlgeschlagen";
+"license_lifetime_format" = "%@: $%@ Lebenszeit";
+
+/* Tool Names and Settings (Added via Script) */
+
+/* Tool Names and Settings (Fixed & Localized) */
+"menu.grayscale" = "Graustufen";
+"tool_blur" = "Maskieren";
+"checkbox_freeze_screen" = "Bildschirm für Sofortaufnahme einfrieren";
+"tool_magnify" = "Vergrößern";
+"menu.show.rulers" = "Lineale anzeigen";
+"menu.pick.color" = "Farbe wählen";
+"menu.annotations" = "Annotations";
+"menu.ghost.mode" = "Geistermodus";
+
+/* Pin to App (Fixed) */
+"menu.pin.to.app" = "An App anheften";
+"btn_save" = "Speichern";
+"btn_close_without_saving" = "Schließen ohne Speichern";
+
+"label_capture" = "Aufnahme";
+"btn_cancel_all" = "Cancel All";
+"checkbox_auto_copy" = "Automatisch in Zwischenablage kopieren";
+"checkbox_show_dock" = "Im Dock anzeigen";
+"label_behavior" = "Verhalten";
+"tooltip_right_click_disable" = "Linksklick zum Kopieren des Farbcodes, Rechtsklick zum Deaktivieren";

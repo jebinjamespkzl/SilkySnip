@@ -1,0 +1,528 @@
+/* Generated from localization.json */
+
+"app_name" = "丝滑丝滑剪辑";
+"company_name" = "丝尔基艾普尔";
+"ok" = "确定";
+"cancel" = "取消";
+"save" = "保存";
+"start" = "开始";
+"title_setup" = "丝滑丝滑剪辑 设置";
+"setup_subtitle" = "自定义您的体验";
+"section_general" = "常规";
+"label_language" = "语言";
+"section_appearance" = "外观";
+"label_edge_panel" = "使用侧边栏";
+"desc_edge_panel" = "如果禁用，将使用悬浮按钮。";
+"label_position" = "位置";
+"position_left" = "左";
+"position_right" = "右";
+"label_transparency" = "透明度";
+"section_actions" = "动作";
+"label_trigger_key" = "触发键";
+"section_storage" = "存储";
+"hint_save_folder" = "文件夹名称";
+"label_auto_save" = "自动保存";
+"btn_save_start" = "保存并启动";
+"btn_privacy" = "隐私政策";
+"btn_licenses" = "许可证";
+"menu.new" = "新建";
+"menu.save.current" = "保存当前";
+"menu.save.all" = "保存全部";
+"menu.copy.image" = "复制图片";
+"menu.quit" = "退出 丝滑丝滑剪辑";
+"menu.file" = "文件";
+"menu.edit" = "编辑";
+"menu.view" = "视图";
+"menu.window" = "窗口";
+"menu.help" = "帮助";
+"menu.minimize" = "最小化";
+"menu.bring.all.front" = "全部置于顶层";
+"menu.undo" = "撤销";
+"menu.redo" = "重做";
+"menu.cut" = "剪切";
+"menu.copy" = "复制";
+"menu.paste" = "粘贴";
+"menu.select.all" = "全选";
+"tool_pen" = "笔";
+"tool_highlighter" = "荧光笔";
+"tool_eraser" = "橡皮擦";
+"tool_text" = "文本";
+"tool_crop" = "裁剪";
+"tool_move" = "移动";
+"menu.zoom" = "缩放";
+"menu.opacity" = "不透明度";
+"menu.filters" = "滤镜";
+"menu.flip" = "翻转";
+"menu.lock.display" = "锁定在屏幕";
+"menu.dock.edge" = "停靠边缘";
+"menu.undock" = "取消停靠";
+"menu.ocr" = "选择文本 (OCR)";
+"menu.pin" = "置顶";
+"menu.lock.screenshot" = "锁定";
+"menu.unlock.screenshot" = "解锁";
+"menu.share" = "分享...";
+"menu.hide" = "隐藏";
+"menu.close" = "关闭";
+"color_black" = "黑色";
+"color_white" = "白色";
+"color_red" = "红色";
+"color_blue" = "蓝色";
+"color_green" = "绿色";
+"color_orange" = "橙色";
+"color_yellow" = "黄色";
+"color_pink" = "粉色";
+"color_cyan" = "青色";
+"color_lime" = "酸橙色";
+"color_purple" = "紫色";
+"size_thin" = "细";
+"size_medium" = "中";
+"size_thick" = "粗";
+"size_small" = "小";
+"size_normal" = "正常";
+"size_large" = "大";
+"label_launch_behavior" = "启动行为";
+"label_autosave_location" = "自动保存位置";
+"label_autosave_format" = "格式";
+"label_notifications" = "通知";
+"title_preferences" = "设置";
+"checkbox_launch_login" = "登录时启动";
+"checkbox_play_sounds" = "播放声音";
+"btn_change" = "更改";
+"title_select_location" = "选择文件夹";
+"label_default_opacity" = "默认不透明度";
+"label_neon_border" = "霓虹边框";
+"label_theme" = "主题";
+"checkbox_neon_glow" = "启用发光";
+"theme_cyberpunk" = "赛博朋克";
+"theme_matrix" = "黑客帝国";
+"theme_solar" = "太阳系";
+"label_click_behavior" = "点击行为";
+"label_loupe_zoom" = "放大镜倍率";
+"label_magic_restore" = "魔术恢复";
+"checkbox_smart_pinning" = "智能置顶";
+"click_single" = "单击关闭";
+"click_double" = "双击关闭";
+"title_save_screenshot" = "保存丝滑剪辑";
+"msg_save_location" = "选择保存位置";
+"err_clipboard_image" = "为剪贴板创建图像失败";
+"err_create_image" = "创建图像失败";
+"err_pdf_consumer" = "创建 PDF 数据使用者失败";
+"err_pdf_context" = "创建 PDF 上下文失败";
+"err_save_pdf" = "保存 PDF 失败";
+"err_encode_image" = "编码图像失败";
+"err_save" = "保存失败";
+"label_format" = "格式";
+"title_export_failed" = "导出失败";
+"menu.capture.delayed" = "延时截图";
+"menu.seconds" = "秒";
+"menu.enable.hotkeys" = "全局快捷键";
+"menu.auto.copy" = "自动复制";
+"menu.show.dock" = "在程序坞显示";
+"menu.turn.off.ghost" = "关闭幽灵模式";
+"menu.scrolling.capture" = "滚动丝滑剪辑";
+"menu.close.current" = "关闭当前";
+"menu.close.all" = "关闭全部";
+"menu.ungroup.all" = "取消全部分组";
+"menu.group.all" = "全部分组";
+"menu.hide.all" = "全部隐藏";
+"menu.unhide" = "全部显示";
+"menu.find.silkysnips" = "查找 丝滑丝滑剪辑";
+"menu.restore.last" = "恢复上一个";
+"menu.restore.all" = "恢复全部";
+"menu.clear.cached" = "清除缓存";
+"menu.settings" = "设置...";
+"menu.about" = "关于";
+"tool_speech_bubble" = "气泡";
+"section_tools" = "工具";
+"label_version" = "版本";
+"label_build" = "构建";
+"label_rights_reserved" = "保留所有权利。";
+"btn_rewards" = "推荐与奖励";
+"btn_check_updates" = "检查更新";
+"permission_screen_title" = "需要屏幕录制权限";
+"permission_screen_desc" = "丝滑丝滑剪辑 需要访问您的屏幕录制权限才能正常工作。请在系统设置中授予权限。";
+"btn_open_settings" = "打开设置";
+"accessibility_service_description" = "丝滑丝滑剪辑 需要辅助功能权限来检测音量键以进行丝滑剪辑。";
+"accessibility_service_label" = "丝滑丝滑剪辑 快捷服务";
+"crash_dialog_title" = "阿普利凯申·克拉什";
+"crash_dialog_message" = "丝滑丝滑剪辑 has encountered an unexpected error. Would you like to send a crash report to help us fix it?";
+"crash_dialog_send" = "发送报告";
+"crash_dialog_cancel" = "关闭";
+"email_subject_crash" = "丝滑丝滑剪辑 Android Crash Report";
+"email_body_crash" = "请描述崩溃前发生了什么：\n\n";
+"notification_running" = "丝滑丝滑剪辑正在运行";
+"title_activation" = "丝滑丝滑剪辑激活";
+"alert_license_revoked" = "许可证已撤销";
+"alert_license_revoked_message" = "您的许可证已被服务器撤销（退款/拒付）。应用程序将关闭。";
+"alert_crash_message" = "您想向开发人员发送崩溃报告吗？这有助于我们更快地修复问题。";
+"alert_hotkey_conflict" = "某些全局热键无法注册。它们可能与其他应用程序冲突。";
+"alert_latest_version" = "丝滑丝滑剪辑已是最新版本。";
+"alert_save_before_quit" = "您想在退出前保存丝滑剪辑吗？";
+"alert_clear_cache_confirm" = "这将永久删除所有缓存的丝滑剪辑和丝滑笔记。此操作无法撤销。";
+"alert_activation_failed" = "激活失败";
+"alert_max_devices" = "您已达到最大设备数量。
+
+您想停用最旧的设备以继续吗？";
+"alert_device_deactivated" = "设备已停用";
+"alert_device_deactivated_message" = "最旧的设备令牌已撤销。新会话已激活。";
+"alert_capture_failed" = "捕获失败";
+"alert_coming_soon" = "即将推出";
+"alert_rewards_coming" = "奖励领取将在下次更新中启用。";
+"alert_ocr_disabled" = "文本提取已被您组织的政策禁用。";
+"btn_activate_license" = "激活许可证";
+"btn_deactivate_oldest" = "停用最旧的";
+"btn_get_started" = "开始使用";
+"btn_claim_reward" = "领取奖励";
+"btn_send_report" = "发送报告";
+"btn_save_all" = "全部保存";
+"btn_clear_cache" = "清除缓存";
+"btn_continue" = "继续";
+"btn_waiting_permissions" = "等待权限...";
+"btn_select_all" = "全选";
+"menu.hide.others" = "隐藏其他";
+"menu.show.all" = "显示全部";
+"menu.neon.border" = "霓虹边框";
+"menu.flip.horizontal" = "水平翻转";
+"menu.flip.vertical" = "垂直翻转";
+"feature_persistent_overlays" = "持久叠加层";
+"feature_persistent_overlays_desc" = "丝滑剪辑保留在屏幕上以供参考";
+"feature_quick_annotations" = "快速注释";
+"feature_quick_annotations_desc" = "用箭头和文字注释丝滑剪辑";
+"feature_instant_restore" = "即时恢复";
+"feature_instant_restore_desc" = "按 ⌃Z (Ctrl+Z) 恢复已关闭的丝滑剪辑";
+"onboarding_screen_recording" = "屏幕录制";
+"onboarding_permissions_required" = "需要权限";
+"system_default" = "系统默认";
+"error_invalid_response" = "无效响应";
+"error_invalid_signature" = "无效签名";
+"feature_capture_region" = "捕获任意区域";
+"feature_capture_region_desc" = "按 ⌃N (Ctrl+N) 捕获屏幕的任何部分";
+"error_hotkey_conflict" = "热键注册失败";
+"title_activate_silkysnip" = "激活丝滑丝滑剪辑";
+"label_enter_license_key" = "输入您的许可证密钥";
+"label_loading_price" = "正在加载价格...";
+"label_standard_pricing" = "标准价格：$29.99 终身";
+"btn_start_trial" = "开始7天免费试用";
+"error_please_enter_key" = "请输入密钥";
+"alert_device_limit_reached" = "已达设备限制 (2/2)";
+"onboarding_accessibility" = "辅助功能";
+"onboarding_screen_recording_desc" = "需要此权限来捕获屏幕区域进行丝滑剪辑。";
+"onboarding_accessibility_desc" = "需要此权限来使用全局键盘快捷键 (⌘N, ⌘Z 等)。";
+"onboarding_permissions_subtitle" = "丝滑丝滑剪辑需要以下权限才能正常工作";
+"onboarding_permission_info" = "在系统设置中授予权限后，返回此窗口。如果状态未更新，请尝试重新启动应用程序。";
+"label_required" = "必需";
+"btn_grant" = "授权";
+"title_referrals_rewards" = "推荐与奖励";
+"label_refer_earn" = "推荐赚取";
+"label_refer_earn_desc" = "与朋友分享丝滑丝滑剪辑，免费获得专业功能！";
+"label_lifetime_referrals" = "终身推荐：";
+"label_monthly_referrals" = "月度推荐：";
+"label_confirmed" = "已确认";
+"label_loading_stats" = "正在加载统计信息...";
+"label_invite_friends" = "邀请朋友解锁奖励。";
+"label_play_sounds" = "播放声音";
+"toast_max_overlays" = "最多10个活动覆盖层";
+"toast_restored_count" = "已恢复 %d 张丝滑剪辑";
+"toast_screenshot_saved" = "丝滑剪辑已保存";
+"toast_failed_save" = "保存失败";
+"toast_copied_clipboard" = "已复制到剪贴板";
+"toast_failed_copy" = "复制失败";
+"toast_failed_share" = "分享失败";
+"toast_screenshot_hidden" = "丝滑剪辑已隐藏";
+"toast_restored" = "已恢复";
+"toast_text_copied" = "文本已复制：%s...";
+"toast_no_text_found" = "未找到文本";
+"toast_ocr_failed" = "文本识别失败";
+"notification_title_active" = "丝滑丝滑剪辑运行中";
+"notification_text_manage" = "点击按钮管理丝滑剪辑";
+"action_restore_cached" = "恢复缓存";
+"action_group" = "分组";
+"action_ungroup" = "取消分组";
+"share_screenshot" = "分享丝滑剪辑";
+"error_overlay_permission" = "悬浮窗权限被拒绝";
+"error_screen_capture" = "屏幕录制权限被拒绝";
+"option_volume_up" = "音量增大";
+"option_volume_down" = "音量减小";
+"option_none" = "无";
+"title_open_source_licenses" = "开源许可证";
+"toast_no_logs" = "没有找到要发送的日志。";
+"toast_no_email_client" = "未找到邮件客户端。";
+"action_send_crash_report" = "发送崩溃报告";
+"channel_screen_capture" = "丝滑丝滑剪辑屏幕捕获";
+"crash_dialog_windows_title" = "丝滑丝滑剪辑崩溃报告";
+"crash_dialog_windows_message" = "丝滑截图在上次会话中崩溃了。
+
+您想向开发者发送崩溃报告吗？
+（这有助于我们更快地修复问题！）";
+"error_mail_client" = "无法自动打开邮件客户端。请手动将日志发送至 contact@silkyapple.com";
+"tray_tooltip" = "丝滑丝滑剪辑 - 按 Win+Alt+N 进行新丝滑剪辑";
+"menu.unhide.all" = "全部取消隐藏";
+"menu.about.silkysnip" = "关于丝滑丝滑剪辑";
+"about_text" = "Windows 版丝滑截图
+版本 {0}
+
+© 2024-2026 Silky Apple Technologies
+保留所有权利。
+
+开源许可证:
+- SharpDX (MIT)
+- Hardcodet TaskbarNotification (MIT)
+- .NET Runtime (MIT)";
+"confirm_quit_title" = "未保存的丝滑剪辑";
+"confirm_quit_one" = "您有一张未保存的丝滑剪辑";
+"confirm_quit_many" = "您有 {0} 张未保存的丝滑剪辑";
+"confirm_quit_message" = "退出前是否要保存丝滑剪辑？";
+"clear_cache_title" = "清除缓存";
+"clear_cache_message" = "清除所有缓存的丝滑剪辑吗？";
+"dialog.save.screenshot" = "保存丝滑剪辑";
+"error_copy_clipboard" = "复制图像到剪贴板失败";
+"error_create_image" = "创建图像失败";
+"error_save_failed" = "保存失败：{0}";
+"error_export_failed" = "导出失败";
+"restart_required_title" = "需要重新启动";
+"restart_required_message" = "请重新启动丝滑丝滑剪辑以应用语言更改。";
+"translation_warning_title" = "翻译声明";
+"translation_warning_message" = "翻译使用自动翻译器生成，可能包含错误。如果您发现任何翻译问题，请报告以帮助我们改进。";
+"report_translation_error" = "报告翻译错误";
+"email_subject_translation" = "丝滑丝滑剪辑 Translation Error Report";
+"email_body_translation" = "您好，
+
+我发现了一个翻译错误：
+
+语言：
+屏幕/位置：
+当前文本：
+建议更正：
+
+谢谢！";
+
+/* New Localization Keys (Simplified Chinese) */
+"format_tiff_high_quality" = "TIFF (高质量)";
+"format_pdf_document" = "PDF (文档)";
+"label_show_in_menu" = "在菜单中显示：";
+"zoom_2x" = "2x";
+"zoom_4x" = "4x";
+"zoom_8x" = "8x";
+
+/* About Window */
+"accessibility_app_icon" = "丝滑丝滑剪辑 图标";
+"label_copyright_format" = "版权所有 © 2026 %@。";
+"license_text_header" = "丝滑丝滑剪辑 使用以下开源软件：\n\n";
+"license_text_footer" = "\n\n有关完整的许可证文本，请访问我们的网站。";
+"license_swift" = "• Swift (Apache 2.0)";
+"license_sparkle" = "• Sparkle (MIT)";
+"license_logmanager" = "• LogManager (自定义)";
+
+/* Welcome Window */
+"welcome_subtitle" = "带持久覆盖层的快速丝滑剪辑";
+"legal_footer_format" = "点击开始即表示您同意我们的最终用户许可协议和隐私政策。版权所有 © 2026 %@。保留所有权利。严禁未经授权的复制或分发。";
+
+/* Sticky Notes */
+"color_select_yellow" = "黄色";
+"color_select_pink" = "粉色";
+"color_select_cyan" = "青色";
+"color_select_green" = "绿色";
+"color_select_white" = "白色";
+"sticky_font_small" = "小";
+"sticky_font_normal" = "标准";
+"sticky_font_large" = "大";
+"menu.text.format" = "文本格式";
+"format_bold" = "粗体";
+"format_underline" = "下划线";
+"format_strikethrough" = "删除线";
+"menu.font.size" = "字体大小";
+"menu.list.style" = "列表样式";
+"list_none" = "无";
+"list_bullet" = "项目符号";
+"list_numbered" = "编号";
+"menu.sticky.color" = "丝滑笔记颜色";
+"menu.close.note" = "关闭丝滑笔记";
+"accessibility_close" = "关闭";
+
+/* Context Menu & Tools */
+"menu.new.sticky" = "新建丝滑笔记";
+"menu.turn.on.ghost" = "开启幽灵模式";
+"zoom_actual_size" = "实际大小";
+"zoom_percent_format" = "%d%%";
+"alert_ocr_disabled_title" = "详情已保护";
+
+/* Text Selection */
+"text_selection_hint" = "单击选择文本，或拖动进行多选";
+"btn_open" = "打开";
+"btn_clear" = "清除";
+"status_no_text" = "未选择文本";
+"type_link" = "链接";
+"type_phone" = "电话";
+"type_data" = "数据";
+"status_found_format" = "找到：%@";
+"status_regions_selected_format" = "已选择 %d 个区域";
+"status_regions_found" = "找到文本区域";
+
+/* App Delegate */
+"alert_unsaved_title" = "未保存的更改";
+"alert_unsaved_screenshots_title" = "未保存的丝滑剪辑";
+"alert_unsaved_message" = "您有未保存的丝滑剪辑。您想怎么做？";
+"btn_review" = "查看";
+"btn_discard" = "丢弃";
+"alert_email_not_found_title" = "未找到邮件客户端";
+"alert_email_not_found_msg" = "无法打开默认邮件客户端。请手动发送电子邮件至 techsupport@silkyapple.com";
+"btn_copy_email" = "复制电子邮件";
+"tooltip_dock_icon" = "丝滑丝滑剪辑 - 丝滑剪辑";
+"menu.restore.sticky" = "恢复丝滑笔记";
+"menu.services" = "服务";
+"menu.help.title" = "帮助";
+
+/* Ruler */
+"label_x_axis" = "X:";
+"label_y_axis" = "Y:";
+
+/* Activation */
+"label_standard_pricing_fallback" = "标准价格：$29.99 终身";
+
+/* Overlay Window */
+"label_hex" = "HEX:";
+"label_rgb" = "RGB:";
+"label_hsl" = "HSL:";
+"msg_copied" = "已复制！";
+"title_color_copied" = "颜色已复制";
+
+
+/* Synced missing keys - English fallback */
+"accessibility_appearance" = "外观";
+"accessibility_general" = "常规";
+"accessibility_tools" = "工具";
+"alert_unsaved_message_format" = "您有 %d 个未保存的项目。是否保存？";
+"alert_unsaved_title_annotations" = "未保存的标注";
+"alert_unsaved_title_screenshots" = "未保存的丝滑剪辑";
+"btn_cancel" = "取消";
+"btn_change_ellipsis" = "更改...";
+"btn_copy" = "复制";
+"checkbox_autosave" = "自动保存丝滑剪辑";
+"data_generic" = "文本";
+"data_link" = "链接";
+"data_phone" = "电话";
+"format_jpg_compact" = "JPG (Compact)";
+"format_png_default" = "PNG (默认)";
+"label_autosave" = "自动保存";
+"label_tools_tab" = "工具";
+"menu.flip.reset" = "重置翻转";
+"menu.hide.screenshots" = "隐藏所有丝滑剪辑";
+"menu.intensity" = "强度";
+"menu.restore" = "恢复";
+"menu.tools" = "工具";
+"menu.unhide.screenshots" = "显示所有丝滑剪辑";
+"menu.eraser.large" = "大";
+"menu.eraser.medium" = "中";
+"menu.eraser.small" = "小";
+"menu.ghost.mode.off" = "幽灵模式";
+"menu.ghost.mode.on" = "幽灵模式";
+"menu.pen.medium" = "中";
+"menu.pen.thick" = "粗";
+"menu.pen.thin" = "细";
+"status_click_select" = "点击文本选择";
+"status_regions_found_format" = "%d text regions found";
+"status_selected_count_format" = "%d of %d selected";
+"status_selected_type_format" = "%d %@ selected";
+"title_unsaved_changes" = "未保存的更改";
+
+"label_copied" = "Copied";
+"tab_tools" = "Tools";
+"tooltip_new_capture" = "丝滑剪辑 - Press ⌘N for new capture";
+"menu_services" = "Services";
+"menu_new_sticky_note" = "新建丝滑笔记";
+"menu_sticky_notes" = "丝滑笔记";
+"menu_show_all_sticky_notes" = "显示所有丝滑笔记";
+"menu_close_all_sticky_notes" = "关闭所有丝滑笔记";
+"title_app_running" = "丝滑剪辑 is Running";
+"welcome_to_app" = "Welcome to %@";
+"menu_enable_smart_restore" = "Enable Smart Restore";
+"menu_enable_to_allow_pinning" = "Enable to allow pinning";
+"menu_no_running_apps" = "No running apps found";
+"error_no_text_selected" = "No text selected";
+
+
+"menu_unpin_from_all" = "Unpin from All";
+
+
+/* Permissions Tab */
+"tab_permissions" = "权限";
+"perm_screen_recording" = "屏幕录制";
+"perm_accessibility" = "辅助功能";
+"perm_granted" = "已授权";
+"perm_denied" = "未授权";
+"btn_open_settings" = "打开设置";
+
+
+/* Tooltips */
+"settings.language.tooltip" = "设置应用程序界面的语言。";
+"settings.languagePopup.tooltip" = "选择您偏好的语言。系统默认将匹配您Mac的语言。";
+"settings.launch.tooltip" = "登录时自动启动程序。";
+"settings.launchCheckbox.tooltip" = "启用此功能，您就无需每次手动打开应用。";
+"settings.autoSave.tooltip" = "自动保存所有丝滑剪辑，不需询问。";
+"settings.autoSaveCheckbox.tooltip" = "启用后，丝滑剪辑将跳过保存对话框直接进入保存文件夹。";
+"settings.location.tooltip" = "保存丝滑剪辑的文件夹。";
+"settings.pathControl.tooltip" = "显示保存图像的当前文件夹路径。";
+"settings.changeButton.tooltip" = "点击选择其他文件夹保存丝滑剪辑。";
+"settings.format.tooltip" = "保存丝滑剪辑的文件格式。";
+"settings.formatPopup.tooltip" = "选择 PNG 获取最高质量和透明度，选择 JPEG 以减小文件大小。";
+"settings.freezeScreen.tooltip" = "开始丝滑剪辑时立即冻结屏幕。";
+"settings.freezeScreenCheckbox.tooltip" = "启用后，屏幕立即冻结以捕捉悬浮菜单。";
+"settings.notifications.tooltip" = "丝滑剪辑成功后播放声音。";
+"settings.soundsCheckbox.tooltip" = "启用或禁用相机快门声音。";
+"settings.opacity.tooltip" = "设置新丝滑剪辑的默认透明度。";
+"settings.slider.tooltip" = "拖动以调整透明度。值越低，丝滑剪辑越透明。";
+"settings.neon.tooltip" = "为丝滑剪辑添加发光边框。";
+"settings.neonCheckbox.tooltip" = "启用后，丝滑剪辑将具有明亮的发光边框。发光颜色受主题设置控制。";
+"settings.theme.tooltip" = "选择应用的视觉主题。";
+"settings.themePopup.tooltip" = "更改霓虹灯边框发光颜色 — Cyberpunk（青色），Matrix（绿色）或 Solar（橙色）。";
+"settings.click.tooltip" = "点击丝滑剪辑时的行为。";
+"settings.clickPopup.tooltip" = "单击立即关闭丝滑剪辑。双击需要两次点击以关闭，减少意外关闭的情况。";
+"settings.magic.tooltip" = "根据活动应用自动显示/隐藏丝滑剪辑。";
+"settings.magicCheckbox.tooltip" = "启用后，可以固定丝滑剪辑。只有关联的应用程序在前台时，丝滑剪辑才会出现。";
+"settings.advancedTools.tooltip" = "控制哪些工具出现在右键菜单中。";
+"settings.magnifyCheckbox.tooltip" = "在菜单中显示放大镜工具以查看像素级细节。";
+"settings.grayscaleCheckbox.tooltip" = "在菜单中显示灰度滤镜以黑白形式查看丝滑剪辑。";
+"settings.rulersCheckbox.tooltip" = "在菜单中显示标尺工具以测量距离和对齐。";
+"settings.colorPickerCheckbox.tooltip" = "在菜单中显示拾色器工具。";
+"settings.ghostModeCheckbox.tooltip" = "在菜单中显示幽灵模式，使丝滑剪辑可穿透点击。";
+
+/* Hardcoded UI Strings added via Script */
+"email_client_not_found" = "未找到电子邮件客户端";
+"email_client_not_found_msg" = "请将日志手动通过电子邮件发送至 techsupport@silkyapple.com。\n\n日志位于：\n〜/库/应用程序支持/丝滑剪辑/audit.log";
+"alert_unsaved_title_screenshot_single" = "您有未保存的丝滑剪辑";
+"alert_unsaved_title_screenshot_plural" = "您有 %d 张丝滑剪辑未保存";
+"alert_quit_save_msg" = "您想在退出前保存丝滑剪辑吗？";
+"alert_clear_cache_title" = "清除缓存？";
+"alert_clear_cache_msg" = "这将永久删除所有缓存的丝滑剪辑和丝滑笔记。此操作无法撤销。";
+"alert_unsaved_annotations_title" = "未保存的注释";
+"alert_unsaved_annotations_msg" = "您已为此丝滑剪辑添加注释。保存更改吗？";
+"alert_unsaved_screenshot_title" = "未保存的丝滑剪辑";
+"alert_unsaved_screenshot_msg" = "您已为此丝滑剪辑添加注释。关闭前保存吗？";
+"alert_license_revoked_title" = "许可证被吊销";
+"alert_license_revoked_msg" = "您的许可证已被服务器撤销（退款/退款）。该应用程序现在将关闭。";
+"alert_capture_failed_title" = "捕获失败";
+"license_lifetime_format" = "%@: $%@ 一生";
+
+/* Tool Names and Settings (Added via Script) */
+
+/* Tool Names and Settings (Fixed & Localized) */
+"menu.grayscale" = "灰度";
+"tool_blur" = "遮罩";
+"checkbox_freeze_screen" = "冻结屏幕以进行即时截屏";
+"tool_magnify" = "放大";
+"menu.show.rulers" = "显示标尺";
+"menu.pick.color" = "取色";
+"menu.annotations" = "Annotations";
+"menu.ghost.mode" = "幽灵模式";
+
+/* Pin to App (Fixed) */
+"menu.pin.to.app" = "固定到应用";
+"btn_save" = "保存";
+"btn_close_without_saving" = "不保存并关闭";
+"label_capture" = "截图";
+
+"btn_cancel_all" = "Cancel All";
+"checkbox_auto_copy" = "自动复制到剪贴板";
+"checkbox_show_dock" = "在Dock中显示";
+"label_behavior" = "行为";
+"tooltip_right_click_disable" = "左键单击复制颜色代码，右键单击禁用";

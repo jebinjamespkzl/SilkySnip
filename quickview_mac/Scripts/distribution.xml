@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="1">
+    <title>SilkySnip</title>
+    <options customize="never" require-scripts="false"/>
+    <domains enable_anywhere="true" enable_currentUserHome="true" enable_localSystem="true"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.silkysnip.app"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.silkysnip.app" visible="false">
+        <pkg-ref id="com.silkysnip.app"/>
+    </choice>
+    <pkg-ref id="com.silkysnip.app" version="1.0" onConclusion="none">SilkySnip_Component.pkg</pkg-ref>
+</installer-gui-script>
