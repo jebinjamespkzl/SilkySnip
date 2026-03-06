@@ -1,0 +1,526 @@
+/* Generated from localization.json */
+
+"app_name" = "सिल्की स्निप";
+"company_name" = "सिल्कीऐपल";
+"ok" = "ठीक है";
+"cancel" = "रद्द करें";
+"save" = "सहेजें";
+"start" = "शुरू करें";
+"title_setup" = "सिल्की स्निप सेटअप";
+"setup_subtitle" = "अपनी अनुभव अनुकूलित करें";
+"section_general" = "सामान्य";
+"label_language" = "भाषा";
+"section_appearance" = "दिखावट";
+"label_edge_panel" = "एज पैनल का उपयोग करें";
+"desc_edge_panel" = "यदि अक्षम है, तो फ़्लोटिंग बटन का उपयोग किया जाएगा।";
+"label_position" = "स्थिति";
+"position_left" = "बायां";
+"position_right" = "दायां";
+"label_transparency" = "पारदर्शिता";
+"section_actions" = "क्रियाएँ";
+"label_trigger_key" = "ट्रिगर कुंजी";
+"section_storage" = "भंडारण";
+"hint_save_folder" = "फ़ोल्डर का नाम";
+"label_auto_save" = "ऑटो सेव";
+"btn_save_start" = "सहेजें और शुरू करें";
+"btn_privacy" = "गोपनीयता नीति";
+"btn_licenses" = "लाइसेंस";
+"menu.new" = "नया";
+"menu.save.current" = "वर्तमान सहेजें";
+"menu.save.all" = "सभी सहेजें";
+"menu.copy.image" = "छवि कॉपी करें";
+"menu.quit" = "बाहर जाएं";
+"menu.file" = "फ़ाइल";
+"menu.edit" = "संपादन";
+"menu.view" = "दृश्य";
+"menu.window" = "खिड़की";
+"menu.help" = "मदद";
+"menu.minimize" = "न्यूनतम करें";
+"menu.bring.all.front" = "सभी को सामने लाएं";
+"menu.undo" = "पूर्ववत करें";
+"menu.redo" = "फिर से करें";
+"menu.cut" = "काटें";
+"menu.copy" = "कॉपी";
+"menu.paste" = "पेस्ट";
+"menu.select.all" = "सभी चुनें";
+"tool_pen" = "पेन";
+"tool_highlighter" = "हाइलाइटर";
+"tool_eraser" = "इरेज़र";
+"tool_text" = "टेक्स्ट";
+"tool_crop" = "क्रॉप";
+"tool_move" = "ले जाएँ";
+"menu.zoom" = "ज़ूम";
+"menu.opacity" = "अपारदर्शिता";
+"menu.filters" = "फिल्टर";
+"menu.flip" = "पलटें";
+"menu.lock.display" = "डिस्प्ले पर लॉक करें";
+"menu.dock.edge" = "किनारे पर डॉक करें";
+"menu.undock" = "अनडॉक";
+"menu.ocr" = "पाठ चुनें (OCR)";
+"menu.pin" = "पिन करें";
+"menu.lock.screenshot" = "लॉक करें";
+"menu.unlock.screenshot" = "अनलॉक करें";
+"menu.share" = "साझा करें...";
+"menu.hide" = "छिपाएं";
+"menu.close" = "बंद करें";
+"color_black" = "काला";
+"color_white" = "सफेद";
+"color_red" = "लाल";
+"color_blue" = "नीला";
+"color_green" = "हरा";
+"color_orange" = "нарंगी";
+"color_yellow" = "पीला";
+"color_pink" = "गुलाबी";
+"color_cyan" = "सियान";
+"color_lime" = "लाइम";
+"color_purple" = "बैंगनी";
+"size_thin" = "पतला";
+"size_medium" = "मध्यम";
+"size_thick" = "मोटा";
+"size_small" = "छोटा";
+"size_normal" = "सामान्य";
+"size_large" = "बड़ा";
+"label_launch_behavior" = "लॉन्च व्यवहार";
+"label_autosave_location" = "ऑटो-सेव स्थान";
+"label_autosave_format" = "प्रारूप";
+"label_notifications" = "सूचनाएं";
+"title_preferences" = "सेटिंग्स";
+"checkbox_launch_login" = "लॉगिन पर लॉन्च करें";
+"checkbox_play_sounds" = "ध्वनि बजाएं";
+"btn_change" = "बदलें";
+"title_select_location" = "स्थान चुनें";
+"label_default_opacity" = "डिफ़ॉल्ट अपारदर्शिता";
+"label_neon_border" = "नियॉन बॉर्डर";
+"label_theme" = "थीम";
+"checkbox_neon_glow" = "चमक सक्षम करें";
+"theme_cyberpunk" = "साइबरपंक";
+"theme_matrix" = "मैट्रिक्स";
+"theme_solar" = "सौर";
+"label_click_behavior" = "क्लिक व्यवहार";
+"label_loupe_zoom" = "लूप ज़ूम";
+"label_magic_restore" = "जादुई पुनर्स्थापना";
+"checkbox_smart_pinning" = "स्मार्ट पिनिंग";
+"click_single" = "एक क्लिक से बंद";
+"click_double" = "डबल क्लिक से बंद";
+"title_save_screenshot" = "सिल्की स्निप सहेजें";
+"msg_save_location" = "स्थान चुनें";
+"err_clipboard_image" = "क्लिपबोर्ड के लिए छवि बनाने में विफल";
+"err_create_image" = "छवि बनाने में विफल";
+"err_pdf_consumer" = "PDF डेटा कंज़्यूमर बनाने में विफल";
+"err_pdf_context" = "PDF कॉन्टेक्स्ट बनाने में विफल";
+"err_save_pdf" = "PDF सहेजने में विफल";
+"err_encode_image" = "छवि एन्कोड करने में विफल";
+"err_save" = "सहेजने में विफल";
+"label_format" = "प्रारूप";
+"title_export_failed" = "निर्यात विफल";
+"menu.capture.delayed" = "टाइमर कैप्चर";
+"menu.seconds" = "सेकंड";
+"menu.enable.hotkeys" = "हॉटकी सक्षम करें";
+"menu.auto.copy" = "ऑटो कॉपी";
+"menu.show.dock" = "डॉक में दिखाएं";
+"menu.turn.off.ghost" = "घोस्ट मोड बंद करें";
+"menu.scrolling.capture" = "स्क्रॉलिंग कैप्चर";
+"menu.close.current" = "वर्तमान बंद करें";
+"menu.close.all" = "सभी बंद करें";
+"menu.ungroup.all" = "सभी का ग्रुप हटाएं";
+"menu.group.all" = "सभी को ग्रुप करें";
+"menu.hide.all" = "सभी छिपाएं";
+"menu.unhide" = "अनहाइड";
+"menu.find.silkysnips" = "सिल्की स्निपs खोजें";
+"menu.restore.last" = "अंतिम पुनर्स्थापित करें";
+"menu.restore.all" = "सभी पुनर्स्थापित करें";
+"menu.clear.cached" = "कैश साफ़ करें";
+"menu.settings" = "सेटिंग्स...";
+"menu.about" = "के बारे में";
+"tool_speech_bubble" = "भाषण बुलबुला";
+"section_tools" = "उपकरण";
+"label_version" = "संस्करण";
+"label_build" = "निर्माण";
+"label_rights_reserved" = "सर्वाधिकार सुरक्षित।";
+"btn_rewards" = "रेफरल और पुरस्कार";
+"btn_check_updates" = "अपडेट की जाँच करें";
+"permission_screen_title" = "स्क्रीन रिकॉर्डिंग की अनुमति आवश्यक है";
+"permission_screen_desc" = "सिल्की स्निप को आपकी स्क्रीन रिकॉर्ड करने के लिए पहुंच की आवश्यकता है। कृपया सिस्टम सेटिंग्स में अनुमति दें।";
+"btn_open_settings" = "सेटिंग्स खोलें";
+"accessibility_service_description" = "सिल्की स्निप लेने के लिए वॉल्यूम कुंजी दबाने का पता लगाने के लिए सिल्की स्निप को एक्सेसिबिलिटी अनुमति की आवश्यकता है।";
+"accessibility_service_label" = "सिल्की स्निप शॉर्टकट सेवा";
+"crash_dialog_title" = "एप्लिकेशन क्रैश";
+"crash_dialog_message" = "सिल्की स्निप has encountered an unexpected error. Would you like to send a crash report to help us fix it?";
+"crash_dialog_send" = "रिपोर्ट भेजें";
+"crash_dialog_cancel" = "बंद करें";
+"email_subject_crash" = "सिल्की स्निप Android Crash Report";
+"email_body_crash" = "कृपया बताएं कि क्रैश से पहले क्या हुआ था:\n\n";
+"notification_running" = "सिल्की स्निप चल रहा है";
+"title_activation" = "सिल्की स्निप सक्रियण";
+"alert_license_revoked" = "लाइसेंस रद्द किया गया";
+"alert_license_revoked_message" = "आपका लाइसेंस सर्वर द्वारा रद्द कर दिया गया है (रिफंड)। एप्लिकेशन अब बंद हो जाएगा।";
+"alert_crash_message" = "क्या आप डेवलपर्स को क्रैश रिपोर्ट भेजना चाहेंगे? इससे हमें समस्याओं को तेजी से ठीक करने में मदद मिलती है।";
+"alert_hotkey_conflict" = "कुछ वैश्विक हॉटकी पंजीकृत नहीं हो सकीं। वे अन्य एप्लिकेशन के साथ विरोध कर सकती हैं।";
+"alert_latest_version" = "सिल्की स्निप अद्यतित है।";
+"alert_save_before_quit" = "क्या आप बाहर निकलने से पहले अपने सिल्की स्निप सहेजना चाहते हैं?";
+"alert_clear_cache_confirm" = "यह सभी कैश किए गए सिल्की स्निप और सिल्की नोट को स्थायी रूप से हटा देगा। यह क्रिया पूर्ववत नहीं की जा सकती।";
+"alert_activation_failed" = "सक्रियण विफल";
+"alert_max_devices" = "आपने अधिकतम डिवाइस सीमा तक पहुंच गए हैं।
+
+क्या आप जारी रखने के लिए अपने सबसे पुराने डिवाइस को निष्क्रिय करना चाहेंगे?";
+"alert_device_deactivated" = "डिवाइस निष्क्रिय किया गया";
+"alert_device_deactivated_message" = "सबसे पुराने डिवाइस का टोकन रद्द किया गया। नया सत्र सक्रिय।";
+"alert_capture_failed" = "कैप्चर विफल";
+"alert_coming_soon" = "जल्द आ रहा है";
+"alert_rewards_coming" = "इनाम दावा अगले अपडेट में सक्षम किया जाएगा।";
+"alert_ocr_disabled" = "आपके संगठन की नीति द्वारा टेक्स्ट निष्कर्षण अक्षम है।";
+"btn_activate_license" = "लाइसेंस सक्रिय करें";
+"btn_deactivate_oldest" = "सबसे पुराना निष्क्रिय करें";
+"btn_get_started" = "शुरू करें";
+"btn_claim_reward" = "इनाम का दावा करें";
+"btn_send_report" = "रिपोर्ट भेजें";
+"btn_save_all" = "सभी सहेजें";
+"btn_clear_cache" = "कैश साफ़ करें";
+"btn_continue" = "जारी रखें";
+"btn_waiting_permissions" = "अनुमतियों की प्रतीक्षा...";
+"btn_select_all" = "सभी का चयन करें";
+"menu.hide.others" = "अन्य छुपाएं";
+"menu.show.all" = "सभी दिखाएं";
+"menu.neon.border" = "नियॉन बॉर्डर";
+"menu.flip.horizontal" = "क्षैतिज रूप से पलटें";
+"menu.flip.vertical" = "लंबवत रूप से पलटें";
+"feature_persistent_overlays" = "स्थायी ओवरले";
+"feature_persistent_overlays_desc" = "सिल्की स्निप संदर्भ के लिए स्क्रीन पर बने रहते हैं";
+"feature_quick_annotations" = "त्वरित एनोटेशन";
+"feature_quick_annotations_desc" = "तीर और टेक्स्ट के साथ कैप्चर को एनोटेट करें";
+"feature_instant_restore" = "तुरंत पुनर्स्थापना";
+"feature_instant_restore_desc" = "बंद कैप्चर को पुनर्स्थापित करने के लिए ⌃Z (Ctrl+Z) दबाएं";
+"onboarding_screen_recording" = "स्क्रीन रिकॉर्डिंग";
+"onboarding_permissions_required" = "अनुमतियां आवश्यक हैं";
+"system_default" = "सिस्टम डिफ़ॉल्ट";
+"error_invalid_response" = "अमान्य प्रतिक्रिया";
+"error_invalid_signature" = "अमान्य हस्ताक्षर";
+"feature_capture_region" = "किसी भी क्षेत्र को कैप्चर करें";
+"feature_capture_region_desc" = "⌃N (Ctrl+N) दबाकर अपनी स्क्रीन का कोई भी हिस्सा कैप्चर करें";
+"error_hotkey_conflict" = "हॉटकी पंजीकरण विफल";
+"title_activate_silkysnip" = "सिल्की स्निप सक्रिय करें";
+"label_enter_license_key" = "अपनी लाइसेंस कुंजी दर्ज करें";
+"label_loading_price" = "कीमत लोड हो रही है...";
+"label_standard_pricing" = "मानक मूल्य: $29.99 आजीवन";
+"btn_start_trial" = "7-दिन का मुफ्त ट्रायल शुरू करें";
+"error_please_enter_key" = "कृपया एक कुंजी दर्ज करें";
+"alert_device_limit_reached" = "डिवाइस सीमा पहुंच गई (2/2)";
+"onboarding_accessibility" = "अभिगम्यता";
+"onboarding_screen_recording_desc" = "सिल्की स्निप के लिए स्क्रीन क्षेत्रों को कैप्चर करने के लिए आवश्यक।";
+"onboarding_accessibility_desc" = "वैश्विक कीबोर्ड शॉर्टकट (⌘N, ⌘Z, आदि) के लिए आवश्यक।";
+"onboarding_permissions_subtitle" = "सिल्की स्निप को ठीक से काम करने के लिए निम्नलिखित अनुमतियां चाहिए";
+"onboarding_permission_info" = "सिस्टम सेटिंग्स में अनुमति देने के बाद, इस विंडो पर वापस आएं। यदि स्थिति अपडेट नहीं होती है, तो ऐप को पुनरारंभ करें।";
+"label_required" = "आवश्यक";
+"btn_grant" = "अनुमति दें";
+"title_referrals_rewards" = "रेफ़रल और पुरस्कार";
+"label_refer_earn" = "रेफ़र करें और कमाएं";
+"label_refer_earn_desc" = "दोस्तों के साथ सिल्की स्निप साझा करें और मुफ्त Pro सुविधाएं पाएं!";
+"label_lifetime_referrals" = "आजीवन रेफ़रल:";
+"label_monthly_referrals" = "मासिक रेफ़रल:";
+"label_confirmed" = "पुष्टि";
+"label_loading_stats" = "आंकड़े लोड हो रहे हैं...";
+"label_invite_friends" = "पुरस्कार अनलॉक करने के लिए दोस्तों को आमंत्रित करें।";
+"label_play_sounds" = "ध्वनियां बजाएं";
+"toast_max_overlays" = "अधिकतम 10 सक्रिय ओवरले";
+"toast_restored_count" = "%d सिल्की स्निप पुनर्स्थापित";
+"toast_screenshot_saved" = "सिल्की स्निप सहेजा गया";
+"toast_failed_save" = "सहेजने में विफल";
+"toast_copied_clipboard" = "क्लिपबोर्ड पर कॉपी किया गया";
+"toast_failed_copy" = "कॉपी करने में विफल";
+"toast_failed_share" = "साझा करने में विफल";
+"toast_screenshot_hidden" = "सिल्की स्निप छुपा";
+"toast_restored" = "पुनर्स्थापित";
+"toast_text_copied" = "टेक्स्ट कॉपी किया गया: %s...";
+"toast_no_text_found" = "कोई टेक्स्ट नहीं मिला";
+"toast_ocr_failed" = "टेक्स्ट पहचानने में विफल";
+"notification_title_active" = "सिल्की स्निप सक्रिय";
+"notification_text_manage" = "सिल्की स्निप प्रबंधित करने के लिए बटन दबाएं";
+"action_restore_cached" = "कैश पुनर्स्थापित करें";
+"action_group" = "समूह";
+"action_ungroup" = "समूह हटाएं";
+"share_screenshot" = "सिल्की स्निप साझा करें";
+"error_overlay_permission" = "ओवरले अनुमति अस्वीकृत";
+"error_screen_capture" = "स्क्रीन कैप्चर अनुमति अस्वीकृत";
+"option_volume_up" = "वॉल्यूम बढ़ाएं";
+"option_volume_down" = "वॉल्यूम कम करें";
+"option_none" = "कोई नहीं";
+"title_open_source_licenses" = "ओपन सोर्स लाइसेंस";
+"toast_no_logs" = "भेजने के लिए कोई लॉग नहीं मिला।";
+"toast_no_email_client" = "कोई ईमेल क्लाइंट नहीं मिला।";
+"action_send_crash_report" = "क्रैश रिपोर्ट भेजें";
+"channel_screen_capture" = "सिल्की स्निप स्क्रीन कैप्चर";
+"crash_dialog_windows_title" = "सिल्की स्निप क्रैश रिपोर्ट";
+"crash_dialog_windows_message" = "सिल्की स्निप पिछले सत्र में क्रैश हुआ था।
+
+क्या आप डेवलपर्स को क्रैश रिपोर्ट भेजना चाहते हैं?
+(यह हमें समस्याओं को तेज़ी से ठीक करने में मदद करता है!)";
+"error_mail_client" = "मेल क्लाइंट स्वचालित रूप से नहीं खुल सका। कृपया contact@silkyapple.com पर लॉग मैन्युअल रूप से भेजें";
+"tray_tooltip" = "सिल्की स्निप - नई कैप्चर के लिए Win+Alt+N दबाएं";
+"menu.unhide.all" = "सभी दिखाएं";
+"menu.about.silkysnip" = "सिल्की स्निप के बारे में";
+"about_text" = "Windows के लिए सिल्की स्निप
+संस्करण {0}
+
+© 2024-2026 Silky Apple Technologies
+सर्वाधिकार सुरक्षित।
+
+ओपन सोर्स लाइसेंस:
+- SharpDX (MIT)
+- Hardcodet TaskbarNotification (MIT)
+- .NET Runtime (MIT)";
+"confirm_quit_title" = "सहेजे नहीं गए सिल्की स्निप";
+"confirm_quit_one" = "आपके पास एक सिल्की स्निप है जो सहेजा नहीं गया है";
+"confirm_quit_many" = "आपके पास {0} सिल्की स्निप हैं जो सहेजे नहीं गए हैं";
+"confirm_quit_message" = "क्या आप बाहर निकलने से पहले अपने सिल्की स्निप सहेजना चाहते हैं?";
+"clear_cache_title" = "कैश साफ़ करें";
+"clear_cache_message" = "सभी कैश्ड सिल्की स्निप साफ़ करें?";
+"dialog.save.screenshot" = "सिल्की स्निप सहेजें";
+"error_copy_clipboard" = "क्लिपबोर्ड पर छवि कॉपी करने में विफल";
+"error_create_image" = "छवि बनाने में विफल";
+"error_save_failed" = "सहेजने में विफल: {0}";
+"error_export_failed" = "निर्यात विफल";
+"restart_required_title" = "पुनरारंभ आवश्यक";
+"restart_required_message" = "भाषा परिवर्तन लागू करने के लिए कृपया सिल्की स्निप को पुनरारंभ करें।";
+"translation_warning_title" = "अनुवाद सूचना";
+"translation_warning_message" = "अनुवाद स्वचालित अनुवादकों का उपयोग करके तैयार किए गए हैं और इनमें त्रुटियां हो सकती हैं। यदि आपको कोई अनुवाद समस्या मिलती है, तो कृपया सुधार में मदद के लिए रिपोर्ट करें।";
+"report_translation_error" = "अनुवाद त्रुटि रिपोर्ट करें";
+"email_subject_translation" = "सिल्की स्निप Translation Error Report";
+"email_body_translation" = "नमस्ते,
+
+मुझे एक अनुवाद त्रुटि मिली:
+
+भाषा: 
+स्क्रीन/स्थान: 
+वर्तमान पाठ: 
+सुझाया गया सुधार: 
+
+धन्यवाद!";
+
+/* New Localization Keys (Hindi) */
+"format_tiff_high_quality" = "TIFF (उच्च गुणवत्ता)";
+"format_pdf_document" = "PDF (दस्तावेज़)";
+"label_show_in_menu" = "मेन्यू में दिखाएं:";
+"zoom_2x" = "2x";
+"zoom_4x" = "4x";
+"zoom_8x" = "8x";
+
+/* About Window */
+"accessibility_app_icon" = "सिल्की स्निप आइकन";
+"label_copyright_format" = "कॉपीराइट © 2026 %@.";
+"license_text_header" = "सिल्की स्निप निम्नलिखित ओपन सोर्स सॉफ़्टवेयर का उपयोग करता है:\n\n";
+"license_text_footer" = "\n\nपूर्ण लाइसेंस टेक्स्ट के लिए, कृपया हमारी वेबसाइट पर जाएं।";
+"license_swift" = "• Swift (Apache 2.0)";
+"license_sparkle" = "• Sparkle (MIT)";
+"license_logmanager" = "• LogManager (कस्टम)";
+
+/* Welcome Window */
+"welcome_subtitle" = "लगातार ओवरले के साथ तेज़ स्क्रीन कैप्चर";
+"legal_footer_format" = "शुरू करें पर क्लिक करके, आप हमारे अंतिम उपयोगकर्ता लाइसेंस समझौते और गोपनीयता नीति को स्वीकार करते हैं। कॉपीराइट © 2026 %@। सर्वाधिकार सुरक्षित। अनधिकृत प्रजनन या वितरण सख्त वर्जित है।";
+
+/* Sticky Notes */
+"color_select_yellow" = "पीला";
+"color_select_pink" = "गुलाबी";
+"color_select_cyan" = "स्यान";
+"color_select_green" = "हरा";
+"color_select_white" = "सफेद";
+"sticky_font_small" = "छोटा";
+"sticky_font_normal" = "सामान्य";
+"sticky_font_large" = "बड़ा";
+"menu.text.format" = "टेक्स्ट फॉर्मेट";
+"format_bold" = "बोल्ड";
+"format_underline" = "रेखांकित";
+"format_strikethrough" = "स्ट्राइकथ्रू";
+"menu.font.size" = "फ़ॉन्ट आकार";
+"menu.list.style" = "सूची शैली";
+"list_none" = "कोई नहीं";
+"list_bullet" = "बुलेट";
+"list_numbered" = "क्रमांकित";
+"menu.sticky.color" = "सिल्की नोट का रंग";
+"menu.close.note" = "नोट बंद करें";
+"accessibility_close" = "बंद करें";
+
+/* Context Menu & Tools */
+"menu.new.sticky" = "नया सिल्की नोट";
+"menu.turn.on.ghost" = "घोस्ट मोड चालू करें";
+"zoom_actual_size" = "वास्तविक आकार";
+"zoom_percent_format" = "%d%%";
+"alert_ocr_disabled_title" = "विवरण सुरक्षित";
+
+/* Text Selection */
+"text_selection_hint" = "टेक्स्ट चुनने के लिए क्लिक करें, या बहु-चयन के लिए ड्रैग करें";
+"btn_open" = "खोलें";
+"btn_clear" = "साफ़ करें";
+"status_no_text" = "कोई टेक्स्ट नहीं चुना गया";
+"type_link" = "लिंक";
+"type_phone" = "फ़ोन";
+"type_data" = "डेटा";
+"status_found_format" = "मिला: %@";
+"status_regions_selected_format" = "%d क्षेत्र चुने गए";
+"status_regions_found" = "टेक्स्ट क्षेत्र मिले";
+
+/* App Delegate */
+"alert_unsaved_title" = "बिना सहेजे बदलाव";
+"alert_unsaved_screenshots_title" = "बिना सहेजे सिल्की स्निप";
+"alert_unsaved_message" = "आपके पास बिना सहेजे सिल्की स्निप हैं। आप क्या करना चाहेंगे?";
+"btn_review" = "समीक्षा करें";
+"btn_discard" = "त्यागें";
+"alert_email_not_found_title" = "ईमेल क्लाइंट नहीं मिला";
+"alert_email_not_found_msg" = "डिफ़ॉल्ट ईमेल क्लाइंट नहीं खोल सका। कृपया हमें techsupport@silkyapple.com पर मैन्युअल रूप से ईमेल करें";
+"btn_copy_email" = "ईमेल कॉपी करें";
+"tooltip_dock_icon" = "सिल्की स्निप - स्क्रीन कैप्चर";
+"menu.restore.sticky" = "सिल्की नोट रिस्टोर करें";
+"menu.services" = "सेवाएं";
+"menu.help.title" = "सहायता";
+
+/* Ruler */
+"label_x_axis" = "X:";
+"label_y_axis" = "Y:";
+
+/* Activation */
+"label_standard_pricing_fallback" = "मानक मूल्य: $29.99 जीवन भर";
+
+/* Overlay Window */
+"label_hex" = "HEX:";
+"label_rgb" = "RGB:";
+"label_hsl" = "HSL:";
+"msg_copied" = "कॉपी किया गया!";
+"title_color_copied" = "रंग कॉपी किया गया";
+
+
+/* Synced missing keys - English fallback */
+"accessibility_appearance" = "उपस्थिति";
+"accessibility_general" = "सामान्य";
+"accessibility_tools" = "उपकरण";
+"alert_unsaved_message_format" = "You have %d unsaved items. Do you want to save them?";
+"alert_unsaved_title_annotations" = "सहेजी नहीं गई टिप्पणियां";
+"alert_unsaved_title_screenshots" = "सहेजे नहीं गए सिल्की स्निप";
+"btn_cancel" = "रद्द करें";
+"btn_change_ellipsis" = "बदलें...";
+"btn_copy" = "कॉपी करें";
+"checkbox_autosave" = "सिल्की स्निप ऑटो सेव करें";
+"data_generic" = "टेक्स्ट";
+"data_link" = "लिंक";
+"data_phone" = "फ़ोन";
+"format_jpg_compact" = "JPG (Compact)";
+"format_png_default" = "PNG (डिफ़ॉल्ट)";
+"label_autosave" = "ऑटो सेव";
+"label_tools_tab" = "उपकरण";
+"menu.flip.reset" = "रीसेट करें";
+"menu.hide.screenshots" = "सभी छिपाएं";
+"menu.intensity" = "तीव्रता";
+"menu.restore" = "पुनर्स्थापित करें";
+"menu.tools" = "उपकरण";
+"menu.unhide.screenshots" = "सभी दिखाएं";
+"menu.eraser.large" = "बड़ा";
+"menu.eraser.medium" = "मध्यम";
+"menu.eraser.small" = "छोटा";
+"menu.ghost.mode.off" = "घोस्ट मोड";
+"menu.ghost.mode.on" = "घोस्ट मोड";
+"menu.pen.medium" = "मध्यम";
+"menu.pen.thick" = "मोटा";
+"menu.pen.thin" = "पतला";
+"status_click_select" = "चुनने के लिए क्लिक करें";
+"status_regions_found_format" = "%d text regions found";
+"status_selected_count_format" = "%d of %d selected";
+"status_selected_type_format" = "%d %@ selected";
+"title_unsaved_changes" = "सहेजे नहीं गए बदलाव";
+
+"label_copied" = "Copied";
+"tab_tools" = "Tools";
+"tooltip_new_capture" = "सिल्की स्निप - Press ⌘N for new capture";
+"menu_services" = "Services";
+"menu_new_sticky_note" = "नया सिल्की नोट";
+"menu_sticky_notes" = "सिल्की नोट्स";
+"menu_show_all_sticky_notes" = "सभी सिल्की नोट्स दिखाएं";
+"menu_close_all_sticky_notes" = "सभी सिल्की नोट्स बंद करें";
+"title_app_running" = "सिल्की स्निप is Running";
+"welcome_to_app" = "Welcome to %@";
+"menu_enable_smart_restore" = "Enable Smart Restore";
+"menu_enable_to_allow_pinning" = "Enable to allow pinning";
+"menu_no_running_apps" = "No running apps found";
+"error_no_text_selected" = "No text selected";
+
+
+"menu_unpin_from_all" = "Unpin from All";
+
+
+/* Permissions Tab */
+"tab_permissions" = "अनुमतियां";
+"perm_screen_recording" = "स्क्रीन रिकॉर्डिंग";
+"perm_accessibility" = "एक्सेसिबिलिटी";
+"perm_granted" = "अनुमति दी गई";
+"perm_denied" = "अनुमति नहीं दी गई";
+"btn_open_settings" = "सेटिंग्स खोलें";
+
+
+/* Tooltips */
+"settings.language.tooltip" = "ऐप्लिकेशन इंटरफ़ेस के लिए भाषा सेट करें।";
+"settings.languagePopup.tooltip" = "अपनी पसंदीदा भाषा चुनें। सिस्टम डिफ़ॉल्ट आपके मैक की भाषा से मेल खाएगा।";
+"settings.launch.tooltip" = "लॉग इन करते समय ऐप को स्वचालित रूप से शुरू करें।";
+"settings.launchCheckbox.tooltip" = "इसे सक्षम करें ताकि आपको बार-बार मैन्युअल रूप से ऐप खोलने की आवश्यकता न हो।";
+"settings.autoSave.tooltip" = "बिना पूछे सभी सिल्की स्निप स्वचालित रूप से सहेजें।";
+"settings.autoSaveCheckbox.tooltip" = "सक्षम होने पर, सिल्की स्निप संवाद को छोड़ देते हैं और सीधे आपके सहेजे गए फ़ोल्डर में जाते हैं।";
+"settings.location.tooltip" = "वह फ़ोल्डर जहाँ आपके सिल्की स्निप सहेजे जाएँगे।";
+"settings.pathControl.tooltip" = "वर्तमान फ़ोल्डर पथ दिखाता है जहाँ आपके चित्र सहेजे जा रहे हैं।";
+"settings.changeButton.tooltip" = "सिल्की स्निप सहेजने के लिए एक अलग फ़ोल्डर चुनने के लिए क्लिक करें।";
+"settings.format.tooltip" = "आपके सहेजे गए सिल्की स्निप के लिए फ़ाइल प्रारूप।";
+"settings.formatPopup.tooltip" = "उच्चतम गुणवत्ता और पारदर्शिता के लिए PNG, या छोटे फ़ाइल आकार के लिए JPEG चुनें।";
+"settings.freezeScreen.tooltip" = "जैसे ही आप सिल्की स्निप शुरू करते हैं, स्क्रीन को तुरंत फ़्रीज़ करें।";
+"settings.freezeScreenCheckbox.tooltip" = "यदि सक्षम किया जाता है, तो मेनू कैप्चर करने के लिए स्क्रीन तुरंत फ़्रीज़ हो जाती है।";
+"settings.notifications.tooltip" = "सिल्की स्निप सफलतापूर्वक कैप्चर होने पर एक ऑडियो चलाएं।";
+"settings.soundsCheckbox.tooltip" = "कैमरा शटर ध्वनि को सक्षम या अक्षम करें।";
+"settings.opacity.tooltip" = "नए सिल्की स्निप के लिए डिफ़ॉल्ट पारदर्शिता सेट करें।";
+"settings.slider.tooltip" = "पारदर्शिता को समायोजित करने के लिए खींचें।";
+"settings.neon.tooltip" = "सिल्की स्निप के चारों ओर एक रंगीन चमक जोड़ें।";
+"settings.neonCheckbox.tooltip" = "सक्षम होने पर, सिल्की स्निप में एक चमकदार नियॉन सीमा होगी।";
+"settings.theme.tooltip" = "ऐप के लिए एक दृश्य विषय चुनें।";
+"settings.themePopup.tooltip" = "निऑन बॉर्डर रंग बदलता है।";
+"settings.click.tooltip" = "सिल्की स्निप पर क्लिक करने पर क्या होता है।";
+"settings.clickPopup.tooltip" = "एक क्लिक सिल्की स्निप को तुरंत बंद कर देता है। दोहरे क्लिक से आकस्मिक बंद होने से बचाव होता है।";
+"settings.magic.tooltip" = "सक्रिय एप्लिकेशन के आधार पर स्वचालित रूप से सिल्की स्निप दिखाएं/छिपाएं।";
+"settings.magicCheckbox.tooltip" = "सक्षम होने पर, आप सिल्की स्निप को विशिष्ट ऐप्स पर पिन कर सकते हैं।";
+"settings.advancedTools.tooltip" = "नियंत्रित करें कि राइट-क्लिक संदर्भ मेनू में कौन से टूल दिखाई देते हैं।";
+"settings.magnifyCheckbox.tooltip" = "पिक्सेल-स्तर पर ज़ूम करने के लिए मैग्निफाई टूल दिखाएं।";
+"settings.grayscaleCheckbox.tooltip" = "सिल्की स्निप को काले-सफेद में देखने के लिए ग्रैस्केल फ़िल्टर दिखाएं।";
+"settings.rulersCheckbox.tooltip" = "दूरी मापने और अलाइनमेंट के लिए रूलर टूल दिखाएं।";
+"settings.colorPickerCheckbox.tooltip" = "सिल्की स्निप से रंग कॉपी करने के लिए कलर पिकर टूल दिखाएं।";
+"settings.ghostModeCheckbox.tooltip" = "घोस्ट मोड दिखाएं (पीछे के विंडो के साथ इंटरैक्ट करने के लिए)।";
+
+/* Hardcoded UI Strings added via Script */
+"email_client_not_found" = "ईमेल क्लाइंट नहीं मिला";
+"email_client_not_found_msg" = "कृपया लॉग को techsupport@silkyapple.com पर मैन्युअल रूप से ईमेल करें।\n\nलॉग यहां स्थित हैं:\n~/लाइब्रेरी/एप्लिकेशन सपोर्ट/सिल्कीस्निप/ऑडिट.लॉग";
+"alert_unsaved_title_screenshot_single" = "आपके पास एक सिल्की स्निप है जो सहेजा नहीं गया है";
+"alert_unsaved_title_screenshot_plural" = "आपके पास %d सिल्की स्निप हैं जो सहेजे नहीं गए हैं";
+"alert_quit_save_msg" = "क्या आप छोड़ने से पहले अपने सिल्की स्निप सहेजना चाहते हैं?";
+"alert_clear_cache_title" = "कैश साफ़ करें?";
+"alert_clear_cache_msg" = "यह सभी कैश किए गए सिल्की स्निप और सिल्की नोट को स्थायी रूप से हटा देगा। यह क्रिया पूर्ववत नहीं की जा सकती।";
+"alert_unsaved_annotations_title" = "सहेजे न गए एनोटेशन";
+"alert_unsaved_annotations_msg" = "आपने इस सिल्की स्निप में एनोटेशन जोड़े हैं. परिवर्तनों को सुरक्षित करें?";
+"alert_unsaved_screenshot_title" = "सहेजा न गया सिल्की स्निप";
+"alert_unsaved_screenshot_msg" = "आपने इस सिल्की स्निप में एनोटेशन जोड़े हैं. बंद करने से पहले सहेजें?";
+"alert_license_revoked_title" = "लाइसेंस रद्द";
+"alert_license_revoked_msg" = "आपका लाइसेंस सर्वर द्वारा रद्द कर दिया गया है (रिफंड/चार्जबैक)। अब एप्लिकेशन बंद हो जाएगा.";
+"alert_capture_failed_title" = "कैप्चर विफल";
+"license_lifetime_format" = "%@: $%@ लाइफटाइम";
+
+/* Tool Names and Settings (Fixed & Localized) */
+"menu.grayscale" = "ग्रेस्केल";
+"tool_blur" = "मास्क";
+"checkbox_freeze_screen" = "त्वरित कैप्चर के लिए स्क्रीन फ्रीज करें";
+"tool_magnify" = "बढ़ावा";
+"menu.show.rulers" = "शासक दिखाएं";
+"menu.pick.color" = "रंग चुनें";
+"menu.annotations" = "Annotations";
+"menu.ghost.mode" = "घोस्ट मोड";
+
+/* Pin to App (Fixed) */
+"menu.pin.to.app" = "ऐप पर पिन करें";
+"btn_save" = "सहेजें";
+"btn_close_without_saving" = "सहेजे बिना बंद करें";
+"label_capture" = "कैप्चर";
+
+"btn_cancel_all" = "Cancel All";
+"checkbox_auto_copy" = "क्लिपबोर्ड पर स्वचालित कॉपी";
+"checkbox_show_dock" = "डॉक में दिखाएं";
+"label_behavior" = "व्यवहार";
+"tooltip_right_click_disable" = "रंग कोड कॉपी करने के लिए लेफ्ट क्लिक करें, अक्षम करने के लिए राइट क्लिक करें";

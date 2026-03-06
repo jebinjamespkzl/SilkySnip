@@ -1,0 +1,526 @@
+/* Generated from localization.json */
+
+"app_name" = "سيلكي سنيب";
+"company_name" = "سيلكي آبل";
+"ok" = "موافق";
+"cancel" = "إلغاء";
+"save" = "حفظ";
+"start" = "بدء";
+"title_setup" = "إعداد سيلكي سنيب";
+"setup_subtitle" = "تخصيص تجربتك";
+"section_general" = "عام";
+"label_language" = "اللغة";
+"section_appearance" = "المظهر";
+"label_edge_panel" = "استخدام اللوحة الجانبية";
+"desc_edge_panel" = "إذا تم تعطيله، فسيتم استخدام زر عائم.";
+"label_position" = "الموضع";
+"position_left" = "يسار";
+"position_right" = "يمين";
+"label_transparency" = "الشفافية";
+"section_actions" = "إجراءات";
+"label_trigger_key" = "مفتاح التنشيط";
+"section_storage" = "تخزين";
+"hint_save_folder" = "اسم المجلد";
+"label_auto_save" = "حفظ تلقائي";
+"btn_save_start" = "حفظ وبدء";
+"btn_privacy" = "سياسة الخصوصية";
+"btn_licenses" = "تراخيص";
+"menu.new" = "جديد";
+"menu.save.current" = "حفظ الحالي";
+"menu.save.all" = "حفظ الكل";
+"menu.copy.image" = "نسخ الصورة";
+"menu.quit" = "إنهاء";
+"menu.file" = "ملف";
+"menu.edit" = "تحرير";
+"menu.view" = "عرض";
+"menu.window" = "نافذة";
+"menu.help" = "مساعدة";
+"menu.minimize" = "تصغير";
+"menu.bring.all.front" = "إححضار الكل للمقدمة";
+"menu.undo" = "تراجع";
+"menu.redo" = "إعادة";
+"menu.cut" = "قص";
+"menu.copy" = "نسخ";
+"menu.paste" = "لصق";
+"menu.select.all" = "تحديد الكل";
+"tool_pen" = "قلم";
+"tool_highlighter" = "قلم تمييز";
+"tool_eraser" = "ممحاة";
+"tool_text" = "نص";
+"tool_crop" = "قص";
+"tool_move" = "تحريك";
+"menu.zoom" = "تكبير/تصغير";
+"menu.opacity" = "الشفافية";
+"menu.filters" = "مرشحات";
+"menu.flip" = "قلب";
+"menu.lock.display" = "قفل على الشاشة";
+"menu.dock.edge" = "إرساء للحافة";
+"menu.undock" = "إلغاء الإرساء";
+"menu.ocr" = "تحديد النص";
+"menu.pin" = "تثبيت";
+"menu.lock.screenshot" = "قفل";
+"menu.unlock.screenshot" = "فتح القفل";
+"menu.share" = "مشاركة...";
+"menu.hide" = "إخفاء";
+"menu.close" = "إغلاق";
+"color_black" = "أسود";
+"color_white" = "أبيض";
+"color_red" = "أحمر";
+"color_blue" = "أزرق";
+"color_green" = "أخضر";
+"color_orange" = "برتقالي";
+"color_yellow" = "أصفر";
+"color_pink" = "وردي";
+"color_cyan" = "سماوي";
+"color_lime" = "ليموني";
+"color_purple" = "أرجواني";
+"size_thin" = "رقيق";
+"size_medium" = "متوسط";
+"size_thick" = "سميك";
+"size_small" = "صغير";
+"size_normal" = "عادي";
+"size_large" = "كبير";
+"label_launch_behavior" = "سلوك التشغيل";
+"label_autosave_location" = "موقع الحفظ التلقائي";
+"label_autosave_format" = "تنسيق";
+"label_notifications" = "إشعارات";
+"title_preferences" = "الإعدادات";
+"checkbox_launch_login" = "تشغيل عند تسجيل الدخول";
+"checkbox_play_sounds" = "تشغيل الأصوات";
+"btn_change" = "تغيير";
+"title_select_location" = "تحديد الموقع";
+"label_default_opacity" = "الشفافية الافتراضية";
+"label_neon_border" = "حدود نيون";
+"label_theme" = "سمة";
+"checkbox_neon_glow" = "تمكين التوهج";
+"theme_cyberpunk" = "سايبربانك";
+"theme_matrix" = "ماتريكس";
+"theme_solar" = "شمسي";
+"label_click_behavior" = "سلوك النقر";
+"label_loupe_zoom" = "تكبير العدسة";
+"label_magic_restore" = "استعادة سحرية";
+"checkbox_smart_pinning" = "تثبيت ذكي";
+"click_single" = "نقر واحد للإغلاق";
+"click_double" = "نقر مزدوج للإغلاق";
+"title_save_screenshot" = "حفظ سيلكي سنيب";
+"msg_save_location" = "اختر موقعًا";
+"err_clipboard_image" = "فشل في إنشاء صورة للحافظة";
+"err_create_image" = "فشل في إنشاء الصورة";
+"err_pdf_consumer" = "فشل في إنشاء مستهلك بيانات PDF";
+"err_pdf_context" = "فشل في إنشاء سياق PDF";
+"err_save_pdf" = "فشل في حفظ ملف PDF";
+"err_encode_image" = "فشل في ترميز الصورة";
+"err_save" = "فشل الحفظ";
+"label_format" = "تنسيق";
+"title_export_failed" = "فشل التصدير";
+"menu.capture.delayed" = "التقاط مؤجل (مؤقت)";
+"menu.seconds" = "ثواني";
+"menu.enable.hotkeys" = "تمكين مفاتيح الاختصار";
+"menu.auto.copy" = "نسخ تلقائي";
+"menu.show.dock" = "إظهار في Dock";
+"menu.turn.off.ghost" = "إيقاف وضع الشبح";
+"menu.scrolling.capture" = "التقاط التمرير";
+"menu.close.current" = "إغلاق الحالي";
+"menu.close.all" = "إغلاق الكل";
+"menu.ungroup.all" = "فك تجميع الكل";
+"menu.group.all" = "تجميع الكل";
+"menu.hide.all" = "إخفاء الكل";
+"menu.unhide" = "إظهار";
+"menu.find.silkysnips" = "البحث عن سيلكي سنيبs";
+"menu.restore.last" = "استعادة الأخير";
+"menu.restore.all" = "استعادة الكل";
+"menu.clear.cached" = "مسح ذاكرة التخزين المؤقت";
+"menu.settings" = "إعدادات...";
+"menu.about" = "حول";
+"tool_speech_bubble" = "فقاعة الكلام";
+"section_tools" = "أدوات";
+"label_version" = "إصدار";
+"label_build" = "بناء";
+"label_rights_reserved" = "جميع الحقوق محفوظة.";
+"btn_rewards" = "الإحالات والمكافآت";
+"btn_check_updates" = "تحقق من وجود تحديثات";
+"permission_screen_title" = "إذن تسجيل الشاشة مطلوب";
+"permission_screen_desc" = "يحتاج سيلكي سنيب إلى الوصول لتسجيل شاشتك للعمل. يرجى منح الإذن في إعدادات النظام.";
+"btn_open_settings" = "فتح الإعدادات";
+"accessibility_service_description" = "يحتاج سيلكي سنيب إلى إذن إمكانية الوصول لاكتشاف ضغطات مفتاح مستوى الصوت لالتقاط سيلكي سنيب.";
+"accessibility_service_label" = "خدمة اختصار سيلكي سنيب";
+"crash_dialog_title" = "أبليكيشن كراش";
+"crash_dialog_message" = "سيلكي سنيب has encountered an unexpected error. Would you like to send a crash report to help us fix it?";
+"crash_dialog_send" = "إرسال التقرير";
+"crash_dialog_cancel" = "إغلاق";
+"email_subject_crash" = "سيلكي سنيب Android Crash Report";
+"email_body_crash" = "يرجى وصف ما حدث قبل التعطل:\n\n";
+"notification_running" = "سيلكي سنيب قيد التشغيل";
+"title_activation" = "تفعيل سيلكي سنيب";
+"alert_license_revoked" = "تم إلغاء الترخيص";
+"alert_license_revoked_message" = "تم إلغاء ترخيصك من الخادم (استرداد). سيتم إغلاق التطبيق الآن.";
+"alert_crash_message" = "هل ترغب في إرسال تقرير عطل إلى المطورين؟ هذا يساعدنا على إصلاح المشكلات بشكل أسرع.";
+"alert_hotkey_conflict" = "لا يمكن تسجيل بعض اختصارات لوحة المفاتيح العامة. قد تتعارض مع تطبيقات أخرى.";
+"alert_latest_version" = "سيلكي سنيب محدث.";
+"alert_save_before_quit" = "هل تريد حفظ سيلكي سنيب قبل الخروج؟";
+"alert_clear_cache_confirm" = "سيؤدي هذا إلى حذف جميع سيلكي سنيب وسيلكي نوت المخزنة مؤقتًا بشكل دائم. لا يمكن التراجع عن هذا الإجراء.";
+"alert_activation_failed" = "فشل التفعيل";
+"alert_max_devices" = "لقد وصلت إلى الحد الأقصى لعدد الأجهزة.
+
+هل تريد إلغاء تنشيط أقدم جهاز لديك للمتابعة؟";
+"alert_device_deactivated" = "تم إلغاء تنشيط الجهاز";
+"alert_device_deactivated_message" = "تم إلغاء رمز أقدم جهاز. الجلسة الجديدة نشطة.";
+"alert_capture_failed" = "فشل الالتقاط";
+"alert_coming_soon" = "قريباً";
+"alert_rewards_coming" = "سيتم تمكين المطالبة بالمكافآت في التحديث القادم.";
+"alert_ocr_disabled" = "تم تعطيل استخراج النص بموجب سياسة مؤسستك.";
+"btn_activate_license" = "تفعيل الترخيص";
+"btn_deactivate_oldest" = "إلغاء تنشيط الأقدم";
+"btn_get_started" = "ابدأ";
+"btn_claim_reward" = "المطالبة بالمكافأة";
+"btn_send_report" = "إرسال التقرير";
+"btn_save_all" = "حفظ الكل";
+"btn_clear_cache" = "مسح ذاكرة التخزين المؤقت";
+"btn_continue" = "متابعة";
+"btn_waiting_permissions" = "في انتظار الأذونات...";
+"btn_select_all" = "تحديد الكل";
+"menu.hide.others" = "إخفاء الآخرين";
+"menu.show.all" = "إظهار الكل";
+"menu.neon.border" = "حدود نيون";
+"menu.flip.horizontal" = "قلب أفقي";
+"menu.flip.vertical" = "قلب عمودي";
+"feature_persistent_overlays" = "تراكبات دائمة";
+"feature_persistent_overlays_desc" = "تبقى سيلكي سنيب على الشاشة للرجوع إليها";
+"feature_quick_annotations" = "تعليقات سريعة";
+"feature_quick_annotations_desc" = "قم بتعليق الالتقاطات بالأسهم والنص";
+"feature_instant_restore" = "استعادة فورية";
+"feature_instant_restore_desc" = "اضغط ⌃Z (Ctrl+Z) لاستعادة الالتقاطات المغلقة";
+"onboarding_screen_recording" = "تسجيل الشاشة";
+"onboarding_permissions_required" = "الأذونات مطلوبة";
+"system_default" = "الافتراضي للنظام";
+"error_invalid_response" = "استجابة غير صالحة";
+"error_invalid_signature" = "توقيع غير صالح";
+"feature_capture_region" = "التقاط أي منطقة";
+"feature_capture_region_desc" = "اضغط ⌃N (Ctrl+N) لالتقاط أي جزء من شاشتك";
+"error_hotkey_conflict" = "فشل تسجيل الاختصار";
+"title_activate_silkysnip" = "تفعيل سيلكي سنيب";
+"label_enter_license_key" = "أدخل مفتاح الترخيص الخاص بك";
+"label_loading_price" = "جاري تحميل السعر...";
+"label_standard_pricing" = "السعر القياسي: 29.99 دولار مدى الحياة";
+"btn_start_trial" = "بدء التجربة المجانية لمدة 7 أيام";
+"error_please_enter_key" = "يرجى إدخال مفتاح";
+"alert_device_limit_reached" = "تم الوصول إلى حد الأجهزة (2/2)";
+"onboarding_accessibility" = "إمكانية الوصول";
+"onboarding_screen_recording_desc" = "مطلوب لالتقاط مناطق الشاشة لسيلكي سنيب.";
+"onboarding_accessibility_desc" = "مطلوب لاختصارات لوحة المفاتيح العامة (⌘N، ⌘Z، إلخ).";
+"onboarding_permissions_subtitle" = "يحتاج سيلكي سنيب إلى الأذونات التالية للعمل بشكل صحيح";
+"onboarding_permission_info" = "بعد منح الأذونات في إعدادات النظام، عد إلى هذه النافذة. إذا لم يتم تحديث الحالة، حاول إعادة تشغيل التطبيق.";
+"label_required" = "مطلوب";
+"btn_grant" = "منح";
+"title_referrals_rewards" = "الإحالات والمكافآت";
+"label_refer_earn" = "أحِل واكسب";
+"label_refer_earn_desc" = "شارك سيلكي سنيب مع أصدقائك للحصول على ميزات Pro مجانية!";
+"label_lifetime_referrals" = "الإحالات مدى الحياة:";
+"label_monthly_referrals" = "الإحالات الشهرية:";
+"label_confirmed" = "مؤكد";
+"label_loading_stats" = "جاري تحميل الإحصائيات...";
+"label_invite_friends" = "قم بدعوة الأصدقاء لفتح المكافآت.";
+"label_play_sounds" = "تشغيل الأصوات";
+"toast_max_overlays" = "الحد الأقصى 10 طبقات نشطة";
+"toast_restored_count" = "تم استعادة %d سيلكي سنيب";
+"toast_screenshot_saved" = "تم حفظ سيلكي سنيب";
+"toast_failed_save" = "فشل في الحفظ";
+"toast_copied_clipboard" = "تم النسخ إلى الحافظة";
+"toast_failed_copy" = "فشل في النسخ";
+"toast_failed_share" = "فشل في المشاركة";
+"toast_screenshot_hidden" = "سيلكي سنيب مخفية";
+"toast_restored" = "تم الاستعادة";
+"toast_text_copied" = "تم نسخ النص: %s...";
+"toast_no_text_found" = "لم يتم العثور على نص";
+"toast_ocr_failed" = "فشل في التعرف على النص";
+"notification_title_active" = "سيلكي سنيب نشط";
+"notification_text_manage" = "اضغط على الأزرار لإدارة سيلكي سنيب";
+"action_restore_cached" = "استعادة المخزن المؤقت";
+"action_group" = "تجميع";
+"action_ungroup" = "فك التجميع";
+"share_screenshot" = "مشاركة سيلكي سنيب";
+"error_overlay_permission" = "تم رفض إذن التراكب";
+"error_screen_capture" = "تم رفض إذن التقاط الشاشة";
+"option_volume_up" = "رفع الصوت";
+"option_volume_down" = "خفض الصوت";
+"option_none" = "لا شيء";
+"title_open_source_licenses" = "تراخيص مفتوحة المصدر";
+"toast_no_logs" = "لم يتم العثور على سجلات للإرسال.";
+"toast_no_email_client" = "لم يتم العثور على تطبيق بريد إلكتروني.";
+"action_send_crash_report" = "إرسال تقرير التعطل";
+"channel_screen_capture" = "التقاط شاشة سيلكي سنيب";
+"crash_dialog_windows_title" = "تقرير تعطل سيلكي سنيب";
+"crash_dialog_windows_message" = "تعطل سيلكي سنيب خلال الجلسة السابقة.
+
+هل تريد إرسال تقرير التعطل إلى المطورين؟
+(يساعدنا هذا في إصلاح المشاكل بشكل أسرع!)";
+"error_mail_client" = "تعذر فتح عميل البريد تلقائيًا. يرجى إرسال السجلات يدويًا إلى contact@silkyapple.com";
+"tray_tooltip" = "سيلكي سنيب - اضغط Win+Alt+N لالتقاط جديد";
+"menu.unhide.all" = "إظهار الكل";
+"menu.about.silkysnip" = "حول سيلكي سنيب";
+"about_text" = "سيلكي سنيب لنظام ويندوز
+الإصدار {0}
+
+© 2024-2026 Silky Apple Technologies
+جميع الحقوق محفوظة.
+
+تراخيص مفتوحة المصدر:
+- SharpDX (MIT)
+- Hardcodet TaskbarNotification (MIT)
+- .NET Runtime (MIT)";
+"confirm_quit_title" = "لقطات شاشة غير محفوظة";
+"confirm_quit_one" = "لديك سيلكي سنيب غير محفوظة";
+"confirm_quit_many" = "لديك {0} سيلكي سنيب غير محفوظة";
+"confirm_quit_message" = "هل تريد حفظ سيلكي سنيب قبل الخروج؟";
+"clear_cache_title" = "مسح ذاكرة التخزين المؤقت";
+"clear_cache_message" = "مسح جميع سيلكي سنيب المخزنة مؤقتاً؟";
+"dialog.save.screenshot" = "حفظ سيلكي سنيب";
+"error_copy_clipboard" = "فشل في نسخ الصورة إلى الحافظة";
+"error_create_image" = "فشل في إنشاء الصورة";
+"error_save_failed" = "فشل في الحفظ: {0}";
+"error_export_failed" = "فشل التصدير";
+"restart_required_title" = "إعادة التشغيل مطلوبة";
+"restart_required_message" = "يرجى إعادة تشغيل سيلكي سنيب لتطبيق تغييرات اللغة.";
+"translation_warning_title" = "إشعار الترجمة";
+"translation_warning_message" = "يتم إنشاء الترجمات باستخدام مترجمين آليين وقد تحتوي على أخطاء. إذا وجدت أي مشاكل في الترجمة، يرجى الإبلاغ عنها لمساعدتنا في التحسين.";
+"report_translation_error" = "الإبلاغ عن خطأ في الترجمة";
+"email_subject_translation" = "سيلكي سنيب Translation Error Report";
+"email_body_translation" = "مرحبًا،
+
+وجدت خطأ في الترجمة:
+
+اللغة: 
+الشاشة/الموقع: 
+النص الحالي: 
+التصحيح المقترح: 
+
+شكرًا!";
+
+/* New Localization Keys (Arabic) */
+"format_tiff_high_quality" = "TIFF (جودة عالية)";
+"format_pdf_document" = "PDF (وثيقة)";
+"label_show_in_menu" = "عرض في القائمة:";
+"zoom_2x" = "2x";
+"zoom_4x" = "4x";
+"zoom_8x" = "8x";
+
+/* About Window */
+"accessibility_app_icon" = "أيقونة سيلكي سنيب";
+"label_copyright_format" = "حقوق الطبع والنشر © 2026 %@.";
+"license_text_header" = "يستخدم سيلكي سنيب البرامج مفتوحة المصدر التالية:\n\n";
+"license_text_footer" = "\n\nللحصول على نص الترخيص الكامل، يرجى زيارة موقعنا على الإنترنت.";
+"license_swift" = "• Swift (Apache 2.0)";
+"license_sparkle" = "• Sparkle (MIT)";
+"license_logmanager" = "• LogManager (مخصص)";
+
+/* Welcome Window */
+"welcome_subtitle" = "التقاط سريع للشاشة مع تراكبات دائمة";
+"legal_footer_format" = "بالنقر فوق ابدأ، فإنك تقر باتفاقية ترخيص المستخدم النهائي وسياسة الخصوصية الخاصة بنا. حقوق الطبع والنشر © 2026 %@. جميع الحقوق محفوظة. يحظر النسخ أو التوزيع غير المصرح به منعا باتا.";
+
+/* Sticky Notes */
+"color_select_yellow" = "أصفر";
+"color_select_pink" = "وردي";
+"color_select_cyan" = "سماوي";
+"color_select_green" = "أخضر";
+"color_select_white" = "أبيض";
+"sticky_font_small" = "صغير";
+"sticky_font_normal" = "عادي";
+"sticky_font_large" = "كبير";
+"menu.text.format" = "تنسيق النص";
+"format_bold" = "عريض";
+"format_underline" = "تسطير";
+"format_strikethrough" = "يتوسطه خط";
+"menu.font.size" = "حجم الخط";
+"menu.list.style" = "نمط القائمة";
+"list_none" = "لا شيء";
+"list_bullet" = "نقطي";
+"list_numbered" = "مرقم";
+"menu.sticky.color" = "لون الملاحظة اللاصقة";
+"menu.close.note" = "إغلاق الملاحظة";
+"accessibility_close" = "إغلاق";
+
+/* Context Menu & Tools */
+"menu.new.sticky" = "سيلكي نوت جديدة";
+"menu.turn.on.ghost" = "تشغيل وضع الشبح";
+"zoom_actual_size" = "الحجم الفعلي";
+"zoom_percent_format" = "%d%%";
+"alert_ocr_disabled_title" = "تفاصيل محمية";
+
+/* Text Selection */
+"text_selection_hint" = "انقر فوق النص للتحديد، أو اسحب للتحديد المتعدد";
+"btn_open" = "فتح";
+"btn_clear" = "مسح";
+"status_no_text" = "لم يتم تحديد نص";
+"type_link" = "رابط";
+"type_phone" = "هاتف";
+"type_data" = "بيانات";
+"status_found_format" = "تم العثور على: %@";
+"status_regions_selected_format" = "تم تحديد %d مناطق";
+"status_regions_found" = "تم العثور على مناطق نصية";
+
+/* App Delegate */
+"alert_unsaved_title" = "تغييرات غير محفوظة";
+"alert_unsaved_screenshots_title" = "لقطات شاشة غير محفوظة";
+"alert_unsaved_message" = "لديك لقطات شاشة غير محفوظة. ماذا تريد أن تفعل؟";
+"btn_review" = "مراجعة";
+"btn_discard" = "تجاهل";
+"alert_email_not_found_title" = "لم يتم العثور على عميل البريد الإلكتروني";
+"alert_email_not_found_msg" = "تعذر فتح عميل البريد الإلكتروني الافتراضي. يرجى مراسلتنا يدويًا على techsupport@silkyapple.com";
+"btn_copy_email" = "نسخ البريد الإلكتروني";
+"tooltip_dock_icon" = "سيلكي سنيب - سيلكي سنيب";
+"menu.restore.sticky" = "استعادة سيلكي نوت";
+"menu.services" = "خدمات";
+"menu.help.title" = "مساعدة";
+
+/* Ruler */
+"label_x_axis" = "X:";
+"label_y_axis" = "Y:";
+
+/* Activation */
+"label_standard_pricing_fallback" = "السعر القياسي: 29.99 دولار مدى الحياة";
+
+/* Overlay Window */
+"label_hex" = "HEX:";
+"label_rgb" = "RGB:";
+"label_hsl" = "HSL:";
+"msg_copied" = "تم النسخ!";
+"title_color_copied" = "تم نسخ اللون";
+
+
+/* Synced missing keys - English fallback */
+"accessibility_appearance" = "المظهر";
+"accessibility_general" = "عام";
+"accessibility_tools" = "أدوات";
+"alert_unsaved_message_format" = "You have %d unsaved items. Do you want to save them?";
+"alert_unsaved_title_annotations" = "شروحات غير محفوظة";
+"alert_unsaved_title_screenshots" = "لقطات شاشة غير محفوظة";
+"btn_cancel" = "إلغاء";
+"btn_change_ellipsis" = "تغيير...";
+"btn_copy" = "نسخ";
+"checkbox_autosave" = "حفظ سيلكي سنيب تلقائيًا";
+"data_generic" = "نص";
+"data_link" = "رابط";
+"data_phone" = "هاتف";
+"format_jpg_compact" = "JPG (Compact)";
+"format_png_default" = "PNG (افتراضي)";
+"label_autosave" = "حفظ تلقائي";
+"label_tools_tab" = "أدوات";
+"menu.flip.reset" = "إعادة تعيين";
+"menu.hide.screenshots" = "إخفاء الكل";
+"menu.intensity" = "كثافة";
+"menu.restore" = "استعادة";
+"menu.tools" = "أدوات";
+"menu.unhide.screenshots" = "إظهار الكل";
+"menu.eraser.large" = "كبير";
+"menu.eraser.medium" = "متوسط";
+"menu.eraser.small" = "صغير";
+"menu.ghost.mode.off" = "وضع الشبح";
+"menu.ghost.mode.on" = "وضع الشبح";
+"menu.pen.medium" = "متوسط";
+"menu.pen.thick" = "سميك";
+"menu.pen.thin" = "رفيع";
+"status_click_select" = "انقر للتحديد";
+"status_regions_found_format" = "%d text regions found";
+"status_selected_count_format" = "%d of %d selected";
+"status_selected_type_format" = "%d %@ selected";
+"title_unsaved_changes" = "تغييرات غير محفوظة";
+
+"label_copied" = "Copied";
+"tab_tools" = "Tools";
+"tooltip_new_capture" = "سيلكي سنيب - Press ⌘N for new capture";
+"menu_services" = "Services";
+"menu_new_sticky_note" = "سيلكي نوت جديدة";
+"menu_sticky_notes" = "سيلكي نوتس";
+"menu_show_all_sticky_notes" = "إظهار كافة سيلكي نوتس";
+"menu_close_all_sticky_notes" = "إغلاق كافة سيلكي نوتس";
+"title_app_running" = "سيلكي سنيب is Running";
+"welcome_to_app" = "Welcome to %@";
+"menu_enable_smart_restore" = "Enable Smart Restore";
+"menu_enable_to_allow_pinning" = "Enable to allow pinning";
+"menu_no_running_apps" = "No running apps found";
+"error_no_text_selected" = "No text selected";
+
+
+"menu_unpin_from_all" = "Unpin from All";
+
+
+/* Permissions Tab */
+"tab_permissions" = "الأذونات";
+"perm_screen_recording" = "تسجيل الشاشة";
+"perm_accessibility" = "إمكانية الوصول";
+"perm_granted" = "ممنوح";
+"perm_denied" = "غير ممنوح";
+"btn_open_settings" = "فتح الإعدادات";
+
+
+/* Tooltips */
+"settings.language.tooltip" = "تعيين لغة واجهة التطبيق.";
+"settings.languagePopup.tooltip" = "اختر لغتك المفضلة. النظام الافتراضي سيتطابق مع لغة جهازك.";
+"settings.launch.tooltip" = "بدء التطبيق تلقائياً عند تسجيل الدخول.";
+"settings.launchCheckbox.tooltip" = "قم بتمكين هذا حتى لا تضطر إلى فتح التطبيق يدوياً.";
+"settings.autoSave.tooltip" = "حفظ جميع اللقطات تلقائيًا دون سؤال.";
+"settings.autoSaveCheckbox.tooltip" = "يتخطى مربع الحوار ويحفظ اللقطات مباشرة في المجلد المحدد.";
+"settings.location.tooltip" = "المجلد الذي سيتم حفظ اللقطات فيه.";
+"settings.pathControl.tooltip" = "يعرض مسار المجلد الحالي.";
+"settings.changeButton.tooltip" = "انقر لتحديد مجلد مختلف.";
+"settings.format.tooltip" = "صيغة الملف للقطات المحفوظة.";
+"settings.formatPopup.tooltip" = "اختر PNG للحصول على أعلى جودة أو JPEG لتقليل حجم الملف.";
+"settings.freezeScreen.tooltip" = "تجميد الشاشة فور بدء الالتقاط.";
+"settings.freezeScreenCheckbox.tooltip" = "عند التفعيل، تتجمد الشاشة لالتقاط القوائم المؤقتة.";
+"settings.notifications.tooltip" = "تشغيل صوت عند نجاح التقاط الشاشة.";
+"settings.soundsCheckbox.tooltip" = "تفعيل أو تعطيل صوت كاميرا الالتقاط.";
+"settings.opacity.tooltip" = "تعيين الشفافية الافتراضية للقطات الجديدة.";
+"settings.slider.tooltip" = "اسحب لضبط الشفافية.";
+"settings.neon.tooltip" = "إضافة توهج ملون حول اللقطات.";
+"settings.neonCheckbox.tooltip" = "يضيف إطار متوهج للقطات. يتم التحكم باللون من إعداد السمات.";
+"settings.theme.tooltip" = "اختر مظهرا مرئيا للتطبيق.";
+"settings.themePopup.tooltip" = "يغير لون التوهج — Cyberpunk، Matrix، أو Solar.";
+"settings.click.tooltip" = "كيف يعمل النقر على اللقطة.";
+"settings.clickPopup.tooltip" = "نقرة واحدة تغلق اللقطة فوراً. النقر المزدوج يقلل من الإغلاق العرضي.";
+"settings.magic.tooltip" = "إظهار/إخفاء اللقطات تلقائياً بناءً على التطبيق النشط.";
+"settings.magicCheckbox.tooltip" = "يظهر اللقطة فقط عند تفعيل التطبيق المرتبط بها.";
+"settings.advancedTools.tooltip" = "تحكم في الأدوات التي تظهر في قائمة النقر بزر الماوس الأيمن.";
+"settings.magnifyCheckbox.tooltip" = "إظهار أداة التكبير.";
+"settings.grayscaleCheckbox.tooltip" = "إظهار مرشح الأبيض والأسود.";
+"settings.rulersCheckbox.tooltip" = "إظهار أداة المساطر.";
+"settings.colorPickerCheckbox.tooltip" = "إظهار أداة تحديد الألوان.";
+"settings.ghostModeCheckbox.tooltip" = "إظهار وضع الشبح للتفاعل مع النوافذ الخلفية.";
+
+/* Hardcoded UI Strings added via Script */
+"email_client_not_found" = "لم يتم العثور على عميل البريد الإلكتروني";
+"email_client_not_found_msg" = "يرجى إرسال السجلات يدويًا بالبريد الإلكتروني إلى techsupport@silkyapple.com.\n\nالسجلات موجودة في:\n~/Library/Application Support/سيلكي سنيب/audit.log";
+"alert_unsaved_title_screenshot_single" = "لديك سيلكي سنيب لم يتم حفظها";
+"alert_unsaved_title_screenshot_plural" = "لديك %d من سيلكي سنيب التي لم يتم حفظها";
+"alert_quit_save_msg" = "هل تريد حفظ سيلكي سنيب الخاصة بك قبل الخروج؟";
+"alert_clear_cache_title" = "هل تريد مسح ذاكرة التخزين المؤقت؟";
+"alert_clear_cache_msg" = "سيؤدي هذا إلى حذف جميع سيلكي سنيب وسيلكي نوت المخزنة مؤقتًا بشكل دائم. لا يمكن التراجع عن هذا الإجراء.";
+"alert_unsaved_annotations_title" = "التعليقات التوضيحية غير المحفوظة";
+"alert_unsaved_annotations_msg" = "لقد أضفت تعليقات توضيحية إلى سيلكي سنيب هذه. هل تريد حفظ التغييرات؟";
+"alert_unsaved_screenshot_title" = "سيلكي سنيب غير المحفوظة";
+"alert_unsaved_screenshot_msg" = "لقد أضفت تعليقات توضيحية إلى سيلكي سنيب هذه. هل تريد الحفظ قبل الإغلاق؟";
+"alert_license_revoked_title" = "تم إلغاء الترخيص";
+"alert_license_revoked_msg" = "لقد تم إلغاء الترخيص الخاص بك من قبل الخادم (استرداد الأموال/استرداد المبالغ المدفوعة). سيتم إغلاق التطبيق الآن.";
+"alert_capture_failed_title" = "فشل الالتقاط";
+"license_lifetime_format" = "%@: $%@ مدى الحياة";
+
+/* Tool Names and Settings (Fixed & Localized) */
+"menu.grayscale" = "تدرج رمادي";
+"tool_blur" = "قناع";
+"checkbox_freeze_screen" = "تجميد الشاشة لالتقاط فوري";
+"tool_magnify" = "تكبير";
+"menu.show.rulers" = "عرض المساطر";
+"menu.pick.color" = "منتقي الألوان";
+"menu.annotations" = "Annotations";
+"menu.ghost.mode" = "وضع الأشباح";
+
+/* Pin to App (Fixed) */
+"menu.pin.to.app" = "تثبيت في التطبيق";
+"btn_save" = "حفظ";
+"btn_close_without_saving" = "إغلاق دون حفظ";
+"label_capture" = "الالتقاط";
+
+"btn_cancel_all" = "Cancel All";
+"checkbox_auto_copy" = "نسخ تلقائي إلى الحافظة";
+"checkbox_show_dock" = "إظهار في الشريط السفلي";
+"label_behavior" = "السلوك";
+"tooltip_right_click_disable" = "انقر بالزر الأيسر لنسخ رمز اللون، انقر بالزر الأيمن للتعطيل";

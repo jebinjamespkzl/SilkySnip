@@ -1,0 +1,523 @@
+/* Generated from localization.json */
+
+"app_name" = "실키 스닙";
+"company_name" = "실키애플";
+"ok" = "확인";
+"cancel" = "취소";
+"save" = "저장";
+"start" = "시작";
+"title_setup" = "실키 스닙 설정";
+"setup_subtitle" = "환경 사용자 지정";
+"section_general" = "일반";
+"label_language" = "언어";
+"section_appearance" = "모양";
+"label_edge_panel" = "Edge 패널 사용";
+"desc_edge_panel" = "비활성화하면 플로팅 버튼이 사용됩니다.";
+"label_position" = "위치";
+"position_left" = "왼쪽";
+"position_right" = "오른쪽";
+"label_transparency" = "투명도";
+"section_actions" = "동작";
+"label_trigger_key" = "트리거 키";
+"section_storage" = "저장 공간";
+"hint_save_folder" = "저장 폴더 이름";
+"label_auto_save" = "자동 저장 모드";
+"btn_save_start" = "저장 및 실키 스닙 시작";
+"btn_privacy" = "개인정보 처리방침";
+"btn_licenses" = "라이선스";
+"menu.new" = "새로 만들기";
+"menu.save.current" = "현재 항목 저장";
+"menu.save.all" = "모두 저장";
+"menu.copy.image" = "이미지 복사";
+"menu.quit" = "실키 스닙 종료";
+"menu.file" = "파일";
+"menu.edit" = "편집";
+"menu.view" = "보기";
+"menu.window" = "창";
+"menu.help" = "도움말";
+"menu.minimize" = "최소화";
+"menu.bring.all.front" = "모두 앞으로 가져오기";
+"menu.undo" = "실행 취소";
+"menu.redo" = "다시 실행";
+"menu.cut" = "잘라내기";
+"menu.copy" = "복사";
+"menu.paste" = "붙여넣기";
+"menu.select.all" = "전체 선택";
+"tool_pen" = "펜";
+"tool_highlighter" = "형광펜";
+"tool_eraser" = "지우개";
+"tool_text" = "텍스트";
+"tool_crop" = "자르기";
+"tool_move" = "이동 모드";
+"menu.zoom" = "확대/축소";
+"menu.opacity" = "불투명도";
+"menu.filters" = "필터";
+"menu.flip" = "뒤집기";
+"menu.lock.display" = "디스플레이에 잠금";
+"menu.dock.edge" = "가장자리에 도킹";
+"menu.undock" = "도킹 해제";
+"menu.ocr" = "텍스트 선택 (OCR)";
+"menu.pin" = "앱에 고정";
+"menu.lock.screenshot" = "SilkySnip 잠금";
+"menu.unlock.screenshot" = "SilkySnip 잠금 해제";
+"menu.share" = "공유...";
+"menu.hide" = "숨기기";
+"menu.close" = "닫기";
+"color_black" = "검정";
+"color_white" = "흰색";
+"color_red" = "빨강";
+"color_blue" = "파랑";
+"color_green" = "초록";
+"color_orange" = "주황";
+"color_yellow" = "노랑";
+"color_pink" = "분홍";
+"color_cyan" = "청록";
+"color_lime" = "라임";
+"color_purple" = "보라";
+"size_thin" = "얇게";
+"size_medium" = "중간";
+"size_thick" = "두껍게";
+"size_small" = "작게";
+"size_normal" = "보통";
+"size_large" = "크게";
+"label_launch_behavior" = "실행 동작";
+"label_autosave_location" = "자동 저장 위치";
+"label_autosave_format" = "자동 저장 형식";
+"label_notifications" = "알림";
+"title_preferences" = "실키 스닙 설정";
+"checkbox_launch_login" = "로그인 시 실행";
+"checkbox_play_sounds" = "사운드 재생";
+"btn_change" = "변경";
+"title_select_location" = "자동 저장 위치 선택";
+"label_default_opacity" = "기본 불투명도";
+"label_neon_border" = "네온 테두리";
+"label_theme" = "테마";
+"checkbox_neon_glow" = "네온 효과 활성화";
+"theme_cyberpunk" = "사이버펑크 (기본)";
+"theme_matrix" = "매트릭스 (녹색/검정)";
+"theme_solar" = "솔라 (주황/빨강)";
+"label_click_behavior" = "클릭 동작";
+"label_loupe_zoom" = "돋보기 확대";
+"label_magic_restore" = "매직 복원";
+"checkbox_smart_pinning" = "스마트 앱 고정 활성화";
+"click_single" = "한 번 클릭으로 닫기";
+"click_double" = "두 번 클릭으로 닫기";
+"title_save_screenshot" = "SilkySnip 저장";
+"msg_save_location" = "SilkySnip을 저장할 위치를 선택하세요";
+"err_clipboard_image" = "클립보드 이미지를 생성하지 못했습니다";
+"err_create_image" = "이미지를 생성하지 못했습니다";
+"err_pdf_consumer" = "PDF 데이터 컨슈머를 생성하지 못했습니다";
+"err_pdf_context" = "PDF 컨텍스트를 생성하지 못했습니다";
+"err_save_pdf" = "PDF를 저장하지 못했습니다";
+"err_encode_image" = "이미지를 인코딩하지 못했습니다";
+"err_save" = "저장하지 못했습니다";
+"label_format" = "형식";
+"title_export_failed" = "내보내기 실패";
+"menu.capture.delayed" = "타이머 캡처";
+"menu.seconds" = "초";
+"menu.enable.hotkeys" = "글로벌 단축키 활성화";
+"menu.auto.copy" = "클립보드에 자동 복사";
+"menu.show.dock" = "Dock에서 보기";
+"menu.turn.off.ghost" = "고스트 모드 끄기";
+"menu.scrolling.capture" = "스크롤 캡처";
+"menu.close.current" = "현재 창 닫기";
+"menu.close.all" = "모두 닫기";
+"menu.ungroup.all" = "모두 그룹 해제";
+"menu.group.all" = "모두 그룹화";
+"menu.hide.all" = "모두 숨기기";
+"menu.unhide" = "숨기기 취소";
+"menu.find.silkysnips" = "실키 스닙 찾기";
+"menu.restore.last" = "마지막 항목 복원";
+"menu.restore.all" = "모두 복원";
+"menu.clear.cached" = "캐시 지우기";
+"menu.settings" = "설정...";
+"menu.about" = "실키 스닙 정보";
+"tool_speech_bubble" = "말풍선";
+"section_tools" = "도구";
+"label_version" = "버전";
+"label_build" = "빌드";
+"label_rights_reserved" = "모든 권리 보유.";
+"btn_rewards" = "추천 및 보상";
+"btn_check_updates" = "업데이트 확인";
+"permission_screen_title" = "화면 녹화 권한 필요";
+"permission_screen_desc" = "실키 스닙가 작동하려면 화면 녹화 권한이 필요합니다. 시스템 설정에서 권한을 허용해 주세요.";
+"btn_open_settings" = "시스템 설정 열기";
+"accessibility_service_description" = "실키 스닙가 SilkySnip을 찍기 위해 볼륨 키 입력을 감지하려면 접근성 권한이 필요합니다.";
+"accessibility_service_label" = "실키 스닙 단축키 서비스";
+"crash_dialog_title" = "애플리케이션 크래시";
+"crash_dialog_message" = "실키 스닙에서 예기치 않은 오류가 발생했습니다. 수정을 위해 충돌 보고서를 보내시겠습니까?";
+"crash_dialog_send" = "보고서 보내기";
+"crash_dialog_cancel" = "닫기";
+"email_subject_crash" = "실키 스닙 Android Crash Report";
+"email_body_crash" = "충돌 전에 무슨 일이 있었는지 설명해 주세요:\n\n";
+"notification_running" = "실키 스닙가 실행 중입니다";
+"title_activation" = "실키 스닙 활성화";
+"alert_license_revoked" = "라이센스가 취소되었습니다";
+"alert_license_revoked_message" = "서버에서 라이센스가 취소되었습니다 (환불/지불 거절). 애플리케이션이 종료됩니다.";
+"alert_crash_message" = "개발자에게 충돌 보고서를 보내시겠습니까? 이를 통해 문제를 더 빠르게 해결할 수 있습니다.";
+"alert_hotkey_conflict" = "일부 전역 단축키를 등록할 수 없습니다. 다른 애플리케이션과 충돌할 수 있습니다.";
+"alert_latest_version" = "실키 스닙가 최신 버전입니다.";
+"alert_save_before_quit" = "종료하기 전에 SilkySnip을 저장하시겠습니까?";
+"alert_clear_cache_confirm" = "이렇게 하면 캐시된 모든 SilkySnip과 SilkyNote가 영구적으로 삭제됩니다. 이 작업은 취소할 수 없습니다.";
+"alert_activation_failed" = "활성화 실패";
+"alert_max_devices" = "최대 기기 수에 도달했습니다.
+
+계속하려면 가장 오래된 기기를 비활성화하시겠습니까?";
+"alert_device_deactivated" = "기기가 비활성화되었습니다";
+"alert_device_deactivated_message" = "가장 오래된 기기 토큰이 취소되었습니다. 새 세션이 활성화되었습니다.";
+"alert_capture_failed" = "캡처 실패";
+"alert_coming_soon" = "곧 출시 예정";
+"alert_rewards_coming" = "보상 청구는 다음 업데이트에서 활성화됩니다.";
+"alert_ocr_disabled" = "텍스트 추출이 조직의 정책에 의해 비활성화되었습니다.";
+"btn_activate_license" = "라이센스 활성화";
+"btn_deactivate_oldest" = "가장 오래된 것 비활성화";
+"btn_get_started" = "시작하기";
+"btn_claim_reward" = "보상 청구";
+"btn_send_report" = "보고서 보내기";
+"btn_save_all" = "모두 저장";
+"btn_clear_cache" = "캐시 지우기";
+"btn_continue" = "계속";
+"btn_waiting_permissions" = "권한을 기다리는 중...";
+"btn_select_all" = "모두 선택";
+"menu.hide.others" = "다른 항목 숨기기";
+"menu.show.all" = "모두 표시";
+"menu.neon.border" = "네온 테두리";
+"menu.flip.horizontal" = "가로로 뒤집기";
+"menu.flip.vertical" = "세로로 뒤집기";
+"feature_persistent_overlays" = "지속적인 오버레이";
+"feature_persistent_overlays_desc" = "SilkySnip이 참조용으로 화면에 유지됩니다";
+"feature_quick_annotations" = "빠른 주석";
+"feature_quick_annotations_desc" = "화살표와 텍스트로 캡처에 주석 달기";
+"feature_instant_restore" = "즉시 복원";
+"feature_instant_restore_desc" = "⌃Z (Ctrl+Z)를 눌러 닫힌 캡처 복원";
+"onboarding_screen_recording" = "화면 녹화";
+"onboarding_permissions_required" = "권한 필요";
+"system_default" = "시스템 기본값";
+"error_invalid_response" = "잘못된 응답";
+"error_invalid_signature" = "잘못된 서명";
+"feature_capture_region" = "모든 영역 캡처";
+"feature_capture_region_desc" = "⌃N (Ctrl+N)을 눌러 화면의 원하는 부분을 캡처";
+"error_hotkey_conflict" = "단축키 등록 실패";
+"title_activate_silkysnip" = "실키 스닙 활성화";
+"label_enter_license_key" = "라이센스 키를 입력하세요";
+"label_loading_price" = "가격 로딩 중...";
+"label_standard_pricing" = "표준 가격: $29.99 평생";
+"btn_start_trial" = "7일 무료 체험 시작";
+"error_please_enter_key" = "키를 입력하세요";
+"alert_device_limit_reached" = "기기 한도 도달 (2/2)";
+"onboarding_accessibility" = "손쉬운 사용";
+"onboarding_screen_recording_desc" = "SilkySnip을 위해 화면 영역을 캡처하는 데 필요합니다.";
+"onboarding_accessibility_desc" = "전역 키보드 단축키 (⌘N, ⌘Z 등)에 필요합니다.";
+"onboarding_permissions_subtitle" = "실키 스닙가 제대로 작동하려면 다음 권한이 필요합니다";
+"onboarding_permission_info" = "시스템 설정에서 권한을 부여한 후 이 창으로 돌아오세요. 상태가 업데이트되지 않으면 앱을 재시작해 보세요.";
+"label_required" = "필수";
+"btn_grant" = "허용";
+"title_referrals_rewards" = "추천 및 보상";
+"label_refer_earn" = "추천하고 적립하기";
+"label_refer_earn_desc" = "친구에게 실키 스닙를 공유하고 무료 Pro 기능을 얻으세요!";
+"label_lifetime_referrals" = "누적 추천:";
+"label_monthly_referrals" = "월간 추천:";
+"label_confirmed" = "확인됨";
+"label_loading_stats" = "통계 로딩 중...";
+"label_invite_friends" = "친구를 초대하여 보상을 잠금 해제하세요.";
+"label_play_sounds" = "소리 재생";
+"toast_max_overlays" = "최대 10개의 활성 오버레이";
+"toast_restored_count" = "%d개의 SilkySnip 복원됨";
+"toast_screenshot_saved" = "SilkySnip 저장됨";
+"toast_failed_save" = "저장 실패";
+"toast_copied_clipboard" = "클립보드에 복사됨";
+"toast_failed_copy" = "복사 실패";
+"toast_failed_share" = "공유 실패";
+"toast_screenshot_hidden" = "SilkySnip 숨김";
+"toast_restored" = "복원됨";
+"toast_text_copied" = "텍스트 복사됨: %s...";
+"toast_no_text_found" = "텍스트를 찾을 수 없음";
+"toast_ocr_failed" = "텍스트 인식 실패";
+"notification_title_active" = "실키 스닙 활성화됨";
+"notification_text_manage" = "버튼을 눌러 SilkySnip 관리";
+"action_restore_cached" = "캐시 복원";
+"action_group" = "그룹";
+"action_ungroup" = "그룹 해제";
+"share_screenshot" = "SilkySnip 공유";
+"error_overlay_permission" = "오버레이 권한이 거부되었습니다";
+"error_screen_capture" = "화면 캡처 권한이 거부되었습니다";
+"option_volume_up" = "볼륨 높이기";
+"option_volume_down" = "볼륨 낮추기";
+"option_none" = "없음";
+"title_open_source_licenses" = "오픈소스 라이선스";
+"toast_no_logs" = "보낼 로그가 없습니다.";
+"toast_no_email_client" = "이메일 클라이언트를 찾을 수 없습니다.";
+"action_send_crash_report" = "충돌 보고서 보내기";
+"channel_screen_capture" = "실키 스닙 화면 캡처";
+"crash_dialog_windows_title" = "실키 스닙 충돌 보고서";
+"crash_dialog_windows_message" = "실키 스닙가 이전 세션에서 충돌했습니다.
+
+개발자에게 충돌 보고서를 보내시겠습니까?
+(이는 문제를 더 빨리 해결하는 데 도움이 됩니다!)";
+"error_mail_client" = "이메일 클라이언트를 자동으로 열 수 없습니다. contact@silkyapple.com으로 로그를 수동으로 보내주세요";
+"tray_tooltip" = "실키 스닙 - Win+Alt+N을 눌러 새 캡처";
+"menu.unhide.all" = "모두 숨김 해제";
+"menu.about.silkysnip" = "실키 스닙 정보";
+"about_text" = "Windows용 실키 스닙
+버전 {0}
+
+© 2024-2026 Silky Apple Technologies
+All rights reserved.
+
+오픈소스 라이선스:
+- SharpDX (MIT)
+- Hardcodet TaskbarNotification (MIT)
+- .NET Runtime (MIT)";
+"confirm_quit_title" = "저장하지 않은 SilkySnip";
+"confirm_quit_one" = "저장되지 않은 SilkySnip이 있습니다";
+"confirm_quit_many" = "저장되지 않은 SilkySnip이 {0}개 있습니다";
+"confirm_quit_message" = "종료하기 전에 SilkySnip을 저장하시겠습니까?";
+"clear_cache_title" = "캐시 지우기";
+"clear_cache_message" = "캐시된 모든 SilkySnip을 지우시겠습니까?";
+"dialog.save.screenshot" = "SilkySnip 저장";
+"error_copy_clipboard" = "클립보드에 이미지 복사 실패";
+"error_create_image" = "이미지 생성 실패";
+"error_save_failed" = "저장 실패: {0}";
+"error_export_failed" = "내보내기 실패";
+"restart_required_title" = "재시작 필요";
+"restart_required_message" = "언어 변경을 적용하려면 실키 스닙를 다시 시작하세요.";
+"translation_warning_title" = "번역 안내";
+"translation_warning_message" = "번역은 자동 번역기를 사용하여 생성되며 오류가 포함될 수 있습니다. 번역 문제를 발견하시면 개선을 위해 신고해 주세요.";
+"report_translation_error" = "번역 오류 신고";
+"email_subject_translation" = "실키 스닙 Translation Error Report";
+"email_body_translation" = "안녕하세요,
+
+번역 오류를 발견했습니다:
+
+언어: 
+화면/위치: 
+현재 텍스트: 
+수정 제안: 
+
+감사합니다!";
+
+/* New Localization Keys (Korean) */
+"format_tiff_high_quality" = "TIFF (고화질)";
+"format_pdf_document" = "PDF (문서)";
+"label_show_in_menu" = "메뉴에 표시:";
+"zoom_2x" = "2x";
+"zoom_4x" = "4x";
+"zoom_8x" = "8x";
+
+/* About Window */
+"accessibility_app_icon" = "실키 스닙 아이콘";
+"label_copyright_format" = "저작권 © 2026 %@.";
+"license_text_header" = "실키 스닙는 다음 오픈 소스 소프트웨어를 사용합니다:\n\n";
+"license_text_footer" = "\n\n전체 라이선스 텍스트는 당사 웹사이트를 방문하십시오.";
+"license_swift" = "• Swift (Apache 2.0)";
+"license_sparkle" = "• Sparkle (MIT)";
+"license_logmanager" = "• LogManager (사용자 지정)";
+
+/* Welcome Window */
+"welcome_subtitle" = "지속적인 오버레이가 있는 빠른 화면 캡처";
+"legal_footer_format" = "시작하기를 클릭하면 최종 사용자 라이선스 계약 및 개인 정보 보호 정책에 동의하는 것입니다. 저작권 © 2026 %@. 판권 소유. 무단 복제 또는 배포는 엄격히 금지됩니다.";
+
+/* Sticky Notes */
+"color_select_yellow" = "노랑";
+"color_select_pink" = "분홍";
+"color_select_cyan" = "청록";
+"color_select_green" = "초록";
+"color_select_white" = "흰색";
+"sticky_font_small" = "작게";
+"sticky_font_normal" = "보통";
+"sticky_font_large" = "크게";
+"menu.text.format" = "텍스트 형식";
+"format_bold" = "굵게";
+"format_underline" = "밑줄";
+"format_strikethrough" = "취소선";
+"menu.font.size" = "글꼴 크기";
+"menu.list.style" = "목록 스타일";
+"list_none" = "없음";
+"list_bullet" = "글머리 기호";
+"list_numbered" = "번호 매기기";
+"menu.sticky.color" = "SilkyNote 색상";
+"menu.close.note" = "메모 닫기";
+"accessibility_close" = "닫기";
+
+/* Context Menu & Tools */
+"menu.new.sticky" = "새 SilkyNote";
+"menu.turn.on.ghost" = "고스트 모드 켜기";
+"zoom_actual_size" = "실제 크기";
+"zoom_percent_format" = "%d%%";
+"alert_ocr_disabled_title" = "세부 정보 보호됨";
+
+/* Text Selection */
+"text_selection_hint" = "텍스트를 클릭하여 선택하거나 드래그하여 다중 선택";
+"btn_open" = "열기";
+"btn_clear" = "지우기";
+"status_no_text" = "선택된 텍스트 없음";
+"type_link" = "링크";
+"type_phone" = "전화번호";
+"type_data" = "데이터";
+"status_found_format" = "찾음: %@";
+"status_regions_selected_format" = "%d개 영역 선택됨";
+"status_regions_found" = "텍스트 영역 찾음";
+
+/* App Delegate */
+"alert_unsaved_title" = "저장되지 않은 변경 사항";
+"alert_unsaved_screenshots_title" = "저장되지 않은 SilkySnip";
+"alert_unsaved_message" = "저장되지 않은 SilkySnip이 있습니다. 어떻게 하시겠습니까?";
+"btn_review" = "검토";
+"btn_discard" = "삭제";
+"alert_email_not_found_title" = "이메일 클라이언트를 찾을 수 없음";
+"alert_email_not_found_msg" = "기본 이메일 클라이언트를 열 수 없습니다. techsupport@silkyapple.com으로 수동으로 이메일을 보내주세요.";
+"btn_copy_email" = "이메일 복사";
+"tooltip_dock_icon" = "실키 스닙 - 화면 캡처";
+"menu.restore.sticky" = "SilkyNote 복원";
+"menu.services" = "서비스";
+"menu.help.title" = "도움말";
+
+/* Ruler */
+"label_x_axis" = "X:";
+"label_y_axis" = "Y:";
+
+/* Activation */
+"label_standard_pricing_fallback" = "표준 가격: $29.99 평생";
+
+/* Overlay Window */
+"label_hex" = "HEX:";
+"label_rgb" = "RGB:";
+"label_hsl" = "HSL:";
+"msg_copied" = "복사됨!";
+"title_color_copied" = "색상 복사됨";
+
+
+/* Synced missing keys - English fallback */
+"accessibility_appearance" = "모양";
+"accessibility_general" = "일반";
+"accessibility_tools" = "도구";
+"alert_unsaved_message_format" = "저장되지 않은 항목이 %d개 있습니다. 저장하시겠습니까?";
+"alert_unsaved_title_annotations" = "저장되지 않은 주석";
+"alert_unsaved_title_screenshots" = "저장되지 않은 SilkySnip";
+"btn_cancel" = "취소";
+"btn_change_ellipsis" = "변경...";
+"btn_copy" = "복사";
+"checkbox_autosave" = "SilkySnip 자동 저장";
+"data_generic" = "텍스트";
+"data_link" = "링크";
+"data_phone" = "전화번호";
+"format_jpg_compact" = "JPG (Compact)";
+"format_png_default" = "PNG (기본)";
+"label_autosave" = "자동 저장";
+"label_tools_tab" = "도구";
+"menu.flip.reset" = "뒤집기 초기화";
+"menu.hide.screenshots" = "모든 SilkySnip 숨기기";
+"menu.intensity" = "강도";
+"menu.restore" = "복원";
+"menu.tools" = "도구";
+"menu.unhide.screenshots" = "모든 SilkySnip 표시";
+"menu.eraser.large" = "크게";
+"menu.eraser.medium" = "중간";
+"menu.eraser.small" = "작게";
+"menu.ghost.mode.off" = "고스트 모드";
+"menu.ghost.mode.on" = "고스트 모드";
+"menu.pen.medium" = "중간";
+"menu.pen.thick" = "굵게";
+"menu.pen.thin" = "얇게";
+"status_click_select" = "클릭하여 선택";
+"status_regions_found_format" = "%d text regions found";
+"status_selected_count_format" = "%d of %d selected";
+"status_selected_type_format" = "%d %@ selected";
+"title_unsaved_changes" = "저장되지 않은 변경 사항";
+
+"label_copied" = "Copied";
+"tab_tools" = "Tools";
+"tooltip_new_capture" = "SilkySnip - Press ⌘N for new capture";
+"menu_services" = "Services";
+"menu_new_sticky_note" = "새 SilkyNote";
+"menu_sticky_notes" = "SilkyNotes";
+"menu_show_all_sticky_notes" = "모든 SilkyNotes 표시";
+"menu_close_all_sticky_notes" = "모든 SilkyNotes 닫기";
+"title_app_running" = "SilkySnip is Running";
+"welcome_to_app" = "Welcome to %@";
+"menu_enable_smart_restore" = "Enable Smart Restore";
+"menu_enable_to_allow_pinning" = "Enable to allow pinning";
+"menu_no_running_apps" = "No running apps found";
+"error_no_text_selected" = "No text selected";
+
+
+"menu_unpin_from_all" = "Unpin from All";
+
+/* Hardcoded UI Strings added via Script */
+"email_client_not_found" = "이메일 클라이언트를 찾을 수 없습니다";
+"email_client_not_found_msg" = "로그를 techsupport@silkyapple.com으로 직접 이메일로 보내주세요.\n\n로그는 다음 위치에 있습니다.\n~/라이브러리/응용 프로그램 지원/SilkySnip/audit.log";
+"alert_unsaved_title_screenshot_single" = "저장되지 않은 SilkySnip이 있습니다.";
+"alert_unsaved_title_screenshot_plural" = "저장되지 않은 %d개의 SilkySnip이 있습니다.";
+"alert_quit_save_msg" = "종료하기 전에 SilkySnip을 저장하시겠습니까?";
+"alert_clear_cache_title" = "캐시를 지우시겠습니까?";
+"alert_clear_cache_msg" = "이렇게 하면 캐시된 모든 SilkySnip과 SilkyNote가 영구적으로 삭제됩니다. 이 작업은 취소할 수 없습니다.";
+"alert_unsaved_annotations_title" = "저장되지 않은 주석";
+"alert_unsaved_annotations_msg" = "이 SilkySnip에 주석을 추가했습니다. 변경사항을 저장하시겠습니까?";
+"alert_unsaved_screenshot_title" = "저장되지 않은 SilkySnip";
+"alert_unsaved_screenshot_msg" = "이 SilkySnip에 주석을 추가했습니다. 닫기 전에 저장하시겠습니까?";
+"alert_license_revoked_title" = "라이센스가 취소되었습니다";
+"alert_license_revoked_msg" = "귀하의 라이선스가 서버에 의해 취소되었습니다(환불/지불 거절). 이제 응용 프로그램이 닫힙니다.";
+"alert_capture_failed_title" = "캡처 실패";
+"license_lifetime_format" = "%@: $%@ 평생";
+
+/* Missing Keys added via Script */
+"settings.language.tooltip" = "전체 애플리케이션의 표시 언어를 변경합니다.";
+"settings.languagePopup.tooltip" = "원하는 언어를 선택하세요. 인터페이스가 즉시 업데이트됩니다.";
+"settings.launch.tooltip" = "로그인 시 SilkySnip이 자동으로 시작되는지 여부를 제어하세요.";
+"settings.launchCheckbox.tooltip" = "활성화하면 Mac을 시작할 때마다 SilkySnip이 자동으로 실행됩니다.";
+"settings.autoSave.tooltip" = "캡처된 SilkySnip의 자동 저장을 전환합니다.";
+"settings.autoSaveCheckbox.tooltip" = "활성화하면 캡처한 모든 SilkySnip이 자동으로 디스크에 저장됩니다.";
+"settings.location.tooltip" = "자동 저장된 SilkySnip이 저장되는 폴더입니다.";
+"settings.pathControl.tooltip" = "현재 자동 저장 대상입니다. 이 폴더를 삭제하면 자동으로 다시 생성됩니다.";
+"settings.changeButton.tooltip" = "SilkySnip을 저장할 다른 폴더를 선택하세요.";
+"settings.format.tooltip" = "SilkySnip을 자동 저장할 때 사용되는 파일 형식입니다.";
+"settings.formatPopup.tooltip" = "PNG는 무손실 품질을 제공하고, JPG는 더 작고, TIFF는 고화질이며, PDF는 문서에 이상적입니다.";
+"settings.freezeScreen.tooltip" = "인스턴트 캡처 작업 흐름과 관련된 옵션입니다.";
+"settings.freezeScreenCheckbox.tooltip" = "활성화하면 즉시 캡처 중에 화면이 제자리에 고정되어 정확한 선택이 가능해집니다.";
+"settings.notifications.tooltip" = "앱 작업에 대한 오디오 피드백을 제어합니다.";
+"settings.soundsCheckbox.tooltip" = "캡처 시 셔터 소리를 재생하고 클립보드에 복사할 때 미묘한 소리를 재생합니다.";
+"settings.opacity.tooltip" = "새 SilkySnip 오버레이의 기본 투명도를 설정합니다.";
+"settings.slider.tooltip" = "드래그하여 불투명도를 조정하세요. 값이 낮을수록 SilkySnip이 더 투명해져서 볼 수 있습니다.";
+"settings.neon.tooltip" = "SilkySnip 오버레이 주위에 색상 광선 테두리를 추가합니다.";
+"settings.neonCheckbox.tooltip" = "활성화하면 SilkySnip에 선명하고 빛나는 테두리가 표시됩니다. 글로우 색상은 테마 설정에 따라 제어됩니다.";
+"settings.theme.tooltip" = "앱의 시각적 테마를 선택하세요.";
+"settings.themePopup.tooltip" = "네온 테두리 발광 색상(사이버펑크(청록색), 매트릭스(녹색) 또는 태양광(주황색))을 변경합니다.";
+"settings.click.tooltip" = "SilkySnip을 클릭하면 어떻게 동작하나요?";
+"settings.clickPopup.tooltip" = "한 번 클릭하면 SilkySnip이 즉시 닫힙니다. 더블클릭을 사용하면 닫으려면 두 번 클릭해야 하므로 실수로 닫히는 일이 줄어듭니다.";
+"settings.magic.tooltip" = "활성 애플리케이션을 기반으로 SilkySnip을 자동으로 표시하거나 숨깁니다.";
+"settings.magicCheckbox.tooltip" = "활성화되면 SilkySnip을 특정 앱에 고정할 수 있습니다. SilkySnip은 해당 앱이 포그라운드에 있을 때만 나타납니다.";
+"settings.advancedTools.tooltip" = "마우스 오른쪽 버튼 클릭 상황에 맞는 메뉴에 표시되는 도구를 제어합니다.";
+"settings.magnifyCheckbox.tooltip" = "픽셀 수준의 세부 사항을 확대하려면 상황에 맞는 메뉴에 확대(확대경) 도구를 표시하세요.";
+"settings.grayscaleCheckbox.tooltip" = "SilkySnip을 흑백으로 보려면 상황에 맞는 메뉴에 그레이스케일 필터를 표시하세요.";
+"settings.rulersCheckbox.tooltip" = "거리와 정렬을 측정하기 위해 상황에 맞는 메뉴에 눈금자 도구를 표시합니다.";
+"settings.colorPickerCheckbox.tooltip" = "SilkySnip에서 색상 값을 샘플링하고 복사하려면 상황에 맞는 메뉴에 색상 선택 도구를 표시하세요.";
+"settings.ghostModeCheckbox.tooltip" = "상황에 맞는 메뉴에 고스트 모드를 표시합니다. 고스트 모드에서는 SilkySnip을 클릭하면 뒤에 있는 창과 상호 작용할 수 있습니다.";
+"tab_permissions" = "권한";
+"perm_screen_recording" = "화면 녹화";
+"perm_accessibility" = "접근성";
+"perm_granted" = "부여된";
+"perm_denied" = "부여되지 않음";
+
+/* Tool Names and Settings (Added via Script) */
+
+/* Tool Names and Settings (Fixed & Localized) */
+"menu.grayscale" = "회색조";
+"tool_blur" = "마스크";
+"checkbox_freeze_screen" = "즉시 캡처를 위해 화면 고정";
+"tool_magnify" = "확대";
+"menu.show.rulers" = "자 표시";
+"menu.pick.color" = "색상 선택";
+"menu.annotations" = "Annotations";
+"menu.ghost.mode" = "고스트 모드";
+
+/* Pin to App (Fixed) */
+"menu.pin.to.app" = "앱에 고정";
+"btn_save" = "저장";
+"btn_close_without_saving" = "저장하지 않고 닫기";
+
+"label_capture" = "캡처";
+"btn_cancel_all" = "Cancel All";
+"checkbox_auto_copy" = "클립보드에 자동 복사";
+"checkbox_show_dock" = "Dock에 표시";
+"label_behavior" = "동작";
+"tooltip_right_click_disable" = "왼쪽 클릭으로 색상 코드 복사, 오른쪽 클릭으로 비활성화";

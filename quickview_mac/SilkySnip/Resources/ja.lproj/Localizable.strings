@@ -1,0 +1,528 @@
+/* Generated from localization.json */
+
+"app_name" = "シルキースニップ";
+"company_name" = "シルキーアップル";
+"ok" = "OK";
+"cancel" = "キャンセル";
+"save" = "保存";
+"start" = "開始";
+"title_setup" = "シルキースニップ 設定";
+"setup_subtitle" = "体験をカスタマイズ";
+"section_general" = "一般";
+"label_language" = "言語";
+"section_appearance" = "外観";
+"label_edge_panel" = "エッジパネルを使用";
+"desc_edge_panel" = "無効な場合、フローティングボタンが使用されます。";
+"label_position" = "位置";
+"position_left" = "左";
+"position_right" = "右";
+"label_transparency" = "透明度";
+"section_actions" = "アクション";
+"label_trigger_key" = "トリガーキー";
+"section_storage" = "ストレージ";
+"hint_save_folder" = "フォルダ名";
+"label_auto_save" = "自動保存";
+"btn_save_start" = "保存して開始";
+"btn_privacy" = "プライバシーポリシー";
+"btn_licenses" = "ライセンス";
+"menu.new" = "新規";
+"menu.save.current" = "現在のものを保存";
+"menu.save.all" = "すべて保存";
+"menu.copy.image" = "画像をコピー";
+"menu.quit" = "シルキースニップを終了";
+"menu.file" = "ファイル";
+"menu.edit" = "編集";
+"menu.view" = "表示";
+"menu.window" = "ウィンドウ";
+"menu.help" = "ヘルプ";
+"menu.minimize" = "最小化";
+"menu.bring.all.front" = "すべて手前に移動";
+"menu.undo" = "取り消す";
+"menu.redo" = "やり直す";
+"menu.cut" = "カット";
+"menu.copy" = "コピー";
+"menu.paste" = "ペースト";
+"menu.select.all" = "すべて選択";
+"tool_pen" = "ペン";
+"tool_highlighter" = "ハイライト";
+"tool_eraser" = "消しゴム";
+"tool_text" = "テキスト";
+"tool_crop" = "切り抜き";
+"tool_move" = "移動";
+"menu.zoom" = "ズーム";
+"menu.opacity" = "不透明度";
+"menu.filters" = "フィルタ";
+"menu.flip" = "反転";
+"menu.lock.display" = "ディスプレイにロック";
+"menu.dock.edge" = "エッジにドッキング";
+"menu.undock" = "ドッキング解除";
+"menu.ocr" = "テキスト選択 (OCR)";
+"menu.pin" = "ピン留め";
+"menu.lock.screenshot" = "ロック";
+"menu.unlock.screenshot" = "ロック解除";
+"menu.share" = "共有...";
+"menu.hide" = "隠す";
+"menu.close" = "閉じる";
+"color_black" = "黒";
+"color_white" = "白";
+"color_red" = "赤";
+"color_blue" = "青";
+"color_green" = "緑";
+"color_orange" = "オレンジ";
+"color_yellow" = "黄";
+"color_pink" = "ピンク";
+"color_cyan" = "シアン";
+"color_lime" = "ライム";
+"color_purple" = "紫";
+"size_thin" = "細い";
+"size_medium" = "中";
+"size_thick" = "太い";
+"size_small" = "小";
+"size_normal" = "標準";
+"size_large" = "大";
+"label_launch_behavior" = "起動時の動作";
+"label_autosave_location" = "自動保存場所";
+"label_autosave_format" = "形式";
+"label_notifications" = "通知";
+"title_preferences" = "設定";
+"checkbox_launch_login" = "ログイン時に開く";
+"checkbox_play_sounds" = "サウンド";
+"btn_change" = "変更";
+"title_select_location" = "フォルダ選択";
+"label_default_opacity" = "デフォルト不透明度";
+"label_neon_border" = "ネオンボーダー";
+"label_theme" = "テーマ";
+"checkbox_neon_glow" = "輝きを有効化";
+"theme_cyberpunk" = "サイバーパンク";
+"theme_matrix" = "マトリックス";
+"theme_solar" = "ソーラー";
+"label_click_behavior" = "クリック動作";
+"label_loupe_zoom" = "ルーペ倍率";
+"label_magic_restore" = "マジックリストア";
+"checkbox_smart_pinning" = "スマートピン留め";
+"click_single" = "シングルクリックで閉じる";
+"click_double" = "ダブルクリックで閉じる";
+"title_save_screenshot" = "シルキースニップを保存";
+"msg_save_location" = "保存先を選択";
+"err_clipboard_image" = "クリップボード用の画像の作成に失敗しました";
+"err_create_image" = "画像の作成に失敗しました";
+"err_pdf_consumer" = "PDFデータコンシューマの作成に失敗しました";
+"err_pdf_context" = "PDFコンテキストの作成に失敗しました";
+"err_save_pdf" = "PDFの保存に失敗しました";
+"err_encode_image" = "画像のエンコードに失敗しました";
+"err_save" = "保存に失敗";
+"label_format" = "形式";
+"title_export_failed" = "エクスポート失敗";
+"menu.capture.delayed" = "タイマーキャプチャ";
+"menu.seconds" = "秒";
+"menu.enable.hotkeys" = "グローバルホットキー";
+"menu.auto.copy" = "自動コピー";
+"menu.show.dock" = "Dockに表示";
+"menu.turn.off.ghost" = "ゴーストモード解除";
+"menu.scrolling.capture" = "スクロールキャプチャ";
+"menu.close.current" = "現在のものを閉じる";
+"menu.close.all" = "すべて閉じる";
+"menu.ungroup.all" = "すべてのグループ解除";
+"menu.group.all" = "すべてグループ化";
+"menu.hide.all" = "すべて隠す";
+"menu.unhide" = "すべて表示";
+"menu.find.silkysnips" = "シルキースニップを探す";
+"menu.restore.last" = "最後を復元";
+"menu.restore.all" = "すべて復元";
+"menu.clear.cached" = "キャッシュ消去";
+"menu.settings" = "設定...";
+"menu.about" = "シルキースニップについて";
+"tool_speech_bubble" = "吹き出し";
+"section_tools" = "ツール";
+"label_version" = "バージョン";
+"label_build" = "ビルド";
+"label_rights_reserved" = "無断複写・転載を禁じます。";
+"btn_rewards" = "紹介と報酬";
+"btn_check_updates" = "アップデートを確認";
+"permission_screen_title" = "画面録画の許可が必要です";
+"permission_screen_desc" = "シルキースニップが正常に機能するには、画面を録画するアクセス権が必要です。システム設定で許可してください。";
+"btn_open_settings" = "設定を開く";
+"accessibility_service_description" = "シルキースニップはシルキースニップを撮るために音量キーの押下を検出するアクセシビリティ権限が必要です。";
+"accessibility_service_label" = "シルキースニップショートカットサービス";
+"crash_dialog_title" = "アプリケーション・クラッシュ";
+"crash_dialog_message" = "シルキースニップ has encountered an unexpected error. Would you like to send a crash report to help us fix it?";
+"crash_dialog_send" = "レポートを送信";
+"crash_dialog_cancel" = "閉じる";
+"email_subject_crash" = "シルキースニップ Android Crash Report";
+"email_body_crash" = "クラッシュ前に何が起こったか説明してください：\n\n";
+"notification_running" = "シルキースニップは実行中です";
+"title_activation" = "シルキースニップのアクティベーション";
+"alert_license_revoked" = "ライセンスが取り消されました";
+"alert_license_revoked_message" = "ライセンスがサーバーによって取り消されました（返金）。アプリケーションを閉じます。";
+"alert_crash_message" = "開発者にクラッシュレポートを送信しますか？これにより、問題をより迅速に修正できます。";
+"alert_hotkey_conflict" = "一部のグローバルホットキーを登録できませんでした。他のアプリケーションと競合している可能性があります。";
+"alert_latest_version" = "シルキースニップは最新です。";
+"alert_save_before_quit" = "終了する前にシルキースニップを保存しますか？";
+"alert_clear_cache_confirm" = "これにより、キャッシュされたすべてのシルキースニップとシルキーノートが完全に削除されます。この操作は元に戻せません。";
+"alert_activation_failed" = "アクティベーション失敗";
+"alert_max_devices" = "デバイスの最大数に達しました。
+
+続行するために最も古いデバイスを無効にしますか？";
+"alert_device_deactivated" = "デバイスが無効化されました";
+"alert_device_deactivated_message" = "最も古いデバイストークンが取り消されました。新しいセッションがアクティブです。";
+"alert_capture_failed" = "キャプチャ失敗";
+"alert_coming_soon" = "近日公開";
+"alert_rewards_coming" = "報酬の請求は次のアップデートで有効になります。";
+"alert_ocr_disabled" = "テキスト抽出は組織のポリシーにより無効になっています。";
+"btn_activate_license" = "ライセンスを有効化";
+"btn_deactivate_oldest" = "最も古いものを無効化";
+"btn_get_started" = "始める";
+"btn_claim_reward" = "報酬を請求";
+"btn_send_report" = "レポートを送信";
+"btn_save_all" = "すべて保存";
+"btn_clear_cache" = "キャッシュをクリア";
+"btn_continue" = "続ける";
+"btn_waiting_permissions" = "権限を待っています...";
+"btn_select_all" = "すべて選択";
+"menu.hide.others" = "ほかを隠す";
+"menu.show.all" = "すべてを表示";
+"menu.neon.border" = "ネオンボーダー";
+"menu.flip.horizontal" = "水平方向に反転";
+"menu.flip.vertical" = "垂直方向に反転";
+"feature_persistent_overlays" = "永続的なオーバーレイ";
+"feature_persistent_overlays_desc" = "シルキースニップは参照用に画面に残ります";
+"feature_quick_annotations" = "クイック注釈";
+"feature_quick_annotations_desc" = "矢印とテキストでキャプチャに注釈を付ける";
+"feature_instant_restore" = "インスタントリストア";
+"feature_instant_restore_desc" = "⌃Z (Ctrl+Z) を押して閉じたキャプチャを復元";
+"onboarding_screen_recording" = "画面収録";
+"onboarding_permissions_required" = "権限が必要です";
+"system_default" = "システムのデフォルト";
+"error_invalid_response" = "無効な応答";
+"error_invalid_signature" = "無効な署名";
+"feature_capture_region" = "任意の領域をキャプチャ";
+"feature_capture_region_desc" = "⌃N (Ctrl+N) を押して画面の任意の部分をキャプチャ";
+"error_hotkey_conflict" = "ホットキーの登録に失敗しました";
+"title_activate_silkysnip" = "シルキースニップを有効化";
+"label_enter_license_key" = "ライセンスキーを入力してください";
+"label_loading_price" = "価格を読み込み中...";
+"label_standard_pricing" = "標準価格: $29.99 永久";
+"btn_start_trial" = "7日間の無料トライアルを開始";
+"error_please_enter_key" = "キーを入力してください";
+"alert_device_limit_reached" = "デバイス上限に達しました (2/2)";
+"onboarding_accessibility" = "アクセシビリティ";
+"onboarding_screen_recording_desc" = "シルキースニップのために画面領域をキャプチャするために必要です。";
+"onboarding_accessibility_desc" = "グローバルキーボードショートカット (⌘N, ⌘Z など) に必要です。";
+"onboarding_permissions_subtitle" = "シルキースニップが正常に動作するには、次の権限が必要です";
+"onboarding_permission_info" = "システム設定で権限を付与した後、このウィンドウに戻ってください。ステータスが更新されない場合は、アプリを再起動してください。";
+"label_required" = "必須";
+"btn_grant" = "許可";
+"title_referrals_rewards" = "紹介と報酬";
+"label_refer_earn" = "紹介して稼ぐ";
+"label_refer_earn_desc" = "友達とシルキースニップを共有してProの機能を無料でゲット！";
+"label_lifetime_referrals" = "累計紹介：";
+"label_monthly_referrals" = "月間紹介：";
+"label_confirmed" = "確認済み";
+"label_loading_stats" = "統計を読み込み中...";
+"label_invite_friends" = "友達を招待して報酬をアンロック。";
+"label_play_sounds" = "サウンドを再生";
+"toast_max_overlays" = "最大10個のアクティブオーバーレイ";
+"toast_restored_count" = "%d 件のシルキースニップを復元しました";
+"toast_screenshot_saved" = "シルキースニップを保存しました";
+"toast_failed_save" = "保存に失敗しました";
+"toast_copied_clipboard" = "クリップボードにコピーしました";
+"toast_failed_copy" = "コピーに失敗しました";
+"toast_failed_share" = "共有に失敗しました";
+"toast_screenshot_hidden" = "シルキースニップを非表示にしました";
+"toast_restored" = "復元しました";
+"toast_text_copied" = "テキストをコピー：%s...";
+"toast_no_text_found" = "テキストが見つかりません";
+"toast_ocr_failed" = "テキストの認識に失敗しました";
+"notification_title_active" = "シルキースニップ実行中";
+"notification_text_manage" = "ボタンをタップしてシルキースニップを管理";
+"action_restore_cached" = "キャッシュを復元";
+"action_group" = "グループ化";
+"action_ungroup" = "グループ解除";
+"share_screenshot" = "シルキースニップを共有";
+"error_overlay_permission" = "オーバーレイ権限が拒否されました";
+"error_screen_capture" = "画面キャプチャ権限が拒否されました";
+"option_volume_up" = "音量上げ";
+"option_volume_down" = "音量下げ";
+"option_none" = "なし";
+"title_open_source_licenses" = "オープンソースライセンス";
+"toast_no_logs" = "送信するログが見つかりません。";
+"toast_no_email_client" = "メールクライアントが見つかりません。";
+"action_send_crash_report" = "クラッシュレポートを送信";
+"channel_screen_capture" = "シルキースニップ画面キャプチャ";
+"crash_dialog_windows_title" = "シルキースニップ クラッシュレポート";
+"crash_dialog_windows_message" = "シルキースニップは前回のセッションでクラッシュしました。
+
+クラッシュレポートを開発者に送信しますか？
+（これにより問題の修正が早くなります！）";
+"error_mail_client" = "メールクライアントを自動的に開けませんでした。ログを contact@silkyapple.com に手動で送信してください";
+"tray_tooltip" = "シルキースニップ - Win+Alt+N で新しいキャプチャ";
+"menu.unhide.all" = "すべて表示";
+"menu.about.silkysnip" = "シルキースニップについて";
+"about_text" = "Windows 版シルキースニップ
+バージョン {0}
+
+© 2024-2026 Silky Apple Technologies
+All rights reserved.
+
+オープンソースライセンス:
+- SharpDX (MIT)
+- Hardcodet TaskbarNotification (MIT)
+- .NET Runtime (MIT)";
+"confirm_quit_title" = "未保存のシルキースニップ";
+"confirm_quit_one" = "保存されていないシルキースニップがあります";
+"confirm_quit_many" = "保存されていないシルキースニップが{0}個あります";
+"confirm_quit_message" = "終了前にシルキースニップを保存しますか？";
+"clear_cache_title" = "キャッシュをクリア";
+"clear_cache_message" = "キャッシュされたすべてのシルキースニップを削除しますか？";
+"dialog.save.screenshot" = "シルキースニップを保存";
+"error_copy_clipboard" = "クリップボードへの画像コピーに失敗しました";
+"error_create_image" = "画像の作成に失敗しました";
+"error_save_failed" = "保存に失敗しました：{0}";
+"error_export_failed" = "エクスポートに失敗しました";
+"restart_required_title" = "再起動が必要です";
+"restart_required_message" = "言語変更を適用するにはシルキースニップを再起動してください。";
+"translation_warning_title" = "翻訳に関するお知らせ";
+"translation_warning_message" = "翻訳は自動翻訳ツールを使用して生成されており、エラーが含まれる場合があります。翻訳の問題を見つけた場合は、改善のためにご報告ください。";
+"report_translation_error" = "翻訳エラーを報告";
+"email_subject_translation" = "シルキースニップ Translation Error Report";
+"email_body_translation" = "こんにちは、
+
+翻訳エラーを見つけました：
+
+言語：
+画面/場所：
+現在のテキスト：
+修正案：
+
+ありがとうございます！";
+
+/* New Localization Keys (Japanese) */
+"format_tiff_high_quality" = "TIFF (高品質)";
+"format_pdf_document" = "PDF (ドキュメント)";
+"label_show_in_menu" = "メニューに表示:";
+"zoom_2x" = "2x";
+"zoom_4x" = "4x";
+"zoom_8x" = "8x";
+
+/* About Window */
+"accessibility_app_icon" = "シルキースニップ アイコン";
+"label_copyright_format" = "著作権 © 2026 %@.";
+"license_text_header" = "シルキースニップ は以下のオープンソースソフトウェアを使用しています:\n\n";
+"license_text_footer" = "\n\nライセンスの全文については、当社のウェブサイトをご覧ください。";
+"license_swift" = "• Swift (Apache 2.0)";
+"license_sparkle" = "• Sparkle (MIT)";
+"license_logmanager" = "• LogManager (カスタム)";
+
+/* Welcome Window */
+"welcome_subtitle" = "永続的なオーバーレイを備えた高速スクリーンキャプチャ";
+"legal_footer_format" = "「始める」をクリックすると、エンドユーザー使用許諾契約およびプライバシーポリシーに同意したことになります。 著作権 © 2026 %@. 全著作権所有。 無断複写・転載を禁じます。";
+
+/* Sticky Notes */
+"color_select_yellow" = "黄色";
+"color_select_pink" = "ピンク";
+"color_select_cyan" = "シアン";
+"color_select_green" = "緑";
+"color_select_white" = "白";
+"sticky_font_small" = "小";
+"sticky_font_normal" = "標準";
+"sticky_font_large" = "大";
+"menu.text.format" = "テキスト形式";
+"format_bold" = "太字";
+"format_underline" = "下線";
+"format_strikethrough" = "取り消し線";
+"menu.font.size" = "フォントサイズ";
+"menu.list.style" = "リストスタイル";
+"list_none" = "なし";
+"list_bullet" = "箇条書き";
+"list_numbered" = "番号付き";
+"menu.sticky.color" = "シルキーノートの色";
+"menu.close.note" = "メモを閉じる";
+"accessibility_close" = "閉じる";
+
+/* Context Menu & Tools */
+"menu.new.sticky" = "新しいシルキーノート";
+"menu.turn.on.ghost" = "ゴーストモードをオン";
+"zoom_actual_size" = "実際のサイズ";
+"zoom_percent_format" = "%d%%";
+"alert_ocr_disabled_title" = "詳細は保護されています";
+
+/* Text Selection */
+"text_selection_hint" = "テキストをクリックして選択、またはドラッグして複数選択";
+"btn_open" = "開く";
+"btn_clear" = "クリア";
+"status_no_text" = "テキストが選択されていません";
+"type_link" = "リンク";
+"type_phone" = "電話番号";
+"type_data" = "データ";
+"status_found_format" = "検出: %@";
+"status_regions_selected_format" = "%d 個の領域を選択しました";
+"status_regions_found" = "テキスト領域が見つかりました";
+
+/* App Delegate */
+"alert_unsaved_title" = "保存されていない変更";
+"alert_unsaved_screenshots_title" = "保存されていないシルキースニップ";
+"alert_unsaved_message" = "保存されていないシルキースニップがあります。どうしますか？";
+"btn_review" = "確認";
+"btn_discard" = "破棄";
+"alert_email_not_found_title" = "メールクライアントが見つかりません";
+"alert_email_not_found_msg" = "デフォルトのメールクライアントを開けませんでした。techsupport@silkyapple.com まで手動でメールを送信してください。";
+"btn_copy_email" = "メールアドレスをコピー";
+"tooltip_dock_icon" = "シルキースニップ - スクリーンキャプチャ";
+"menu.restore.sticky" = "シルキーノートを復元";
+"menu.services" = "サービス";
+"menu.help.title" = "ヘルプ";
+
+/* Ruler */
+"label_x_axis" = "X:";
+"label_y_axis" = "Y:";
+
+/* Activation */
+"label_standard_pricing_fallback" = "標準価格: $29.99 (永久ライセンス)";
+
+/* Overlay Window */
+"label_hex" = "HEX:";
+"label_rgb" = "RGB:";
+"label_hsl" = "HSL:";
+"msg_copied" = "コピーしました！";
+"title_color_copied" = "色をコピーしました";
+
+
+/* Synced missing keys - English fallback */
+"accessibility_appearance" = "外観";
+"accessibility_general" = "一般";
+"accessibility_tools" = "ツール";
+"alert_unsaved_message_format" = "未保存の項目が %d 件あります。保存しますか？";
+"alert_unsaved_title_annotations" = "未保存の注釈";
+"alert_unsaved_title_screenshots" = "未保存のシルキースニップ";
+"btn_cancel" = "キャンセル";
+"btn_change_ellipsis" = "変更...";
+"btn_copy" = "コピー";
+"checkbox_autosave" = "自動保存を有効にする";
+"data_generic" = "テキスト";
+"data_link" = "リンク";
+"data_phone" = "電話";
+"format_jpg_compact" = "JPG (Compact)";
+"format_png_default" = "PNG (デフォルト)";
+"label_autosave" = "自動保存";
+"label_tools_tab" = "ツール";
+"menu.flip.reset" = "リセット";
+"menu.hide.screenshots" = "すべて隠す";
+"menu.intensity" = "強度";
+"menu.restore" = "復元";
+"menu.tools" = "ツール";
+"menu.unhide.screenshots" = "すべて表示";
+"menu.eraser.large" = "大";
+"menu.eraser.medium" = "中";
+"menu.eraser.small" = "小";
+"menu.ghost.mode.off" = "ゴーストモード";
+"menu.ghost.mode.on" = "ゴーストモード";
+"menu.pen.medium" = "中";
+"menu.pen.thick" = "太い";
+"menu.pen.thin" = "細い";
+"status_click_select" = "クリックして選択";
+"status_regions_found_format" = "%d text regions found";
+"status_selected_count_format" = "%d of %d selected";
+"status_selected_type_format" = "%d %@ selected";
+"title_unsaved_changes" = "未保存の変更";
+
+"label_copied" = "Copied";
+"tab_tools" = "Tools";
+"tooltip_new_capture" = "シルキースニップ - Press ⌘N for new capture";
+"menu_services" = "Services";
+"menu_new_sticky_note" = "新しいシルキーノート";
+"menu_sticky_notes" = "シルキーノーツ";
+"menu_show_all_sticky_notes" = "すべてのシルキーノーツを表示";
+"menu_close_all_sticky_notes" = "すべてのシルキーノーツを閉じる";
+"title_app_running" = "シルキースニップ is Running";
+"welcome_to_app" = "Welcome to %@";
+"menu_enable_smart_restore" = "Enable Smart Restore";
+"menu_enable_to_allow_pinning" = "Enable to allow pinning";
+"menu_no_running_apps" = "No running apps found";
+"error_no_text_selected" = "No text selected";
+
+
+"menu_unpin_from_all" = "Unpin from All";
+
+
+/* Permissions Tab */
+"tab_permissions" = "アクセス権";
+"perm_screen_recording" = "画面収録";
+"perm_accessibility" = "アクセシビリティ";
+"perm_granted" = "許可済み";
+"perm_denied" = "未許可";
+"btn_open_settings" = "設定を開く";
+
+
+/* Tooltips */
+"settings.language.tooltip" = "アプリの言語を設定します。";
+"settings.languagePopup.tooltip" = "お好みの言語を選択してください。";
+"settings.launch.tooltip" = "ログイン時に自動的に起動します。";
+"settings.launchCheckbox.tooltip" = "これを有効にすると、毎回手動でアプリを開く必要がなくなります。";
+"settings.autoSave.tooltip" = "質問なしにシルキースニップを自動保存します。";
+"settings.autoSaveCheckbox.tooltip" = "有効にすると、保存ダイアログをスキップして直接保存フォルダに移動します。";
+"settings.location.tooltip" = "シルキースニップが保存されるフォルダ。";
+"settings.pathControl.tooltip" = "保存先のフォルダパスを表示します。";
+"settings.changeButton.tooltip" = "シルキースニップを保存する別のフォルダを選択します。";
+"settings.format.tooltip" = "ファイル形式を設定します。";
+"settings.formatPopup.tooltip" = "最高画質と透過性を優先ならPNG、サイズ重視ならJPEGを選択します。";
+"settings.freezeScreen.tooltip" = "キャプチャ開始時に画面を瞬時に固定します。";
+"settings.freezeScreenCheckbox.tooltip" = "有効にすると、ホバーメニューなどをキャプチャするために画面がすぐ固定されます。";
+"settings.notifications.tooltip" = "キャプチャ成功時に音を鳴らします。";
+"settings.soundsCheckbox.tooltip" = "シャッター音を有効/無効にします。";
+"settings.opacity.tooltip" = "オーバーレイのデフォルトの透明度を設定します。";
+"settings.slider.tooltip" = "スライダーで不透明度を調整します。";
+"settings.neon.tooltip" = "カラフルな光る枠線を追加します。";
+"settings.neonCheckbox.tooltip" = "有効にすると輝く枠が表示され、テーマで色を設定できます。";
+"settings.theme.tooltip" = "視覚テーマを選択します。";
+"settings.themePopup.tooltip" = "ネオンボーダーの色を変更します。";
+"settings.click.tooltip" = "クリック時の動作を設定します。";
+"settings.clickPopup.tooltip" = "シングルクリックですぐ閉じるか、ダブルクリックのみ受け付けるか選択できます。";
+"settings.magic.tooltip" = "アクティブなアプリに応じて表示/非表示を自動化します。";
+"settings.magicCheckbox.tooltip" = "紐付けられたアプリが前面にある時のみ表示されます。";
+"settings.advancedTools.tooltip" = "右クリックメニューのツールを調整します。";
+"settings.magnifyCheckbox.tooltip" = "拡大鏡(ルーペ)を表示します。";
+"settings.grayscaleCheckbox.tooltip" = "グレースケール(白黒)フィルタを表示します。";
+"settings.rulersCheckbox.tooltip" = "定規ツールを表示します。";
+"settings.colorPickerCheckbox.tooltip" = "カラーピッカーツールを表示します。";
+"settings.ghostModeCheckbox.tooltip" = "クリックを背後のウィンドウに貫通させるゴーストモードを表示します。";
+
+/* Hardcoded UI Strings added via Script */
+"email_client_not_found" = "電子メールクライアントが見つかりません";
+"email_client_not_found_msg" = "ログを techsupport@silkyapple.com に手動で電子メールで送信してください。\n\nログは次の場所にあります。\n~/ライブラリ/アプリケーション サポート/シルキースニップ/audit.log";
+"alert_unsaved_title_screenshot_single" = "保存されていないシルキースニップがあります";
+"alert_unsaved_title_screenshot_plural" = "保存されていないシルキースニップが %d 枚あります";
+"alert_quit_save_msg" = "終了する前にシルキースニップを保存しますか?";
+"alert_clear_cache_title" = "キャッシュをクリアしますか?";
+"alert_clear_cache_msg" = "これにより、キャッシュされたすべてのシルキースニップとシルキーノートが完全に削除されます。この操作は元に戻せません。";
+"alert_unsaved_annotations_title" = "未保存の注釈";
+"alert_unsaved_annotations_msg" = "このシルキースニップに注釈が追加されました。変更を保存しますか?";
+"alert_unsaved_screenshot_title" = "未保存のシルキースニップ";
+"alert_unsaved_screenshot_msg" = "このシルキースニップに注釈が追加されました。閉じる前に保存しますか?";
+"alert_license_revoked_title" = "免許取り消し";
+"alert_license_revoked_msg" = "ライセンスはサーバーによって取り消されました (返金/チャージバック)。アプリケーションは終了します。";
+"alert_capture_failed_title" = "キャプチャに失敗しました";
+"license_lifetime_format" = "%@: $%@ 存続期間";
+
+/* Tool Names and Settings (Added via Script) */
+
+/* Tool Names and Settings (Fixed & Localized) */
+"menu.grayscale" = "グレースケール";
+"tool_blur" = "マスク";
+"checkbox_freeze_screen" = "インスタントキャプチャのために画面を固定";
+"tool_magnify" = "拡大";
+"menu.show.rulers" = "定規を表示";
+"menu.pick.color" = "色を選択";
+"menu.annotations" = "Annotations";
+"menu.ghost.mode" = "ゴーストモード";
+
+/* Pin to App (Fixed) */
+"menu.pin.to.app" = "アプリに固定";
+"btn_save" = "保存";
+"btn_close_without_saving" = "保存せずに閉じる";
+"label_capture" = "キャプチャ";
+
+"btn_cancel_all" = "Cancel All";
+"checkbox_auto_copy" = "クリップボードに自動コピー";
+"checkbox_show_dock" = "Dockに表示";
+"label_behavior" = "動作";
+"tooltip_right_click_disable" = "左クリックでカラーコードをコピー、右クリックで無効化";

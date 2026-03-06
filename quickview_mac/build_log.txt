@@ -1,0 +1,423 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme SilkySnip -destination platform=macOS,arch=arm64 build
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'SilkySnip' in project 'SilkySnip' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk /Users/jebinjames/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.2-25C57-00fa09913b459cbbc988d1f6730289ae.sdkstatcache
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -o /Users/jebinjames/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.2-25C57-00fa09913b459cbbc988d1f6730289ae.sdkstatcache
+
+SwiftDriver SilkySnip normal arm64 com.apple.xcode.tools.swift.compiler (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name SilkySnip -Onone -enforce-exclusivity\=checked @/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -target arm64-apple-macos11.0 -g -module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug -F /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/jebinjames/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.2-25C57-00fa09913b459cbbc988d1f6730289ae.sdkstatcache -output-file-map /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip_const_extract_protocols.json -Xcc -iquote -Xcc /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-generated-files.hmap -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-own-target-headers.hmap -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-project-headers.hmap -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/include -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources-normal/arm64 -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources/arm64 -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip-Swift.h -working-directory /Users/jebinjames/Documents/QuickView/quickview_mac -experimental-emit-module-separately -disable-cmo
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ SilkySnip (in target 'SilkySnip' from project 'SilkySnip')
+
+EmitSwiftModule normal arm64 (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 Compiling\ AboutWindowController.swift,\ ActivationWindowController.swift,\ AnnotationLayer.swift,\ AnnotationTool.swift,\ AppDelegate.swift,\ AuditLogger.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/AboutWindowController.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/ActivationWindowController.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/AnnotationLayer.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Tools/AnnotationTool.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/AuditLogger.swift (in target 'SilkySnip' from project 'SilkySnip')
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/AboutWindowController.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/ActivationWindowController.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/AnnotationLayer.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Tools/AnnotationTool.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift:884:83: warning: no method declared with Objective-C selector 'undo:'
+        let undoItem = NSMenuItem(title: lm.string("menu.undo"), action: Selector("undo:"), keyEquivalent: Constants.Shortcut.undo.key)
+                                                                                  ^
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift:884:83: note: wrap the selector name in parentheses to suppress this warning
+        let undoItem = NSMenuItem(title: lm.string("menu.undo"), action: Selector("undo:"), keyEquivalent: Constants.Shortcut.undo.key)
+                                                                                  ^
+                                                                                  (      )
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift:888:83: warning: no method declared with Objective-C selector 'redo:'
+        let redoItem = NSMenuItem(title: lm.string("menu.redo"), action: Selector("redo:"), keyEquivalent: Constants.Shortcut.redo.key)
+                                                                                  ^
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift:888:83: note: wrap the selector name in parentheses to suppress this warning
+        let redoItem = NSMenuItem(title: lm.string("menu.redo"), action: Selector("redo:"), keyEquivalent: Constants.Shortcut.redo.key)
+                                                                                  ^
+                                                                                  (      )
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift:894:72: warning: use '#selector' instead of explicitly constructing a 'Selector'
+        let cutItem = NSMenuItem(title: lm.string("menu.cut"), action: Selector("cut:"), keyEquivalent: Constants.Shortcut.cut.key)
+                                                                       ^~~~~~~~~~~~~~~~
+                                                                       #selector(NSText.cut(_:))
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift:898:74: warning: use '#selector' instead of explicitly constructing a 'Selector'
+        let copyItem = NSMenuItem(title: lm.string("menu.copy"), action: Selector("copy:"), keyEquivalent: Constants.Shortcut.copy.key)
+                                                                         ^~~~~~~~~~~~~~~~~
+                                                                         #selector(NSText.copy(_:))
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift:902:76: warning: use '#selector' instead of explicitly constructing a 'Selector'
+        let pasteItem = NSMenuItem(title: lm.string("menu.paste"), action: Selector("paste:"), keyEquivalent: Constants.Shortcut.paste.key)
+                                                                           ^~~~~~~~~~~~~~~~~~
+                                                                           #selector(NSText.paste(_:))
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift:905:75: warning: use '#selector' instead of explicitly constructing a 'Selector'
+        editMenu.addItem(withTitle: lm.string("menu.select.all"), action: Selector("selectAll:"), keyEquivalent: "a")
+                                                                          ^~~~~~~~~~~~~~~~~~~~~~
+                                                                          #selector(NSStandardKeyBindingResponding.selectAll(_:))
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/AppDelegate.swift:1051:98: warning: left side of nil coalescing operator '??' has non-optional type 'String', so the right side is never used
+        let lockNotesItem = NSMenuItem(title: LanguageManager.shared.string("menu.lock.display") ?? "Lock to Display", action: #selector(stickyNoteToggleLockToDisplay), keyEquivalent: "")
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+                                                                                                
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/AuditLogger.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 Compiling\ BlurTool.swift,\ CacheManager.swift,\ CaptureEngine.swift,\ CaptureMetadata.swift,\ ChaosEngine.swift,\ Constants.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Tools/BlurTool.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Cache/CacheManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Capture/CaptureEngine.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Cache/CaptureMetadata.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Security/ChaosEngine.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/Constants.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Tools/BlurTool.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Cache/CacheManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Capture/CaptureEngine.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Cache/CaptureMetadata.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Security/ChaosEngine.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/Constants.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 Compiling\ OverlayWindow+Loupe.swift,\ OverlayWindow.swift,\ PenTool.swift,\ PermissionManager.swift,\ PreferencesWindowController.swift,\ RegionSelector.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Overlay/OverlayWindow+Loupe.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Overlay/OverlayWindow.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Tools/PenTool.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/PermissionManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/PreferencesWindowController.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Capture/RegionSelector.swift (in target 'SilkySnip' from project 'SilkySnip')
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Overlay/OverlayWindow+Loupe.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Overlay/OverlayWindow.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Overlay/OverlayWindow.swift:975:13: warning: variable 'pixelDeltaX' was never mutated; consider changing to 'let' constant
+        var pixelDeltaX = totalDeltaX * anchor.initialScale
+        ~~~ ^
+        let
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Overlay/OverlayWindow.swift:976:13: warning: variable 'pixelDeltaY' was never mutated; consider changing to 'let' constant
+        var pixelDeltaY = totalDeltaY * anchor.initialScale
+        ~~~ ^
+        let
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Overlay/OverlayWindow.swift:2146:17: warning: initialization of immutable value 'iconRect' was never used; consider replacing with assignment to '_' or removing it
+            let iconRect = NSRect(origin: .zero, size: size)
+            ~~~~^~~~~~~~
+            _
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Tools/PenTool.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/PermissionManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/PreferencesWindowController.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Capture/RegionSelector.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Capture/RegionSelector.swift:342:17: warning: initialization of immutable value 'displayID' was never used; consider replacing with assignment to '_' or removing it
+            let displayID = screen.deviceDescription[NSDeviceDescriptionKey("NSScreenNumber")] as? CGDirectDisplayID ?? 0
+            ~~~~^~~~~~~~~
+            _
+
+SwiftCompile normal arm64 Compiling\ StickyNoteManager.swift,\ StickyNoteTool.swift,\ StickyNoteWindow.swift,\ Stroke.swift,\ TextSelectionOverlay.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/StickyNoteManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Tools/StickyNoteTool.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/StickyNoteWindow.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Stroke.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/TextSelectionOverlay.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/StickyNoteManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Tools/StickyNoteTool.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/StickyNoteWindow.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/StickyNoteWindow.swift:332:93: warning: left side of nil coalescing operator '??' has non-optional type 'String', so the right side is never used
+        let lockItem = NSMenuItem(title: LanguageManager.shared.string("menu.lock.display") ?? "Lock to Display", action: #selector(toggleLockToDisplay), keyEquivalent: "")
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+                                                                                           
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Stroke.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/TextSelectionOverlay.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 Compiling\ RewardsWindowController.swift,\ RulerOverlay.swift,\ SecurityManager.swift,\ SilkySnipApp.swift,\ SmartRestoreManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/RewardsWindowController.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/RulerOverlay.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/SecurityManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/SilkySnipApp.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/SmartRestoreManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/RewardsWindowController.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/RulerOverlay.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/SecurityManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/SecurityManager.swift:91:13: warning: immutable value 'fridaPorts' was never used; consider replacing with '_' or removing it
+        let fridaPorts: [UInt16] = [27042, 27043]
+            ^~~~~~~~~~
+            _
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/App/SilkySnipApp.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/SmartRestoreManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 Compiling\ Logger.swift,\ LoupeWindow.swift,\ MDMManager.swift,\ NeonFeedbackLayer.swift,\ OCRManager.swift,\ OnboardingWindowController.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/Logger.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/LoupeWindow.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/MDMManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/NeonFeedbackLayer.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/OCRManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/OnboardingWindowController.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/Logger.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/LoupeWindow.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/MDMManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/NeonFeedbackLayer.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/OCRManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/OnboardingWindowController.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 Compiling\ TextTool.swift,\ Theme.swift,\ ToolManager.swift,\ WelcomeWindowController.swift,\ GeneratedAssetSymbols.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Tools/TextTool.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/Theme.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/ToolManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/WelcomeWindowController.swift /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/Tools/TextTool.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/Theme.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/ToolManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Annotation/ToolManager.swift:356:13: warning: initialization of immutable value 'rect' was never used; consider replacing with assignment to '_' or removing it
+        let rect = NSRect(x: 2, y: 2, width: 16, height: 16)
+        ~~~~^~~~
+        _
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/WelcomeWindowController.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 Compiling\ ContextMenu.swift,\ ContextMenuSettings.swift,\ LanguageManager.swift,\ LegacyCaptureEngine.swift,\ LicenseManager.swift,\ LogManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/ContextMenu.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/ContextMenuSettings.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/LanguageManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Capture/LegacyCaptureEngine.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/License/LicenseManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/LogManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/ContextMenu.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/ContextMenu.swift:32:13: warning: initialization of immutable value 'settings' was never used; consider replacing with assignment to '_' or removing it
+        let settings = ContextMenuSettings.shared
+        ~~~~^~~~~~~~
+        _
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/UI/ContextMenu.swift:1170:19: warning: value 'overlay' was defined but never used; consider replacing with boolean test
+        guard let overlay = sender.representedObject as? OverlayWindow else { return }
+              ~~~~^~~~~~~~~~                         ~~~
+                                                     is
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/ContextMenuSettings.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/LanguageManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Capture/LegacyCaptureEngine.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/License/LicenseManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/License/LicenseManager.swift:127:22: warning: result of call to 'checkAndRatchetAnchor(key:)' is unused
+                self.checkAndRatchetAnchor(key: self.getSecurityKey(signature: token.signature))
+                     ^                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/License/LicenseManager.swift:142:9: warning: code after 'return' will never be executed
+        if amIDebugged() {
+        ^
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/LogManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling BlurTool.swift, CacheManager.swift, CaptureEngine.swift, CaptureMetadata.swift, ChaosEngine.swift, Constants.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 Compiling\ ExportManager.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Export/ExportManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Export/ExportManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling RewardsWindowController.swift, RulerOverlay.swift, SecurityManager.swift, SilkySnipApp.swift, SmartRestoreManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 Compiling\ FileSentinel.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Security/FileSentinel.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Security/FileSentinel.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling Logger.swift, LoupeWindow.swift, MDMManager.swift, NeonFeedbackLayer.swift, OCRManager.swift, OnboardingWindowController.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 Compiling\ DebugLogger.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/DebugLogger.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/DebugLogger.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for SilkySnip (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftDriver\ Compilation\ Requirements SilkySnip normal arm64 com.apple.xcode.tools.swift.compiler (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name SilkySnip -Onone -enforce-exclusivity\=checked @/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -target arm64-apple-macos11.0 -g -module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug -F /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/jebinjames/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.2-25C57-00fa09913b459cbbc988d1f6730289ae.sdkstatcache -output-file-map /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip_const_extract_protocols.json -Xcc -iquote -Xcc /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-generated-files.hmap -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-own-target-headers.hmap -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-project-headers.hmap -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/include -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources-normal/arm64 -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources/arm64 -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip-Swift.h -working-directory /Users/jebinjames/Documents/QuickView/quickview_mac -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling TextTool.swift, Theme.swift, ToolManager.swift, WelcomeWindowController.swift, GeneratedAssetSymbols.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 Compiling\ CrashHandler.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/CrashHandler.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/CrashHandler.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+Copy /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.swiftmodule/arm64-apple-macos.abi.json /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.abi.json (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.abi.json /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.swiftmodule/arm64-apple-macos.abi.json
+
+SwiftDriverJobDiscovery normal arm64 Compiling DebugLogger.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+Copy /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.swiftsourceinfo (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.swiftsourceinfo /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo
+
+SwiftCompile normal arm64 Compiling\ Extensions.swift /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/Extensions.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftCompile normal arm64 /Users/jebinjames/Documents/QuickView/quickview_mac/SilkySnip/Utilities/Extensions.swift (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling FileSentinel.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftDriverJobDiscovery normal arm64 Compiling CrashHandler.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ExportManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftDriverJobDiscovery normal arm64 Compiling Extensions.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ContextMenu.swift, ContextMenuSettings.swift, LanguageManager.swift, LegacyCaptureEngine.swift, LicenseManager.swift, LogManager.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftDriverJobDiscovery normal arm64 Compiling StickyNoteManager.swift, StickyNoteTool.swift, StickyNoteWindow.swift, Stroke.swift, TextSelectionOverlay.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftDriverJobDiscovery normal arm64 Compiling AboutWindowController.swift, ActivationWindowController.swift, AnnotationLayer.swift, AnnotationTool.swift, AppDelegate.swift, AuditLogger.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftDriverJobDiscovery normal arm64 Compiling OverlayWindow+Loupe.swift, OverlayWindow.swift, PenTool.swift, PermissionManager.swift, PreferencesWindowController.swift, RegionSelector.swift (in target 'SilkySnip' from project 'SilkySnip')
+
+SwiftDriver\ Compilation SilkySnip normal arm64 com.apple.xcode.tools.swift.compiler (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name SilkySnip -Onone -enforce-exclusivity\=checked @/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -target arm64-apple-macos11.0 -g -module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug -F /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/jebinjames/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.2-25C57-00fa09913b459cbbc988d1f6730289ae.sdkstatcache -output-file-map /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/jebinjames/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip_const_extract_protocols.json -Xcc -iquote -Xcc /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-generated-files.hmap -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-own-target-headers.hmap -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-project-headers.hmap -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/include -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources-normal/arm64 -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources/arm64 -Xcc -I/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip-Swift.h -working-directory /Users/jebinjames/Documents/QuickView/quickview_mac -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/MacOS/SilkySnip.debug.dylib normal (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos11.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -O0 -L/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -L/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug -F/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -F/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug -filelist /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.LinkFileList -install_name @rpath/SilkySnip.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/../Frameworks -Xlinker -object_path_lto -Xlinker /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.swiftmodule @/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/MacOS/SilkySnip.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-ExecutorLinkFileList-normal-arm64.txt (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    construct-stub-executor-link-file-list /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/MacOS/SilkySnip.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'SilkySnip' from project 'SilkySnip')
+
+Ld /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/MacOS/SilkySnip normal (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos11.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -O0 -L/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug -F/Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/../Frameworks -rdynamic -Xlinker -no_deduplicate -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip-ExecutorLinkFileList-normal-arm64.txt /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/MacOS/SilkySnip.debug.dylib -o /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/MacOS/SilkySnip
+
+CopySwiftLibs /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/MacOS/SilkySnip.debug.dylib --scan-folder /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/Frameworks --scan-folder /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/PlugIns --scan-folder /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/Library/SystemExtensions --scan-folder /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/Extensions --platform macosx --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-concurrency --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.5/macosx/libswift_Concurrency.dylib to /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/Frameworks/libswift_Concurrency.dylib
+
+ExtractAppIntentsMetadata (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name SilkySnip --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk --xcode-version 17C52 --platform-family macOS --deployment-target 11.0 --bundle-identifier com.silkysnip.app --output /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/Resources --target-triple arm64-apple-macos11.0 --binary-file /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app/Contents/MacOS/SilkySnip --dependency-file /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip_dependency_info.dat --stringsdata-file /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.SwiftFileList --metadata-file-list /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip.DependencyMetadataFileList --static-metadata-file-list /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/SilkySnip.DependencyStaticMetadataFileList --swift-const-vals-list /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Intermediates.noindex/SilkySnip.build/Debug/SilkySnip.build/Objects-normal/arm64/SilkySnip.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-02-25 17:20:36.206 appintentsmetadataprocessor[45579:108399] Starting appintentsmetadataprocessor export
+2026-02-25 17:20:36.240 appintentsmetadataprocessor[45579:108399] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+RegisterExecutionPolicyException /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    builtin-RegisterExecutionPolicyException /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app
+
+Validate /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    builtin-validationUtility /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app -no-validate-extension -infoplist-subpath Contents/Info.plist
+
+Touch /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    /usr/bin/touch -c /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app
+
+RegisterWithLaunchServices /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app (in target 'SilkySnip' from project 'SilkySnip')
+    cd /Users/jebinjames/Documents/QuickView/quickview_mac
+    /System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current/Support/lsregister -f -R -trusted /Users/jebinjames/Library/Developer/Xcode/DerivedData/SilkySnip-ajtugkafmwaekjazsdbdgtbktjkf/Build/Products/Debug/SilkySnip.app
+
+** BUILD SUCCEEDED **
+
