@@ -8,17 +8,24 @@
 //
 
 import Cocoa
+import Metal
+import MetalKit
+import CoreGraphics
+import IOSurface
 
 class RegionSelector: NSObject {
     
     // MARK: - Properties
     
     private var overlayWindows: [NSWindow] = []
+    // Overlay Views Array swapped to MetalOverlayView
+    private var overlayViews: [MetalOverlayView] = []
+    
     private var isClosed = false
     private var selectionStartPoint: CGPoint?
-    private var selectionRect: CGRect = .zero
+    internal var selectionRect: CGRect = .zero
     private var activeDisplayID: CGDirectDisplayID?
-    private var activeSelectionView: SelectionView?  // Track which view started the selection
+    private var activeSelectionView: MetalOverlayView?  // Track which view started the selection
     private var isCountingDown = false // Prevent mouse events from firing during delay
     
     private var sizeTooltipWindow: NSWindow?
@@ -33,13 +40,13 @@ class RegionSelector: NSObject {
     // Store original presentation options to restore later
     // private var originalPresentationOptions: NSApplication.PresentationOptions = []
     
-    // Global event monitors for fullscreen apps (mouse events don't reach windows in other Spaces)
-    private var globalMouseDownMonitor: Any?
-    private var globalMouseDragMonitor: Any?
-    private var globalMouseUpMonitor: Any?
-    private var localMouseDownMonitor: Any?
-    private var localMouseDragMonitor: Any?
-    private var localMouseUpMonitor: Any?
+    // Quartz event tap for mouse events
+    private var eventTap: CFMachPort?
+    private var eventTapSource: CFRunLoopSource?
+    
+    // Throttled redraw timer (~60 FPS)
+    private var redrawTimer: DispatchSourceTimer?
+    
     private var keyDownMonitor: Any?
     
     // Frozen screen captures for each display (freeze-frame approach)
@@ -48,6 +55,56 @@ class RegionSelector: NSObject {
     // Background windows that display frozen screenshots (below selection panels)
     private var backgroundWindows: [NSWindow] = []
     
+    // MARK: - Screen capture (zero-copy) integration
+    private var captureEngine: ScreenCaptureEngine?
+    private var captureDevice: MTLDevice? = MTLCreateSystemDefaultDevice()
+
+    /// Start capturing frames for the display that contains `point`
+    private func startCaptureForPoint(_ point: CGPoint) {
+        guard let screen = NSScreen.screens.first(where: { $0.frame.contains(point) }) else { return }
+        let displayID = screen.deviceDescription[NSDeviceDescriptionKey("NSScreenNumber")] as? CGDirectDisplayID ?? CGMainDisplayID()
+
+        // If there's already an engine for this display, keep it.
+        if captureEngine != nil { return }
+
+        captureEngine = ScreenCaptureEngine(displayID: displayID)
+        captureEngine?.start { [weak self] ioSurf, width, height in
+            guard let self = self else { return }
+            // Create Metal texture from IOSurface
+            guard let device = self.captureDevice else { return }
+
+            let desc = MTLTextureDescriptor.texture2DDescriptor(pixelFormat: .bgra8Unorm, width: width, height: height, mipmapped: false)
+            desc.usage = [.shaderRead, .shaderWrite, .renderTarget]
+
+            if let tex = device.makeTexture(descriptor: desc, iosurface: ioSurf, plane: 0) {
+                // Provide the texture to the active overlay for possible GPU crop / preview
+                self.activeOverlayView?.setSurfaceTexture(tex)
+            } else {
+                // Failed to create texture — fallback: nothing
+            }
+        }
+    }
+
+    private func stopCapture() {
+        captureEngine?.stop()
+        captureEngine = nil
+        activeOverlayView?.setSurfaceTexture(nil)
+    }
+
+    // GPU cropper + live preview
+    private var gpuCropper: GPUCropper?
+    private var previewController: PreviewWindowController?
+
+    private func ensureCropperAndPreview() {
+        guard gpuCropper == nil, let device = captureDevice else { return }
+        gpuCropper = GPUCropper(device: device)
+        previewController = PreviewWindowController(device: device)
+    }
+
+    var activeOverlayView: MetalOverlayView? {
+        return activeSelectionView
+    }
+
     // MARK: - Initialization
     
     init(delay: TimeInterval = 0.0, onComplete: @escaping (CGImage, CGRect, CGDirectDisplayID) -> Void) {
@@ -139,6 +196,8 @@ class RegionSelector: NSObject {
         
         // 2. Remove event monitors FIRST
         removeEventMonitors()
+        stopRedrawTimer()
+        stopCapture()
         
         // 3. Remove all windows from screen
         overlayWindows.forEach { $0.orderOut(nil) }
@@ -177,34 +236,7 @@ class RegionSelector: NSObject {
         // C8: Monitor for screen configuration changes (e.g., monitor unplugged)
         NotificationCenter.default.addObserver(self, selector: #selector(handleScreenConfigChanged), name: NSApplication.didChangeScreenParametersNotification, object: nil)
         
-        // Global monitors capture events even when other apps are focused (like fullscreen apps)
-        globalMouseDownMonitor = NSEvent.addGlobalMonitorForEvents(matching: .leftMouseDown) { [weak self] event in
-            self?.handleMouseDown(at: event.locationInWindow)
-        }
-        
-        globalMouseDragMonitor = NSEvent.addGlobalMonitorForEvents(matching: .leftMouseDragged) { [weak self] event in
-            self?.handleMouseDragged(at: event.locationInWindow)
-        }
-        
-        globalMouseUpMonitor = NSEvent.addGlobalMonitorForEvents(matching: .leftMouseUp) { [weak self] event in
-            self?.handleMouseUp(at: event.locationInWindow)
-        }
-        
-        // Local monitors capture events when our app is focused (normal case)
-        localMouseDownMonitor = NSEvent.addLocalMonitorForEvents(matching: .leftMouseDown) { [weak self] event in
-            self?.handleMouseDown(at: NSEvent.mouseLocation)
-            return nil // Consume the event
-        }
-        
-        localMouseDragMonitor = NSEvent.addLocalMonitorForEvents(matching: .leftMouseDragged) { [weak self] event in
-            self?.handleMouseDragged(at: NSEvent.mouseLocation)
-            return nil
-        }
-        
-        localMouseUpMonitor = NSEvent.addLocalMonitorForEvents(matching: .leftMouseUp) { [weak self] event in
-            self?.handleMouseUp(at: NSEvent.mouseLocation)
-            return nil
-        }
+        installEventTap()
         
         // Escape key monitor
         keyDownMonitor = NSEvent.addLocalMonitorForEvents(matching: .keyDown) { [weak self] event in
@@ -216,6 +248,68 @@ class RegionSelector: NSObject {
         }
     }
     
+    private func installEventTap() {
+        let mask = (1 << CGEventType.leftMouseDown.rawValue)
+                 | (1 << CGEventType.leftMouseDragged.rawValue)
+                 | (1 << CGEventType.leftMouseUp.rawValue)
+                 | (1 << CGEventType.mouseMoved.rawValue)
+
+        let callback: CGEventTapCallBack = { proxy, type, event, refcon in
+            guard let refcon = refcon else { return Unmanaged.passUnretained(event) }
+            let selector = Unmanaged<RegionSelector>.fromOpaque(refcon).takeUnretainedValue()
+
+            let location = event.location
+
+            switch type {
+            case .leftMouseDown:
+                selector.handleMouseDown(at: location)
+            case .leftMouseDragged:
+                selector.handleMouseDragged(at: location)
+            case .leftMouseUp:
+                selector.handleMouseUp(at: location)
+            case .mouseMoved:
+                selector.handleMouseMoved(at: location)
+            default:
+                break
+            }
+
+            return Unmanaged.passUnretained(event)
+        }
+
+        let refcon = UnsafeMutableRawPointer(Unmanaged.passUnretained(self).toOpaque())
+
+        eventTap = CGEvent.tapCreate(
+            tap: .cgSessionEventTap,
+            place: .headInsertEventTap,
+            options: .defaultTap,
+            eventsOfInterest: CGEventMask(mask),
+            callback: callback,
+            userInfo: refcon
+        )
+
+        guard let eventTap = eventTap else {
+            print("Failed to create CGEvent tap")
+            return
+        }
+
+        eventTapSource = CFMachPortCreateRunLoopSource(kCFAllocatorDefault, eventTap, 0)
+        CFRunLoopAddSource(CFRunLoopGetMain(), eventTapSource, .commonModes)
+        CGEvent.tapEnable(tap: eventTap, enable: true)
+    }
+
+    private func removeEventTap() {
+        if let eventTap = eventTap {
+            CGEvent.tapEnable(tap: eventTap, enable: false)
+        }
+
+        if let source = eventTapSource {
+            CFRunLoopRemoveSource(CFRunLoopGetMain(), source, .commonModes)
+        }
+
+        eventTap = nil
+        eventTapSource = nil
+    }
+    
     @objc private func handleScreenConfigChanged() {
         DebugLogger.shared.log("Screen parameters changed - closing selection safely")
         close()
@@ -223,21 +317,9 @@ class RegionSelector: NSObject {
     
     private func removeEventMonitors() {
         NotificationCenter.default.removeObserver(self, name: NSApplication.didChangeScreenParametersNotification, object: nil)
-        if let monitor = globalMouseDownMonitor { NSEvent.removeMonitor(monitor) }
-        if let monitor = globalMouseDragMonitor { NSEvent.removeMonitor(monitor) }
-        if let monitor = globalMouseUpMonitor { NSEvent.removeMonitor(monitor) }
-        if let monitor = localMouseDownMonitor { NSEvent.removeMonitor(monitor) }
-        if let monitor = localMouseDragMonitor { NSEvent.removeMonitor(monitor) }
-        if let monitor = localMouseUpMonitor { NSEvent.removeMonitor(monitor) }
         if let monitor = keyDownMonitor { NSEvent.removeMonitor(monitor) }
-        
-        globalMouseDownMonitor = nil
-        globalMouseDragMonitor = nil
-        globalMouseUpMonitor = nil
-        localMouseDownMonitor = nil
-        localMouseDragMonitor = nil
-        localMouseUpMonitor = nil
         keyDownMonitor = nil
+        removeEventTap()
     }
     
     private func handleMouseDown(at point: CGPoint) {
@@ -250,12 +332,15 @@ class RegionSelector: NSObject {
         selectionStartPoint = screenPoint
         activeDisplayID = LegacyCaptureEngine.displayID(for: screenPoint)
         
+        // start streaming frames for the display where the user began selection
+        startCaptureForPoint(screenPoint)
+        
         // Find the view on the correct screen
         DebugLogger.shared.log("Searching \(overlayWindows.count) overlay windows for matching view")
         for (i, window) in overlayWindows.enumerated() {
             DebugLogger.shared.log("  Window[\(i)] frame=\(window.frame) contains=\(window.frame.contains(screenPoint)) isVisible=\(window.isVisible) level=\(window.level.rawValue)")
             if window.frame.contains(screenPoint),
-               let view = window.contentView as? SelectionView {
+               let view = window.contentView as? MetalOverlayView {
                 activeSelectionView = view
                 DebugLogger.shared.log("  -> Found activeSelectionView in window[\(i)]")
                 break
@@ -284,20 +369,10 @@ class RegionSelector: NSObject {
         
         selectionRect = CGRect(x: x, y: y, width: width, height: height)
         
-        // Update the active view
-        if let activeView = activeSelectionView {
-            activeView.selectionRect = selectionRect
-            activeView.needsDisplay = true
-            activeView.displayIfNeeded()
-        }
+        // Forward rects to our metal view
+        activeOverlayView?.updateSelection(rect: selectionRect)
         
-        // Clear other views
-        for window in overlayWindows {
-            if let view = window.contentView as? SelectionView, view !== activeSelectionView {
-                view.selectionRect = .zero
-                view.needsDisplay = true
-            }
-        }
+        scheduleRedraw()
         
         updateSizeTooltip(at: screenPoint, size: selectionRect.size)
     }
@@ -305,6 +380,17 @@ class RegionSelector: NSObject {
     private func handleMouseUp(at point: CGPoint) {
         guard !isCountingDown else { return }
         
+        stopRedrawTimer()
+        // stop capture since selection is done; we will perform a GPU crop below
+        stopCapture()
+        
+        // Finalize GPU crop and produce NSImage for export/clipboard
+        if let img = finalizeSelectionAndExport() {
+            // Example: copy to pasteboard
+            NSPasteboard.general.clearContents()
+            NSPasteboard.general.writeObjects([img])
+        }
+
         guard selectionRect.width > 5 && selectionRect.height > 5,
               let displayID = activeDisplayID else {
             DebugLogger.shared.log("Selection too small or no display ID, canceling")
@@ -319,6 +405,103 @@ class RegionSelector: NSObject {
         } else {
             performCapture(rect: selectionRect, displayID: displayID)
         }
+    }
+    
+    private func handleMouseMoved(at point: CGPoint) {
+        // Option to implement cursor updates here natively instead of monitoring in View
+    }
+    
+    // MARK: - Throttled redraw
+
+    private func scheduleRedraw() {
+        if redrawTimer == nil {
+            redrawTimer = DispatchSource.makeTimerSource(queue: DispatchQueue.main)
+            redrawTimer?.schedule(deadline: .now(), repeating: .milliseconds(16))
+
+            redrawTimer?.setEventHandler { [weak self] in
+                guard let self = self else { return }
+
+                if let activeView = self.activeSelectionView {
+                    activeView.needsDisplay = true
+                }
+
+                for overlay in self.overlayViews where overlay !== self.activeSelectionView {
+                    overlay.needsDisplay = true
+                }
+                // Also update live GPU preview if possible
+                self.updateLivePreviewIfNeeded()
+            }
+
+            redrawTimer?.resume()
+        }
+    }
+
+    private func stopRedrawTimer() {
+        redrawTimer?.cancel()
+        redrawTimer = nil
+    }
+
+    private func updateLivePreviewIfNeeded() {
+        guard let surfaceTex = activeOverlayView?.surfaceTexture,
+              let start = selectionStartPoint,
+              let gpuCropper = gpuCropper else { return }
+
+        let current = NSEvent.mouseLocation
+
+        // Compute pixel rect: convert points (NS coords) -> texture pixels
+        // Determine the screen's scale factor
+        guard let screen = NSScreen.screens.first(where: { $0.frame.contains(start) }) else { return }
+        let scale = screen.backingScaleFactor
+
+        let minX = Int(min(start.x, current.x) * scale)
+        let minY = Int(min(start.y, current.y) * scale)
+        let w = Int(abs(current.x - start.x) * scale)
+        let h = Int(abs(current.y - start.y) * scale)
+
+        guard w > 0 && h > 0 else { return }
+
+        let texHeight = surfaceTex.height
+        // Note: texture origin is lower-left; NSEvent.mouseLocation y is from bottom-left in CG coords.
+        // If your coordinate systems differ, flip Y as needed:
+        let pixelY = max(0, texHeight - (minY + h))
+
+        let region = MTLRegion(origin: MTLOrigin(x: max(0, minX), y: max(0, pixelY), z: 0), size: MTLSize(width: w, height: h, depth: 1))
+
+        // Ensure cropper & preview exist
+        ensureCropperAndPreview()
+        guard let cropped = gpuCropper.cropToTexture(sourceTexture: surfaceTex, pixelRect: region) else { return }
+
+        // Send cropped texture to preview (fast — stays on GPU)
+        previewController?.setPreviewTexture(cropped)
+        // show preview near mouse (top-left of selection)
+        let previewPoint = NSPoint(x: min(start.x, current.x), y: max(start.y, current.y) + 20)
+        previewController?.show(at: previewPoint)
+    }
+
+    /// On completion (mouse up) produce an NSImage for export/clipboard using GPUCropper
+    private func finalizeSelectionAndExport() -> NSImage? {
+        guard let surfaceTex = activeOverlayView?.surfaceTexture,
+              let start = selectionStartPoint,
+              let gpuCropper = gpuCropper else { return nil }
+
+        let current = NSEvent.mouseLocation
+
+        guard let screen = NSScreen.screens.first(where: { $0.frame.contains(start) }) else { return nil }
+        let scale = screen.backingScaleFactor
+
+        let minX = Int(min(start.x, current.x) * scale)
+        let minY = Int(min(start.y, current.y) * scale)
+        let w = Int(abs(current.x - start.x) * scale)
+        let h = Int(abs(current.y - start.y) * scale)
+        guard w > 0 && h > 0 else { return nil }
+
+        let texHeight = surfaceTex.height
+        let pixelY = max(0, texHeight - (minY + h))
+        let region = MTLRegion(origin: MTLOrigin(x: max(0, minX), y: max(0, pixelY), z: 0), size: MTLSize(width: w, height: h, depth: 1))
+
+        // produce NSImage via GPUCropper
+        let img = gpuCropper.cropToNSImage(sourceTexture: surfaceTex, pixelRect: region)
+        return img
     }
     
     // MARK: - Overlay Windows
@@ -376,9 +559,8 @@ class RegionSelector: NSObject {
             panel.isReleasedWhenClosed = false // Critical: We manage lifecycle manually
             panel.acceptsMouseMovedEvents = true
             
-            let selectionView = SelectionView(frame: NSRect(origin: .zero, size: screen.frame.size))
+            let selectionView = MetalOverlayView(frame: NSRect(origin: .zero, size: screen.frame.size), device: MTLCreateSystemDefaultDevice())
             selectionView.wantsLayer = true  // CRITICAL: Layer-backed for correct compositing over frozen background
-            selectionView.delegate = self
             
             // No longer pass frozen image to view - background window handles it
             // selectionView.frozenImage = frozenScreenshots[displayID]
@@ -390,6 +572,7 @@ class RegionSelector: NSObject {
             
             panel.makeKeyAndOrderFront(nil)
             overlayWindows.append(panel)
+            overlayViews.append(selectionView)
         }
         
         
@@ -540,66 +723,10 @@ class RegionSelector: NSObject {
     private func hideSizeTooltip() {
         sizeTooltipWindow?.orderOut(nil)
     }
-}
 
-// MARK: - SelectionViewDelegate
-
-extension RegionSelector: SelectionViewDelegate {
+    // MARK: - Legacy Event Callbacks
     
-    func selectionDidStart(at point: CGPoint, in view: SelectionView) {
-        selectionStartPoint = point
-        activeDisplayID = LegacyCaptureEngine.displayID(for: point)
-        activeSelectionView = view  // Remember which view started the selection
-    }
-    
-    func selectionDidChange(to point: CGPoint, in view: SelectionView) {
-        guard let startPoint = selectionStartPoint else { return }
-        
-        // Calculate selection rectangle
-        let x = min(startPoint.x, point.x)
-        let y = min(startPoint.y, point.y)
-        let width = abs(point.x - startPoint.x)
-        let height = abs(point.y - startPoint.y)
-        
-        selectionRect = CGRect(x: x, y: y, width: width, height: height)
-        
-        // Only update the view where selection started - not all overlay views
-        // This prevents the same selection appearing on all monitors
-        if let activeView = activeSelectionView {
-            activeView.selectionRect = selectionRect
-            activeView.needsDisplay = true
-        }
-        
-        // Clear selection from other views to prevent mirroring
-        for window in overlayWindows {
-            if let selectionView = window.contentView as? SelectionView,
-               selectionView !== activeSelectionView {
-                selectionView.selectionRect = .zero
-                selectionView.needsDisplay = true
-            }
-        }
-        
-        // Update tooltip
-        updateSizeTooltip(at: point, size: selectionRect.size)
-    }
-    
-    func selectionDidEnd(at point: CGPoint, in view: SelectionView) {
-        guard selectionRect.width > 5 && selectionRect.height > 5,
-              let displayID = activeDisplayID else {
-            close()
-            return
-        }
-        
-        // Ensure we only start countdown for meaningful delays (>= 1 second)
-        // This prevents fractional or zero delays from showing a "0" timer artifact
-        if captureDelay >= 1.0 {
-            // Delayed Capture Logic
-            startCountdown(rect: selectionRect, displayID: displayID)
-        } else {
-            // Immediate Capture
-            performCapture(rect: selectionRect, displayID: displayID)
-        }
-    }
+    // (Legacy SelectionViewDelegate functions removed due to MetalOverlayView transition)
     
     // MARK: - Countdown Logic
     

@@ -38,7 +38,7 @@ pkgbuild --root "$APP_PATH" \
 # This creates the final user-facing installer
 productbuild --distribution "$PROJECT_DIR/Scripts/distribution.xml" \
              --package-path "$PKG_DIR" \
-             --resources "$PROJECT_DIR/Resources" \
+             --resources "$PROJECT_DIR/SilkySnip/Resources" \
              "$PKG_DIR/SilkySnip_Installer.pkg"
 
 # 5. Cleanup

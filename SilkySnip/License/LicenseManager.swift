@@ -134,9 +134,17 @@ class LicenseManager {
     }
 
     func isLicensed() -> Bool {
-        // TEMPORARY: Bypass license check for testing
-        // TODO: Remove this before release!
+        // TEMPORARY: Unconditional bypass for testing and development.
+        // TODO: Re-enable validation before final release.
         return true
+        
+        /* Original logic preserved for reference:
+        #if DEBUG
+        if UserDefaults.standard.bool(forKey: "SilkySnipDevBypassLicense") {
+            return true
+        }
+        #endif
+        ... */
         
         // Loophole: Anti-Debug (Safe)
         if amIDebugged() {
@@ -356,7 +364,14 @@ class LicenseManager {
         var mib : [Int32] = [CTL_KERN, KERN_PROC, KERN_PROC_PID, getpid()]
         var size = MemoryLayout<kinfo_proc>.stride
         let junk = sysctl(&mib, UInt32(mib.count), &info, &size, nil, 0)
-        assert(junk == 0, "sysctl failed")
+        
+        if junk != 0 {
+            // sysctl failed for some reason — log and assume not debugged.
+            // Avoid assert() to prevent crashing in production.
+            NSLog("SilkySnip License: sysctl failed with \(junk)")
+            return false
+        }
+        
         return (info.kp_proc.p_flag & P_TRACED) != 0
     }
 }

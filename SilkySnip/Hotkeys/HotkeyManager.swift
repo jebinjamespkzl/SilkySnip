@@ -18,6 +18,7 @@ class HotkeyManager {
     private var nextHotkeyID: UInt32 = 1
     
     private var eventHandlerRef: EventHandlerRef?
+    private var retainedSelf: Unmanaged<HotkeyManager>?
     
     // MARK: - Initialization
     
@@ -30,9 +31,9 @@ class HotkeyManager {
         
         if let handlerRef = eventHandlerRef {
             RemoveEventHandler(handlerRef)
-            // M9: Release the retained self reference from installEventHandler
-            Unmanaged.passUnretained(self).release()
         }
+        retainedSelf?.release()
+        retainedSelf = nil
     }
     
     // MARK: - Registration
@@ -89,20 +90,25 @@ class HotkeyManager {
         }
         
         // M9: Use passRetained to prevent dangling pointer if object deallocates before handler removal
-        let retained = Unmanaged.passRetained(self)
+        retainedSelf = Unmanaged.passRetained(self)
+        guard let retainedPtr = retainedSelf?.toOpaque() else {
+            print("Failed to create retained pointer for HotkeyManager")
+            return
+        }
         
         let status = InstallEventHandler(
             GetApplicationEventTarget(),
             handlerBlock,
             1,
             &eventSpec,
-            retained.toOpaque(),
+            retainedPtr,
             &eventHandlerRef
         )
         
         if status != noErr {
             // Release since handler wasn't installed
-            retained.release()
+            retainedSelf?.release()
+            retainedSelf = nil
             print("Failed to install hotkey event handler: \(status)")
         }
     }
